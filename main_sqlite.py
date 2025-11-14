@@ -32,7 +32,8 @@ REPOSITORIOS_ALVO = [
 ]
 
 PRS_POR_REPOSITORIO = 300
-DB_PATH = "titles.db"
+DB_PATH = "pull_requests.db"
+CSV_OUTPUT = "pull_requests_aceitos.csv"
 
 COLUNAS = [
     "repo", "pr_number", "title", "author", "state", "was_merged",
@@ -68,52 +69,88 @@ def extrair_dados_pr(pr, repo_name):
 
 
 def init_db(db_path=DB_PATH):
-    """Cria o banco titles.db e a tabela titles se não existir."""
+    """Cria o banco e a tabela se não existirem."""
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
-    # Usamos UNIQUE(title) para evitar duplicatas exatas de título
-    cur.execute("""
-        CREATE TABLE IF NOT EXISTS titles (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            title TEXT NOT NULL UNIQUE,
-            label INTEGER NOT NULL
-        );
-    """)
+
+    cur.execute(
+        """
+        CREATE TABLE IF NOT EXISTS pull_requests (
+            repo TEXT NOT NULL,
+            pr_number INTEGER NOT NULL,
+            title TEXT,
+            author TEXT,
+            state TEXT,
+            was_merged INTEGER,
+            body TEXT,
+            created_at TEXT,
+            closed_at TEXT,
+            merged_at TEXT,
+            additions INTEGER,
+            deletions INTEGER,
+            changed_files INTEGER,
+            commits INTEGER,
+            comments_count INTEGER,
+            review_comments_count INTEGER,
+            PRIMARY KEY (repo, pr_number)
+        )
+        """
+    )
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_merged_at ON pull_requests(merged_at)")
     conn.commit()
     conn.close()
 
 
 def save_rows_to_sqlite(rows, db_path=DB_PATH):
-    """
-    Insere uma lista de dicionários com 'title' em titles.db.
-    Usa INSERT OR IGNORE para não duplicar títulos já presentes.
-    """
+    """Salva uma lista de dicionários no SQLite usando INSERT OR REPLACE."""
     if not rows:
-        return 0
+        return
 
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
-    insert_sql = "INSERT OR IGNORE INTO titles (title, label) VALUES (?, ?)"
+    insert_sql = """
+    INSERT OR REPLACE INTO pull_requests (
+        repo, pr_number, title, author, state, was_merged,
+        body, created_at, closed_at, merged_at,
+        additions, deletions, changed_files, commits, comments_count, review_comments_count
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """
+
     params = []
     for r in rows:
-        title = r.get("title")
-        if title is None:
-            continue
-        # normalizar espaços extremos
-        title = title.strip()
-        if title == "":
-            continue
-        params.append((title, 1))
+        params.append((
+            r.get("repo"),
+            int(r.get("pr_number")),
+            r.get("title"),
+            r.get("author"),
+            r.get("state"),
+            int(r.get("was_merged")),
+            r.get("body"),
+            r.get("created_at"),
+            r.get("closed_at"),
+            r.get("merged_at"),
+            int(r.get("additions")) if r.get("additions") is not None else None,
+            int(r.get("deletions")) if r.get("deletions") is not None else None,
+            int(r.get("changed_files")) if r.get("changed_files") is not None else None,
+            int(r.get("commits")) if r.get("commits") is not None else None,
+            int(r.get("comments_count")) if r.get("comments_count") is not None else None,
+            int(r.get("review_comments_count")) if r.get("review_comments_count") is not None else None,
+        ))
 
-    if params:
-        cur.executemany(insert_sql, params)
-        conn.commit()
-        inserted = cur.rowcount  # note: rowcount may be -1 on some sqlite builds; we'll compute len(params) - ignored if necessary
-    else:
-        inserted = 0
-
+    cur.executemany(insert_sql, params)
+    conn.commit()
     conn.close()
-    return inserted
+
+
+def append_rows_to_csv(rows, csv_path=CSV_OUTPUT):
+    """Anexa linhas a um CSV (cria com header se não existir)."""
+    if not rows:
+        # Se não há dados, garante que o arquivo existe (opcional)
+        return
+
+    df = pd.DataFrame(rows, columns=COLUNAS)
+    header = not os.path.exists(csv_path)
+    df.to_csv(csv_path, mode="a", header=header, index=False, encoding="utf-8-sig")
 
 
 def coletar_repo(g, repo_name):
@@ -175,10 +212,11 @@ def coletar_dados():
         try:
             rows = coletar_repo(g, repo_name)
 
-            # Salva os dados deste repo imediatamente no DB
+            # Salva os dados deste repo imediatamente no DB e CSV
             if rows:
                 save_rows_to_sqlite(rows, DB_PATH)
-                print(f"  Dados de '{repo_name}' salvos no DB ({DB_PATH}).")
+                append_rows_to_csv(rows, CSV_OUTPUT)
+                print(f"  Dados de '{repo_name}' salvos no DB ({DB_PATH}) e anexados em '{CSV_OUTPUT}'.")
             else:
                 # Mesmo que não haja PRs coletados, registramos um log
                 print(f"  Nenhum PR aceito coletado para '{repo_name}' — nada adicionado.")
