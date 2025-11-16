@@ -1,0 +1,20 @@
+[project]
+name = "pull-request-analyzer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "kagglehub[hf-datasets]>=0.3.13",
+    "nbformat>=5.10.4",
+    "pandas>=2.3.3",
+    "plotly>=6.4.0",
+    "pygithub>=2.8.1",
+    "python-dotenv>=1.2.1",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.57.1",
+]

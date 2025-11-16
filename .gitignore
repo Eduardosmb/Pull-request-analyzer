@@ -1,1 +1,7 @@
 .env
+distilbert.pth
+*.pth
+*.pt
+*.bin
+models/
+checkpoints/
