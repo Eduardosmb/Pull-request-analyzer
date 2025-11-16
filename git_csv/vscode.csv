@@ -1,0 +1,2587 @@
+﻿repo,pr_number,title,author,state,was_merged,body,created_at,closed_at,merged_at,additions,deletions,changed_files,commits,comments_count,review_comments_count
+microsoft/vscode,276308,Git - add extension API to get short stats for staged changes,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 19:44:23+00:00,2025-11-08 20:43:44+00:00,2025-11-08 20:43:44+00:00,13,0,4,1,0,0
+microsoft/vscode,276287,agent sessions - UI tweaks,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 15:43:11+00:00,2025-11-08 16:22:58+00:00,2025-11-08 16:22:58+00:00,33,14,4,3,0,0
+microsoft/vscode,276284,Reduce use of explicit `any` type (#274723),bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 15:25:28+00:00,2025-11-08 16:22:14+00:00,2025-11-08 16:22:14+00:00,9,18,8,1,0,2
+microsoft/vscode,276278,Chat: sign-out/sign-in flow very broken (fix #276246),bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 15:11:49+00:00,2025-11-08 15:33:04+00:00,2025-11-08 15:33:04+00:00,11,17,1,1,0,1
+microsoft/vscode,276270,Remove any from platform/terminal,Tyriar,closed,True,"Part of #274723
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 13:38:03+00:00,2025-11-08 15:09:33+00:00,2025-11-08 15:09:33+00:00,21,21,7,2,0,2
+microsoft/vscode,276267,Remove any from platform/externalTerminal,Tyriar,closed,True,"Part of #274723
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 13:04:26+00:00,2025-11-08 13:23:52+00:00,2025-11-08 13:23:52+00:00,2,3,2,1,0,0
+microsoft/vscode,276266,Simplify light/dark icon check,Tyriar,closed,True,"Following up on #276155
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 12:53:53+00:00,2025-11-08 13:53:37+00:00,2025-11-08 13:53:37+00:00,12,8,1,1,0,0
+microsoft/vscode,276250,Chat - add `files` to session statistics,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 07:42:09+00:00,2025-11-08 08:43:09+00:00,2025-11-08 08:43:09+00:00,10,2,5,2,4,0
+microsoft/vscode,276239,agent session view setting cleanup,rebornix,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-08 04:23:48+00:00,2025-11-08 05:05:49+00:00,2025-11-08 05:05:49+00:00,0,1,1,1,0,0
+microsoft/vscode,276207,Git - only dispose worktree repository after it has been deleted,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 21:29:18+00:00,2025-11-07 21:55:41+00:00,2025-11-07 21:55:41+00:00,6,5,1,1,0,1
+microsoft/vscode,276200,undo terminal completion provider API finalization,meganrogge,closed,True,"fixes https://github.com/microsoft/vscode/issues/276142
+
+We want another round of testing before finalizing and to discuss removing the static contribution and if we need to support multiple providers per extension.",2025-11-07 21:07:59+00:00,2025-11-07 21:30:41+00:00,2025-11-07 21:30:41+00:00,295,276,6,1,0,0
+microsoft/vscode,276194,Port 276167 to release,mjbvz,closed,True,Fixes https://github.com/microsoft/vscode/issues/276167,2025-11-07 20:56:29+00:00,2025-11-07 21:23:40+00:00,2025-11-07 21:23:40+00:00,1,2,1,1,0,0
+microsoft/vscode,276186,add proper role to dropdown action,meganrogge,closed,True,"fixes #271500
+
+<img width=""1049"" height=""632"" alt=""Screenshot 2025-11-07 at 3 35 32 PM"" src=""https://github.com/user-attachments/assets/6062c2c1-7635-48a1-be40-24bff681c3c4"" />
+",2025-11-07 20:37:14+00:00,2025-11-08 05:52:24+00:00,2025-11-08 05:52:24+00:00,1,0,1,1,1,0
+microsoft/vscode,276184,Chat: send entitlements when anonymous usage changes (#276183),bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 20:26:32+00:00,2025-11-07 20:45:33+00:00,2025-11-07 20:45:33+00:00,18,8,1,1,0,0
+microsoft/vscode,276179,get hidden chat terminal count to update ,meganrogge,closed,True,fixes https://github.com/microsoft/vscode/issues/275789,2025-11-07 19:51:24+00:00,2025-11-07 21:20:46+00:00,2025-11-07 21:20:46+00:00,25,19,6,1,0,0
+microsoft/vscode,276177,Git - do not show warning dialog when you do a non-interactive worktree migration,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 19:40:47+00:00,2025-11-07 20:31:19+00:00,2025-11-07 20:31:19+00:00,9,6,1,2,0,1
+microsoft/vscode,276174,undo finalization of terminal completion provider API,meganrogge,closed,True,addresses #276142 in main,2025-11-07 19:30:04+00:00,2025-11-07 21:05:48+00:00,2025-11-07 21:05:48+00:00,295,276,6,1,0,0
+microsoft/vscode,276173,Remove in operator from contrib/terminalContrib,Tyriar,closed,True,"Part of #276071
+
+Merge first:
+
+- https://github.com/microsoft/vscode/pull/276164",2025-11-07 19:29:16+00:00,2025-11-08 13:05:23+00:00,2025-11-08 13:05:22+00:00,52,47,16,3,0,2
+microsoft/vscode,276171,Add space to chat features query,lramos15,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+This allows me to immediately start typing a filter and doesn't change the shown results if the user doesn't type anything",2025-11-07 19:27:16+00:00,2025-11-07 19:49:12+00:00,2025-11-07 19:49:12+00:00,1,1,1,1,0,1
+microsoft/vscode,276170,Use legacy lookup for chat session,mjbvz,closed,True,"Fixes #276167
+
+Workaround until we get proper fix as part of #274403
+
+",2025-11-07 19:20:52+00:00,2025-11-07 19:40:17+00:00,2025-11-07 19:40:17+00:00,1,2,1,1,0,0
+microsoft/vscode,276166,fix: clarify chat.tools.terminal.ignoreDefaultAutoApproveRules description,rzhao271,closed,True,Ref #272250,2025-11-07 19:14:26+00:00,2025-11-08 12:47:41+00:00,2025-11-08 12:47:41+00:00,1,1,1,2,0,1
+microsoft/vscode,276164,"Remove in operator from contrib/terminal/browser, electron-browser and test",Tyriar,closed,True,Part of #276071,2025-11-07 19:08:09+00:00,2025-11-07 19:33:56+00:00,2025-11-07 19:33:56+00:00,158,155,22,3,0,8
+microsoft/vscode,276163,get hidden chat terminal count to update ,meganrogge,closed,True,"address #275789 in main
+
+This specifically fixes the background terminal case, where `onDidChangeInstances` was not firing, so the entry would not get updated.
+
+Also, the `terminalTabbedView` was not updated to only consider `hidden` instances.",2025-11-07 19:03:04+00:00,2025-11-07 19:39:06+00:00,2025-11-07 19:39:06+00:00,25,19,6,8,0,2
+microsoft/vscode,276155,Remove in operator from contrib/terminal/common,Tyriar,closed,True,"Part of #276071
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 18:25:27+00:00,2025-11-07 18:45:26+00:00,2025-11-07 18:45:26+00:00,3,6,3,1,0,2
+microsoft/vscode,276152,Git - add the new method into the interface,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 18:17:56+00:00,2025-11-07 18:36:53+00:00,2025-11-07 18:36:53+00:00,1,0,1,1,0,0
+microsoft/vscode,276138,tools: fix wrong data passed to tool schema uri,connor4312,closed,True,"Closes #276029
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 17:14:29+00:00,2025-11-07 18:02:29+00:00,2025-11-07 18:02:29+00:00,1,1,1,1,0,0
+microsoft/vscode,276137,tools: fix wrong data passed to tool schema uri,connor4312,closed,True,"Refs #276029
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 17:13:13+00:00,2025-11-07 17:34:43+00:00,2025-11-07 17:34:43+00:00,1,1,1,1,0,0
+microsoft/vscode,276134,Git - basic extension API to compute working tree short stats,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 17:07:34+00:00,2025-11-07 17:47:07+00:00,2025-11-07 17:47:07+00:00,40,2,3,3,0,2
+microsoft/vscode,276130,windowsExec ?? -> ||,Tyriar,closed,True,"Following up comment on #276116
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 16:58:21+00:00,2025-11-07 17:22:05+00:00,2025-11-07 17:22:05+00:00,1,1,1,1,0,0
+microsoft/vscode,276127,Use alt method for checking wsl profile key,Tyriar,closed,True,"Following up on #276113 comment
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 16:55:34+00:00,2025-11-07 17:18:58+00:00,2025-11-07 17:18:58+00:00,1,1,1,1,0,1
+microsoft/vscode,276125,Remove in operator from api/**terminal**,Tyriar,closed,True,"Part of #276071
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 16:51:58+00:00,2025-11-07 17:11:11+00:00,2025-11-07 17:11:11+00:00,13,13,3,1,0,0
+microsoft/vscode,276118,Agent Sessions - fix description icon alignment,lszomoru,closed,True,Related https://github.com/microsoft/vscode/issues/276119,2025-11-07 16:30:59+00:00,2025-11-07 20:04:40+00:00,2025-11-07 20:04:40+00:00,6,0,1,1,0,1
+microsoft/vscode,276117,Restrict TKeys in hasKey,Tyriar,closed,True,Part of #276071,2025-11-07 16:23:22+00:00,2025-11-07 16:56:34+00:00,2025-11-07 16:56:34+00:00,13,6,3,2,0,2
+microsoft/vscode,276116,Remove in operator from platform/externalTerminal,Tyriar,closed,True,"Part of #276071
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 16:15:36+00:00,2025-11-07 16:55:00+00:00,2025-11-07 16:55:00+00:00,3,4,2,1,0,3
+microsoft/vscode,276113,Remove in operator from platform/terminal,Tyriar,closed,True,"Part of #276071
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 16:11:55+00:00,2025-11-07 16:52:33+00:00,2025-11-07 16:52:33+00:00,31,27,8,1,0,2
+microsoft/vscode,276108,rm unneeded event,meganrogge,closed,True,cc @alexr00 ,2025-11-07 15:39:50+00:00,2025-11-07 16:22:02+00:00,2025-11-07 16:22:02+00:00,0,11,2,2,0,0
+microsoft/vscode,276103,isUri -> isUriString,Tyriar,closed,True,"Avoid accidental auto imports/confusion of common function (`URI.isUri`)
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 15:16:45+00:00,2025-11-07 15:35:49+00:00,2025-11-07 15:35:49+00:00,9,9,4,1,0,0
+microsoft/vscode,276093,add more logs,sandy081,closed,True,,2025-11-07 14:35:31+00:00,2025-11-07 15:38:19+00:00,2025-11-07 15:38:19+00:00,39,20,1,1,0,0
+microsoft/vscode,276089,add more logs,sandy081,closed,True,,2025-11-07 14:33:16+00:00,2025-11-07 14:52:30+00:00,2025-11-07 14:52:30+00:00,39,20,1,1,0,3
+microsoft/vscode,276073,SCM - fix rendering issue with incoming changes node (#276055),lszomoru,closed,True,Related https://github.com/microsoft/vscode/issues/276064,2025-11-07 13:47:44+00:00,2025-11-07 14:06:35+00:00,2025-11-07 14:06:35+00:00,10,2,1,1,0,0
+microsoft/vscode,276072,"Change default of editor.inlineSuggest.triggerCommandOnProviderChange to false.",hediet,closed,True,"For https://github.com/microsoft/vscode/issues/276065
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 13:32:18+00:00,2025-11-07 13:55:10+00:00,2025-11-07 13:55:10+00:00,1,1,1,1,0,0
+microsoft/vscode,276070,"Changes defaul of triggerCommandOnProviderChange to false.",hediet,closed,True,"Fixes https://github.com/microsoft/vscode/issues/276065
+",2025-11-07 13:23:42+00:00,2025-11-07 13:45:06+00:00,2025-11-07 13:45:06+00:00,1,1,1,1,0,0
+microsoft/vscode,276068,use `AsyncIterableProducer` for new search API,jrieken,closed,True,https://github.com/microsoft/vscode/issues/256854,2025-11-07 13:16:11+00:00,2025-11-07 13:41:43+00:00,2025-11-07 13:41:43+00:00,2,2,1,1,0,0
+microsoft/vscode,276063,add debug logging #276060,sandy081,closed,True,#276060,2025-11-07 13:00:05+00:00,2025-11-07 13:44:39+00:00,2025-11-07 13:44:38+00:00,7,3,1,1,0,0
+microsoft/vscode,276061,add debug logging #276060,sandy081,closed,True,#276060,2025-11-07 12:57:03+00:00,2025-11-07 13:16:16+00:00,2025-11-07 13:16:16+00:00,7,3,1,1,0,2
+microsoft/vscode,276055,SCM - fix rendering issue with incoming changes node,lszomoru,closed,True,Related https://github.com/microsoft/vscode/issues/275820,2025-11-07 12:05:32+00:00,2025-11-07 12:53:32+00:00,2025-11-07 12:53:32+00:00,10,2,1,1,0,0
+microsoft/vscode,276052,Bring back model picker for inline chat (release),jrieken,closed,True,"This reverts commit f04c75b832383fdeeb7399d9a5aad5470ef8c544.
+
+Fixes https://github.com/microsoft/vscode/issues/276035
+",2025-11-07 11:22:49+00:00,2025-11-07 13:38:40+00:00,2025-11-07 13:38:40+00:00,2,16,1,1,0,0
+microsoft/vscode,276050,Update grammars,alexr00,closed,True,,2025-11-07 11:12:57+00:00,2025-11-07 11:31:20+00:00,2025-11-07 11:31:20+00:00,133,7,6,1,0,0
+microsoft/vscode,276048,Git - improve logic to pick a worktree to migrate changes from,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 11:04:13+00:00,2025-11-07 11:38:52+00:00,2025-11-07 11:38:52+00:00,22,12,1,1,0,2
+microsoft/vscode,276041,Bring back model picker for inline chat,jrieken,closed,True,"This reverts commit f04c75b832383fdeeb7399d9a5aad5470ef8c544.
+
+re https://github.com/microsoft/vscode/issues/276035",2025-11-07 10:16:36+00:00,2025-11-07 10:34:58+00:00,2025-11-07 10:34:57+00:00,2,16,1,1,0,2
+microsoft/vscode,276037,Add `AsyncIterableProducer#tee` and use in LM API,jrieken,closed,True,,2025-11-07 10:07:42+00:00,2025-11-07 11:35:36+00:00,2025-11-07 11:35:36+00:00,173,3,3,3,1,2
+microsoft/vscode,276033,Improves observable debugging helper,hediet,closed,True,,2025-11-07 09:55:54+00:00,2025-11-07 10:14:46+00:00,2025-11-07 10:14:46+00:00,79,26,6,1,0,0
+microsoft/vscode,276031,Allows TimeTravelScheduler to set start time,hediet,closed,True,,2025-11-07 09:53:39+00:00,2025-11-07 10:13:21+00:00,2025-11-07 10:13:21+00:00,18,10,1,1,0,1
+microsoft/vscode,276022,fix #275478,sandy081,closed,True,fix #275478,2025-11-07 08:50:26+00:00,2025-11-07 09:40:08+00:00,2025-11-07 09:40:08+00:00,6,6,2,1,0,0
+microsoft/vscode,276021,Version bump,chrmarti,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 08:50:16+00:00,2025-11-07 09:14:44+00:00,2025-11-07 09:14:44+00:00,3,3,2,1,0,0
+microsoft/vscode,276017,Rerun OSS tool,chrmarti,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 08:23:22+00:00,2025-11-07 08:48:00+00:00,2025-11-07 08:48:00+00:00,3,3,2,1,0,0
+microsoft/vscode,276015,"Clicking OS notification always opens secondary side bar, even if I'm working with Chat in editor",bpasero,closed,True,"(fix #270619)
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 08:11:51+00:00,2025-11-07 08:32:22+00:00,2025-11-07 08:32:22+00:00,1,1,1,1,0,0
+microsoft/vscode,276014,agent sessions - further prevent work on shutdown,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 08:06:13+00:00,2025-11-07 08:26:09+00:00,2025-11-07 08:26:09+00:00,1,5,1,1,0,0
+microsoft/vscode,276013,agent sessions - avoid double separator in button,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 08:01:51+00:00,2025-11-07 08:21:07+00:00,2025-11-07 08:21:07+00:00,7,9,1,1,0,0
+microsoft/vscode,276012,agent sessions - fix button padding,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 07:57:13+00:00,2025-11-07 08:16:01+00:00,2025-11-07 08:16:01+00:00,1,1,1,1,0,0
+microsoft/vscode,276011,debt - faster unit tests,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-07 07:49:08+00:00,2025-11-07 08:07:39+00:00,2025-11-07 08:07:39+00:00,277,254,4,1,0,0
+microsoft/vscode,275976,"Revert ""Append well-known path instead of insert""",TylerLeonhardt,closed,True,"Reverts microsoft/vscode#275438
+
+🤦 I just looked up the most recent version of the spec:
+https://datatracker.ietf.org/doc/html/rfc9728#name-obtaining-protected-resourc
+
+and the previous behavior was the correct behavior... reverting this.",2025-11-07 01:49:53+00:00,2025-11-07 02:43:15+00:00,2025-11-07 02:43:15+00:00,16,12,2,1,0,1
+microsoft/vscode,275972,Targeted fix for supporting non-local sessions in code paths that aren't using uris,mjbvz,closed,True,"Fixes #275957 
+
+This is a scoped fix to remove the dangerous call to `LocalChatSessionUri.forSession`. My previous fix ([275916](https://github.com/microsoft/vscode/pull/275916))revealed this bug by making the session's resource accurate
+
+Instead we'll look up the session by id like we used to",2025-11-07 00:42:01+00:00,2025-11-07 01:16:43+00:00,2025-11-07 01:16:43+00:00,10,2,4,1,0,2
+microsoft/vscode,275971,Fix UI for edits from subagent,roblourens,closed,True,And add setting for custom agents in subagent,2025-11-07 00:40:26+00:00,2025-11-07 02:12:35+00:00,2025-11-07 02:12:35+00:00,89,52,8,1,0,1
+microsoft/vscode,275970,Ensure search in agent sessions pane uses visible text (fix for #275151),dineshc-msft,closed,True,"Fix for issue #275151 
+
+When searching ensure we use only visible text for search (session label and description). 
+
+Session description can be markdown with links, etc. so use plain text. 
+",2025-11-07 00:34:09+00:00,2025-11-07 01:23:26+00:00,2025-11-07 01:23:26+00:00,2,2,1,1,1,0
+microsoft/vscode,275959,Fix fetch tool omitting table headers with <th> elements,Copilot,closed,True,"Fixes microsoft/vscode#263128
+
+The `fetch` tool fails to capture table headers when HTML uses `<th>` or `<thead>` elements. The accessibility tree represents these as `columnheader`, `rowheader`, and `gridcell` roles, but `processTableNode` only filtered for roles containing `'cell'`.
+
+## Changes
+
+- Added `isTableCell()` helper that matches `cell`, `gridcell`, `columnheader`, and `rowheader` roles
+- Updated `processTableNode()` to use explicit role matching instead of substring matching
+- Added test coverage for tables with `columnheader`, `rowheader`, `gridcell`, and mixed cell types
+
+**Before:**
+```typescript
+const headerCells = rows[0].children.filter(cell => getNodeRole(cell.node).includes('cell'));
+```
+
+**After:**
+```typescript
+function isTableCell(role: string): boolean {
+	// Match cell, gridcell, columnheader, rowheader roles
+	return role === 'cell' || role === 'gridcell' || role === 'columnheader' || role === 'rowheader';
+}
+
+const headerCells = rows[0].children.filter(cell => isTableCell(getNodeRole(cell.node)));
+```
+
+The `gridcell` role was added to maintain backward compatibility with the original `.includes('cell')` behavior, which would have matched this role.
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>The `fetch` tool fails to capture table headers</issue_title>
+> <issue_description>Name: GitHub Copilot Chat
+> Id: GitHub.copilot-chat
+> Description: AI chat features powered by Copilot
+> Version: 0.31.2025082213
+> Publisher: GitHub
+> VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat
+> 
+> Version: 1.104.0-insider
+> Commit: df6568066e88d67331cec7a12a34bdef058fb62b
+> Date: 2025-08-22T17:09:01.208Z
+> Electron: 37.2.3
+> ElectronBuildId: 12035395
+> Chromium: 138.0.7204.100
+> Node.js: 22.17.0
+> V8: 13.8.500258-electron.0
+> OS: Darwin arm64 24.6.0
+> 
+> Steps to Reproduce:
+> 
+> 1. Tell the Agent to fetch https://www.htmltables.io/tags/thead and output it.
+> 2. The headers in the first table example, i.e. `Header 1` and `Header 2`, are missing.
+> 
+> When `<th>` or `<thead>` is used to define table headers, the `fetch` tool omits them. `processTableNode` cannot properly handle such cases. See:
+> 
+> - https://github.com/microsoft/vscode/blob/e72993050e03023966efb1cfbe90fa92f0fa39de/src/vs/platform/webContentExtractor/electron-main/cdpAccessibilityDomain.ts#L408
+> 
+> [tool_fetch_webpage_2e0f7db5-29c2-4510-8bac-c90d1e2560af.copilotmd](https://github.com/user-attachments/files/21955427/tool_fetch_webpage_2e0f7db5-29c2-4510-8bac-c90d1e2560af.copilotmd)
+> 
+> Note that headers are also omitted when only the `<th>` tag is used. For example: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table#basic_table</issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#263128
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💬 We'd love your input! Share your thoughts on Copilot coding agent in our [2 minute survey](https://gh.io/copilot-coding-agent-survey).
+",2025-11-06 23:07:48+00:00,2025-11-07 02:44:47+00:00,2025-11-07 02:44:47+00:00,268,2,2,4,5,1
+microsoft/vscode,275948,mcp: fix tool availability being racey during autostart,connor4312,closed,True,"- Ensure tools are flushed to the EH immediately after registration
+- Ensure tools are applied to the request object while it's waiting to be sent
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 22:36:48+00:00,2025-11-06 22:59:21+00:00,2025-11-06 22:59:21+00:00,34,16,5,1,0,0
+microsoft/vscode,275943,Don't include codex tabs as attachable content for chat,mjbvz,closed,True,"Fixes #273436
+
+Scoped fix. Will create new issue tracking better fix
+
+",2025-11-06 21:42:09+00:00,2025-11-06 22:01:22+00:00,2025-11-06 22:01:22+00:00,1,0,1,1,0,0
+microsoft/vscode,275936,Fix LanguageModelDataPart JSDoc parameter names and class description,Copilot,closed,True,"Fixes #274937
+
+The JSDoc comments in `LanguageModelDataPart` referred to a `mimeType` parameter, but the actual parameter is `mime`. Additionally, the class description incorrectly stated it was only ""returned from a LanguageModelChatResponse"" when it's used in multiple contexts.
+
+## Changes
+
+- **JSDoc parameter corrections**: Updated `@param mimeType` to `@param mime` in `image()`, `json()`, and `text()` static methods
+- **Class description**: Broadened to reflect usage in `LanguageModelChatResponse`, `LanguageModelChatMessage`, `LanguageModelToolResult`, and other language model interactions
+
+```typescript
+// Before
+/**
+ * @param mimeType The MIME type of the image.
+ */
+static image(data: Uint8Array, mime: string): LanguageModelDataPart;
+
+// After
+/**
+ * @param mime The MIME type of the image.
+ */
+static image(data: Uint8Array, mime: string): LanguageModelDataPart;
+```
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>`LanguageModelDataPart` doc mismatch</issue_title>
+> <issue_description>Testing microsoft/vscode#274937
+> 
+> The docblocks for image/json/text in the LanguageModelData part refer to a `mimeType` argument, but the argument is actually `mime`.
+> 
+> Also, the docblock for the class says it's ""returned from a LanguageModelChatResponse"", but this is not the only place the data is used, I suggest rewording or elaborating</issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#275272
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",2025-11-06 20:55:00+00:00,2025-11-06 21:38:09+00:00,2025-11-06 21:38:09+00:00,5,4,1,2,0,0
+microsoft/vscode,275935,"Add a prompt to update doc comments, use it to improve Quick Pick/Input documentation",dmitrivMS,closed,True,,2025-11-06 20:51:11+00:00,2025-11-07 10:14:03+00:00,2025-11-07 10:14:03+00:00,231,166,7,5,0,2
+microsoft/vscode,275930,agent sessions - simpler labels for button,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 20:27:34+00:00,2025-11-06 20:46:42+00:00,2025-11-06 20:46:42+00:00,3,3,1,1,0,0
+microsoft/vscode,275925,"Revert ""Revert ""Update foreground color for operators in dark_plus theme""""",rzhao271,closed,True,Reverts microsoft/vscode#275844,2025-11-06 19:52:43+00:00,2025-11-06 20:20:11+00:00,2025-11-06 20:20:11+00:00,1156,1156,63,1,0,0
+microsoft/vscode,275923,Guard against undefined editorInput in buildCategoriesSlide,bhavyaus,closed,True,"Fixes:
+https://github.com/microsoft/vscode/issues/275810",2025-11-06 19:42:32+00:00,2025-11-06 20:08:43+00:00,2025-11-06 20:08:43+00:00,3,3,1,1,0,0
+microsoft/vscode,275921,agent sessions - redesign UI,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 19:39:20+00:00,2025-11-06 20:00:11+00:00,2025-11-06 20:00:11+00:00,132,50,6,1,0,0
+microsoft/vscode,275920,revised - updated walkthrough chat panel illustration,eli-w-king,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+https://github.com/microsoft/vscode/pull/275724 revision. Fixed tab and panel background, removed paths. More details in https://github.com/microsoft/vscode/issues/273900#issuecomment-3499105047
+<img width=""559"" height=""452"" alt=""Screenshot 2025-11-06 at 11 39 15 AM"" src=""https://github.com/user-attachments/assets/c38c14a7-2a10-4fd5-9357-99d81030f5c6"" />
+",2025-11-06 19:38:15+00:00,2025-11-06 20:23:33+00:00,2025-11-06 20:23:33+00:00,7,21,1,5,0,0
+microsoft/vscode,275918,check chatSessionService in $registerAgent,joshspicer,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+fixes https://github.com/microsoft/vscode/issues/273855",2025-11-06 19:26:48+00:00,2025-11-06 19:54:44+00:00,2025-11-06 19:54:44+00:00,4,1,1,1,0,1
+microsoft/vscode,275916,Better fix for chat clear,mjbvz,closed,True,"Follow up on #275715 with better fixes
+
+",2025-11-06 19:25:36+00:00,2025-11-06 19:47:22+00:00,2025-11-06 19:47:22+00:00,8,7,2,1,0,0
+microsoft/vscode,275915,Set welcome render scheduler delay to 0 to render welcome view immediately,bhavyaus,closed,True,"For:
+https://github.com/microsoft/vscode/issues/274056
+
+Will clean this up during debt week. 
+
+cc: @justschen ",2025-11-06 19:22:07+00:00,2025-11-06 19:44:31+00:00,2025-11-06 19:44:31+00:00,1,1,1,1,1,1
+microsoft/vscode,275913,get focus terminal action to show for shell integration disabled,meganrogge,closed,True,"fix #274876
+
+https://github.com/user-attachments/assets/e774c148-def9-42d1-bd58-18f6ee5e9bbc
+
+",2025-11-06 19:16:17+00:00,2025-11-06 20:04:22+00:00,2025-11-06 20:04:21+00:00,1,0,1,1,0,0
+microsoft/vscode,275910,Properly invalidate model cache,lramos15,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+Part of https://github.com/microsoft/vscode/issues/275511",2025-11-06 19:02:29+00:00,2025-11-06 19:23:58+00:00,2025-11-06 19:23:58+00:00,20,8,4,1,1,0
+microsoft/vscode,275909,Correct auto approve setting about inline commands,Tyriar,closed,True,"Fixes #275889
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 18:59:47+00:00,2025-11-06 19:18:53+00:00,2025-11-06 19:18:53+00:00,1,1,1,1,0,1
+microsoft/vscode,275907,make show chat terminals action only apply to hidden ones,meganrogge,closed,True,fixes #275789,2025-11-06 18:44:26+00:00,2025-11-06 19:03:59+00:00,2025-11-06 19:03:59+00:00,19,33,4,1,0,0
+microsoft/vscode,275905,fix screen reader progress announcements,meganrogge,closed,True,"Fix #266256
+
+There were changes in chat that were not adopted for screen readers",2025-11-06 18:25:07+00:00,2025-11-06 18:43:57+00:00,2025-11-06 18:43:57+00:00,2,2,1,1,0,0
+microsoft/vscode,275901,update validation and hovers for tool names from custom agents specification,aeschli,closed,True,For #272734,2025-11-06 18:16:38+00:00,2025-11-06 22:51:29+00:00,2025-11-06 22:51:29+00:00,116,42,7,6,0,2
+microsoft/vscode,275892,tools: ensure post-approval confirmation is screen reader accessible,connor4312,closed,True,"Closes #275233
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 18:05:09+00:00,2025-11-06 18:45:49+00:00,2025-11-06 18:45:49+00:00,60,15,3,2,1,2
+microsoft/vscode,275878,fix disposable leak,meganrogge,closed,True,fix #275388,2025-11-06 17:40:20+00:00,2025-11-06 21:24:30+00:00,2025-11-06 21:24:30+00:00,12,7,1,4,0,4
+microsoft/vscode,275876,"Revert ""macOS - restore use of `hide` and `show` for `app.dock` second instances""",bpasero,closed,True,"Reverts microsoft/vscode#259883
+
+fix https://github.com/microsoft/vscode/issues/274146",2025-11-06 17:36:48+00:00,2025-11-06 17:55:49+00:00,2025-11-06 17:55:49+00:00,0,10,1,1,1,0
+microsoft/vscode,275873,Update known variables,chrmarti,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 17:29:07+00:00,2025-11-06 18:59:41+00:00,2025-11-06 18:59:41+00:00,2,7,1,1,0,0
+microsoft/vscode,275872,Fix JSDoc wording in textSearchProvider2 API,Copilot,closed,True,"Fixes #226775
+
+Improved clarity and consistency in `vscode.proposed.textSearchProvider2.d.ts` JSDoc comments:
+
+- **Line 17**: Removed ""explicitly"" from ""If explicitly contains a newline character"" → ""If pattern contains a newline character""
+- **Lines 23, 26**: Changed backtick-quoted `pattern` to `{@link pattern}` for proper API cross-references (consistent with line 50)
+
+```typescript
+/**
+ * The text pattern to search for.
+ *
+- * If explicitly contains a newline character (`\n`), the default search behavior
++ * If pattern contains a newline character (`\n`), the default search behavior
+ * will automatically enable {@link isMultiline}.
+ */
+pattern: string;
+
+/**
+- * Whether or not `pattern` should match multiple lines of text.
++ * Whether or not {@link pattern} should match multiple lines of text.
+ */
+isMultiline?: boolean;
+```
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>textsearchprovider - Fix API wording</issue_title>
+> <issue_description>Some nits from https://github.com/microsoft/vscode/issues/226775
+> > 
+> > > ```
+> > >    * If explicitly contains a newline character (`\n`), the default search behavior
+> > > ```
+> > 
+> > ```
+> > 	 * will automatically enable {@link isMultiline}.
+> > 	 */
+> > ```
+> > 
+> > For clarity, I'd propose:
+> > 
+> > ```
+> > - * If explicitly contains a newline character
+> > + * If pattern contains a newline character
+> > ```
+> > 
+> 
+> ...
+> 
+> > 
+> > > ```
+> > >    * `pattern` contains a newline character (`\n`).
+> > > ```
+> > 
+> > maybe could use `{@link pattern}`
+> > 
+> 
+> 
+> These are from https://github.com/microsoft/vscode/blob/a554d9e7e1353b2fbf16696a08ad25cb873dc2ac/src/vscode-dts/vscode.proposed.textSearchProviderNew.d.ts</issue_description>
+> 
+> <agent_instructions>Fix the doc comment</agent_instructions>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#227476
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",2025-11-06 17:27:00+00:00,2025-11-06 18:21:32+00:00,2025-11-06 18:21:32+00:00,3,3,1,3,0,0
+microsoft/vscode,275870,chat: use tool call id instead of tool id for input models,connor4312,closed,True,"Closes #275675
+
+cc @roblourens -- I didn't see any other dependents of this URI/structure and it seems to work, lmk if you have concerns",2025-11-06 17:23:07+00:00,2025-11-06 17:41:38+00:00,2025-11-06 17:41:38+00:00,4,7,2,1,0,1
+microsoft/vscode,275869,agent files: support tool names from custom agents specification,aeschli,closed,True,For https://github.com/microsoft/vscode/issues/272734,2025-11-06 17:17:13+00:00,2025-11-06 17:48:01+00:00,2025-11-06 17:48:01+00:00,186,36,10,2,1,1
+microsoft/vscode,275857,lock inline chat to its own agent so that must intellisense is disabled,jrieken,closed,True,fixes https://github.com/microsoft/vscode/issues/275819,2025-11-06 16:24:19+00:00,2025-11-06 17:08:12+00:00,2025-11-06 17:08:12+00:00,16,2,1,1,0,1
+microsoft/vscode,275849,Use characterMapping when copying from deleted text to support wrapped text,hediet,closed,True,FYI @Mingpan ,2025-11-06 15:41:52+00:00,2025-11-06 16:30:03+00:00,2025-11-06 16:30:03+00:00,135,164,4,1,0,2
+microsoft/vscode,275846,Git - fix staging a deleted file from the multi-file diff editor,lszomoru,closed,True,"Fixes https://github.com/microsoft/vscode/issues/271506
+
+//cc @hediet ",2025-11-06 15:32:18+00:00,2025-11-06 16:06:46+00:00,2025-11-06 16:06:45+00:00,1,1,1,1,0,1
+microsoft/vscode,275845,update distro,sandy081,closed,True,,2025-11-06 15:24:52+00:00,2025-11-06 16:19:10+00:00,2025-11-06 16:19:10+00:00,2,2,1,1,0,0
+microsoft/vscode,275844,"Revert ""Update foreground color for operators in dark_plus theme""",mrleemurray,closed,True,"Reverts microsoft/vscode#270406
+
+Revert the color of `keyword.control` operator in dark theme to `#C586C0`
+
+Related to https://github.com/microsoft/vscode/issues/269274
+
+cc @rzhao271 ",2025-11-06 15:13:07+00:00,2025-11-06 15:55:45+00:00,2025-11-06 15:55:45+00:00,1156,1156,63,1,0,0
+microsoft/vscode,275842,SCM - switch selectionMode setting to multiple for the stable release,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 15:02:09+00:00,2025-11-06 15:21:33+00:00,2025-11-06 15:21:33+00:00,2,2,2,1,0,0
+microsoft/vscode,275840,MCP related actions need to hide when AI features are disabled (fix #275478),bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 14:51:16+00:00,2025-11-06 15:53:30+00:00,2025-11-06 15:53:30+00:00,14,5,2,2,0,0
+microsoft/vscode,275839,Fix policies in proxima set up,sandy081,closed,True,,2025-11-06 14:40:00+00:00,2025-11-06 15:09:50+00:00,2025-11-06 15:09:50+00:00,114,22,2,1,0,5
+microsoft/vscode,275838,PromptFilesLocator unit tests are really slow,aeschli,closed,True,Fixes https://github.com/microsoft/vscode/issues/275821,2025-11-06 14:37:28+00:00,2025-11-06 15:15:28+00:00,2025-11-06 15:15:28+00:00,30,25,1,4,0,0
+microsoft/vscode,275837,Fix PR card screen cheese,alexr00,closed,True,Fixes microsoft/vscode-internalbacklog#6183,2025-11-06 14:35:16+00:00,2025-11-06 14:54:25+00:00,2025-11-06 14:54:25+00:00,6,4,1,1,0,0
+microsoft/vscode,275836,Prevent empty dropdown when file analysis blocks auto approve,Tyriar,closed,True,"Fixes #275828
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 14:25:18+00:00,2025-11-07 19:00:45+00:00,2025-11-07 19:00:45+00:00,64,4,5,4,0,4
+microsoft/vscode,275833,agent sessions - new button and actions polish,bpasero,closed,True,fix https://github.com/microsoft/vscode/issues/275240,2025-11-06 14:11:07+00:00,2025-11-06 15:31:18+00:00,2025-11-06 15:31:18+00:00,24,15,1,2,0,1
+microsoft/vscode,275813,incorrect agent in handoffs shows no warning,aeschli,closed,True,Fixes https://github.com/microsoft/vscode/issues/275199,2025-11-06 12:59:39+00:00,2025-11-06 14:20:28+00:00,2025-11-06 14:20:28+00:00,26,6,2,2,0,3
+microsoft/vscode,275807,fix ##275478,sandy081,closed,True,fix #275478,2025-11-06 12:06:02+00:00,2025-11-06 14:07:26+00:00,2025-11-06 14:07:25+00:00,17,7,2,2,1,1
+microsoft/vscode,275803,Agent Sessions single view: description row font (fix #275245),bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 11:54:36+00:00,2025-11-06 14:03:48+00:00,2025-11-06 14:03:48+00:00,857,838,5,4,0,1
+microsoft/vscode,275800,agent sessions - filter by default in list,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 11:42:54+00:00,2025-11-06 12:02:10+00:00,2025-11-06 12:02:10+00:00,4,3,3,1,0,0
+microsoft/vscode,275799,Increase refresh icon size by 1px,mrleemurray,closed,True,"Enhance the visibility of the refresh icon by increasing its size. This change improves user experience by making the icon more prominent. Test the update by checking the refresh icon in the application interface.
+
+",2025-11-06 11:30:30+00:00,2025-11-06 11:50:59+00:00,2025-11-06 11:50:59+00:00,0,0,1,1,1,0
+microsoft/vscode,275793,SCM - `scm/repository` menu should use `inline` as the primary group,lszomoru,closed,True,Related https://github.com/microsoft/vscode/issues/272941,2025-11-06 11:07:18+00:00,2025-11-06 11:27:34+00:00,2025-11-06 11:27:34+00:00,1,1,1,1,0,1
+microsoft/vscode,275791,my-endgame notebook: add cwebster-99 to team members list,ulugbekna,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 10:54:25+00:00,2025-11-06 11:18:28+00:00,2025-11-06 11:18:28+00:00,1,1,1,1,0,0
+microsoft/vscode,275790,Agent sessions single view: clicking on PR number opens session and PR description (fix #275320),bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 10:53:56+00:00,2025-11-06 11:26:40+00:00,2025-11-06 11:26:40+00:00,8,1,1,2,0,1
+microsoft/vscode,275785,Adds more edit telemetry tests,hediet,closed,True,Closes https://github.com/microsoft/vscode-internalbacklog/issues/6239,2025-11-06 10:47:14+00:00,2025-11-06 11:06:11+00:00,2025-11-06 11:06:11+00:00,654,211,17,1,0,5
+microsoft/vscode,275783,Don't filter out control telemetry,benibenj,closed,True,"```Copilot Generated Description:``` Update telemetry assignment filtering to include control telemetry and introduce new event emitters for extension unification state and settings changes.
+
+https://github.com/microsoft/vscode-internalbacklog/issues/6073",2025-11-06 10:39:48+00:00,2025-11-06 10:59:04+00:00,2025-11-06 10:59:04+00:00,6,4,1,1,0,1
+microsoft/vscode,275782,Throw when executeCommand called on task,Tyriar,closed,True,"Fixes #275667
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 10:39:23+00:00,2025-11-06 11:37:47+00:00,2025-11-06 11:37:47+00:00,19,9,5,1,0,2
+microsoft/vscode,275778,Update inline chat modal message to clarify design intent,Copilot,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+Fixes #[issue number]
+
+The modal shown when Inline Chat redirects to Panel Chat previously stated only that a task was ""too complex"", leaving users unclear about when to use each interface. The new message clarifies that Inline Chat is scoped to single-file code changes.
+
+## Changes
+
+- Updated confirmation dialog detail message in `inlineChatSessionServiceImpl.ts` (line 545)
+
+**Before:**
+> This task is too complex for Inline Chat. You can rephrase your prompt or continue in the panel chat.
+
+**After:**
+> Inline Chat is designed for single file code changes. This task is either too complex or requires a text response. You can rephrase your prompt or continue in panel chat.
+
+The updated message:
+- Explicitly states Inline Chat's design scope (single file code changes)
+- Explains both redirect conditions (complexity or text-only responses)
+- Maintains user action guidance (rephrase or continue)
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>Inline chat: Phrasing of modal when moving to panel chat</issue_title>
+> <issue_description>Testing microsoft/vscode#274768
+> 
+> - Open inline chat on https://github.com/bamurtaugh/devcontainers.github.io/blob/bamurtaugh/oct-25/templates.html#L9
+> - Ask `what is a template`, which I'd expect to be a couple sentences at most
+> - I'm told this task is too complex for Inline Chat:
+> 
+> <img width=""1760"" height=""1106"" alt=""Image"" src=""https://github.com/user-attachments/assets/bb72e473-6052-447f-8d4b-7761582a2ac6"" />
+> 
+> A few thoughts:
+> - Why was this task too complex? Could we provide a bit more context over how the decision was made? 
+>      - Otherwise, I might wonder when I would use inline chat, since I thought this task (defining a term) would be a good candidate
+> - Should we consider a different phrasing for `Continue in Chat`?
+>      - Would `Continue in Panel` or `Continue in Panel Chat` make sense?
+> - `Don't ask again` looks slightly misaligned with its checkbox (text is below the box) 
+>      - <img width=""218"" height=""74"" alt=""Image"" src=""https://github.com/user-attachments/assets/a422d5bf-0369-4b6f-a0d7-7cf74ac3c0bf"" />
+>  
+> 
+> 
+> </issue_description>
+> 
+> <agent_instructions>Find the message in src/vs/workbench/contrib/inlineChat/browser/inlineChatSessionServiceImpl.ts#L543 and update it as in the last comment</agent_instructions>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> <comment_new><author>@jrieken</author><body>
+> > Ask what is a template, which I'd expect to be a couple sentences at most
+> 
+> That's because inline doesn't want to reply with text anymore, e.g it's now designed to only make code changes. @bamurtaugh how do you feel about this?</body></comment_new>
+> <comment_new><author>@jrieken</author><body>
+> > Don't ask again looks slightly misaligned with its checkbox (text is below the box)
+> 
+> This is windows/electron</body></comment_new>
+> <comment_new><author>@bamurtaugh</author><body>
+> Thank you @jrieken! Sharing my modal wording suggestion from offline discussion:
+> 
+> `Inline Chat is designed for single file code changes. This task is either too complex or requires a text response. You can rephrase your prompt or continue in panel chat.`</body></comment_new>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#275211
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+✨ Let Copilot coding agent [set things up for you](https://github.com/microsoft/vscode/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.
+",2025-11-06 10:13:56+00:00,2025-11-06 11:25:14+00:00,2025-11-06 11:25:13+00:00,1,1,1,2,0,1
+microsoft/vscode,275776,update codenotify,jrieken,closed,True,,2025-11-06 10:12:25+00:00,2025-11-06 10:32:40+00:00,2025-11-06 10:32:39+00:00,3,0,1,1,0,0
+microsoft/vscode,275775,"Revert ""Fix suggest widget positioning in comment editors within diff views (#274093)""",alexr00,closed,True,"This reverts commit 74671b9f5130a8b2f2473bf0a0ecc07848fb3241.
+
+Fixes #275774",2025-11-06 09:59:05+00:00,2025-11-06 10:17:45+00:00,2025-11-06 10:17:45+00:00,1,1,1,1,0,0
+microsoft/vscode,275768,Fixed issue: F3 stops working when focus is in the notebook #275238,dineshc-msft,closed,True,"Fixed issue: F3 stops working when focus is in the notebook #275238 (https://github.com/microsoft/vscode/issues/275238)
+
+With this change:
+- When pressing F3/Shift-F3, focus will stay in the editor and you can move next/previous match
+- When pressing Ctrl+F, focus will be in the widget and you can move next/previous match using Enter/Shift-Enter",2025-11-06 09:39:07+00:00,2025-11-06 19:13:24+00:00,2025-11-06 19:13:24+00:00,20,12,2,1,0,0
+microsoft/vscode,275765,chat - offer exp setting to sign in with more scopes,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 09:04:07+00:00,2025-11-06 14:36:16+00:00,2025-11-06 14:36:16+00:00,17,1,2,1,0,2
+microsoft/vscode,275764,chat - remove unused types,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 09:00:59+00:00,2025-11-06 09:21:31+00:00,2025-11-06 09:21:31+00:00,0,7,3,1,0,0
+microsoft/vscode,275763,chat - retire `signInDialogVariant` and keep `apple` by default,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 08:47:46+00:00,2025-11-06 09:14:20+00:00,2025-11-06 09:14:20+00:00,4,15,2,1,0,0
+microsoft/vscode,275759,fix #275674,sandy081,closed,True,fix #275674,2025-11-06 08:06:03+00:00,2025-11-06 08:28:37+00:00,2025-11-06 08:28:37+00:00,111,13,1,1,1,3
+microsoft/vscode,275734,runSubagent2 -> runSubagent,roblourens,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-06 03:01:25+00:00,2025-11-06 05:50:00+00:00,2025-11-06 05:50:00+00:00,2,4,1,1,0,0
+microsoft/vscode,275724,updated walkthrough chat panel illustration,eli-w-king,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+Replaced outdated chat panel with chat session example on website. Detailed in https://github.com/microsoft/vscode/issues/273900
+![multi-file-edits](https://github.com/user-attachments/assets/56eb8fba-e483-4b75-ab26-a921ebaa1110)
+
+",2025-11-06 01:31:46+00:00,2025-11-06 11:46:47+00:00,2025-11-06 11:46:47+00:00,480,467,1,3,0,0
+microsoft/vscode,275715,Create new Chat Editor with the right scheme,DonJayamanne,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+Fixes https://github.com/microsoft/vscode/issues/272065#event-20743925535",2025-11-06 00:29:50+00:00,2025-11-06 18:18:27+00:00,2025-11-06 18:18:27+00:00,7,5,1,2,0,4
+microsoft/vscode,275712,Fix for checking out pr from single-view,osortega,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+Fixes: https://github.com/microsoft/vscode/issues/275323",2025-11-06 00:02:17+00:00,2025-11-06 00:20:58+00:00,2025-11-06 00:20:58+00:00,1,1,1,1,0,1
+microsoft/vscode,275709, fix todo clear/hide behavior in chat editors,bhavyaus,closed,True,"Fixes:
+https://github.com/microsoft/vscode/issues/268412",2025-11-05 23:15:35+00:00,2025-11-05 23:46:13+00:00,2025-11-05 23:46:13+00:00,12,5,2,2,1,2
+microsoft/vscode,275706,fix tab drag and drop,meganrogge,closed,True,"fix #275592
+
+Adding the chat entry wrapped the tabs list in an extra container. When you would drag a tab into the empty area (which is now that container instead of the list), the list’s drop handler would never runs. The fix watches for drops on the container/chat entry, recognizes terminal drags, and forwards them to the usual “move to end” logic, so behavior matches what we had before.
+
+https://github.com/user-attachments/assets/9aa6b339-6180-4d6e-a573-d68a01fc630b
+
+",2025-11-05 23:02:19+00:00,2025-11-05 23:42:16+00:00,2025-11-05 23:42:16+00:00,126,1,2,2,0,2
+microsoft/vscode,275703,Filter out extension pages from Add Context quick pick,benvillalobos,closed,True,Fixes https://github.com/microsoft/vscode/issues/275258,2025-11-05 22:40:54+00:00,2025-11-05 23:02:32+00:00,2025-11-05 23:02:32+00:00,2,0,1,1,0,0
+microsoft/vscode,275700,Disable cleanup contribution,TylerLeonhardt,closed,True,"Fixes https://github.com/microsoft/vscode/issues/272359
+
+This contribution is causing servers that are allowed to be marked as not allowed because the servers are not available at startup. We shouldn't rely on servers being available at startup...
+
+This needs to be re-done to clean up correctly, but for now let's just disable it.
+
+This means that approvals will accumulate but in practice this won't be many.
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 22:32:48+00:00,2025-11-05 22:51:58+00:00,2025-11-05 22:51:58+00:00,40,45,1,1,0,1
+microsoft/vscode,275693,calculate output content height for terminal chat widget,meganrogge,closed,True,"fixes #275690
+
+The fix to prevent `height: 100%` from happening for commands with limited output caused the vertical scrollbar to no longer appear. We need to set the height based on the content so that it works for various command outputs.
+
+<img width=""582"" height=""585"" alt=""Screenshot 2025-11-05 at 4 54 03 PM"" src=""https://github.com/user-attachments/assets/8ee30d71-4fc2-4d8a-ba5d-2c9741f9ee93"" />
+",2025-11-05 21:58:05+00:00,2025-11-05 22:34:25+00:00,2025-11-05 22:34:25+00:00,15,1,2,2,0,2
+microsoft/vscode,275688,Avoid saving inline chats to history,osortega,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+Fixes: https://github.com/microsoft/vscode/issues/252849
+
+@jrieken could you please review this? Looks like saving inline chats was purposely added at some point, so I want to make sure it doesn't cause any regressions
+",2025-11-05 21:28:42+00:00,2025-11-06 23:47:49+00:00,2025-11-06 23:47:49+00:00,16,4,1,2,1,1
+microsoft/vscode,275687,provide info message when no terminal output ,meganrogge,closed,True,"fixes #275073
+
+<img width=""369"" height=""121"" alt=""Screenshot 2025-11-05 at 4 26 10 PM"" src=""https://github.com/user-attachments/assets/9ca5fa35-7708-406f-892c-0a09db592e8b"" />
+",2025-11-05 21:28:29+00:00,2025-11-05 21:47:59+00:00,2025-11-05 21:47:59+00:00,19,5,2,1,0,1
+microsoft/vscode,275686,Use correct fallback font in md code blocks,mjbvz,closed,True,"Fixes #275033
+
+",2025-11-05 21:27:35+00:00,2025-11-05 21:56:21+00:00,2025-11-05 21:56:21+00:00,16,8,1,1,0,1
+microsoft/vscode,275684,Fix infinite loop,lramos15,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+Part of https://github.com/microsoft/vscode/issues/275511
+
+This fixes the looping but doesn't place the model picker back in a nice state
+",2025-11-05 21:23:52+00:00,2025-11-05 21:42:37+00:00,2025-11-05 21:42:37+00:00,5,2,1,1,0,0
+microsoft/vscode,275683,Fix task command line reported when term is reused,Tyriar,closed,True,"Fixes #272945
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 21:20:22+00:00,2025-11-05 21:39:41+00:00,2025-11-05 21:39:41+00:00,11,2,1,1,0,3
+microsoft/vscode,275681,only open chat created editor if `accessibility.openChatEditedFiles === true`,meganrogge,closed,True,fixes #275651,2025-11-05 21:08:00+00:00,2025-11-05 21:27:32+00:00,2025-11-05 21:27:32+00:00,5,1,1,1,0,2
+microsoft/vscode,275669,SCM - finalize the `scm/repository` menu contribution point,lszomoru,closed,True,Related to https://github.com/microsoft/vscode/issues/272941,2025-11-05 19:59:32+00:00,2025-11-05 20:18:23+00:00,2025-11-05 20:18:23+00:00,0,1,1,1,0,0
+microsoft/vscode,275664,custom agents: name update not respected in agent picker,aeschli,closed,True,Fixes https://github.com/microsoft/vscode/issues/275019,2025-11-05 19:34:19+00:00,2025-11-05 19:53:21+00:00,2025-11-05 19:53:21+00:00,54,62,15,1,1,2
+microsoft/vscode,275645,chore: add myself to CODENOTIFY,rzhao271,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 18:29:59+00:00,2025-11-05 18:53:04+00:00,2025-11-05 18:53:04+00:00,3,0,1,1,0,0
+microsoft/vscode,275637,Fix for clearing ai search results,osortega,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+Fixes: https://github.com/microsoft/vscode/issues/259887
+
+Whenever the query changes we always clear all results, but the AI text search was always firing as if we always had matches to remove",2025-11-05 17:57:03+00:00,2025-11-05 19:59:53+00:00,2025-11-05 19:59:53+00:00,4,2,1,1,1,2
+microsoft/vscode,275636,remove specific model checks we don't need,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+added in as a defensive thing but we don't really need and shouldn't do this",2025-11-05 17:54:43+00:00,2025-11-05 18:13:36+00:00,2025-11-05 18:13:36+00:00,4,11,1,1,0,1
+microsoft/vscode,275635,use extension identifier for terminal suggest id,meganrogge,closed,True,"fix #272345
+
+We were passing id in here, which makes sense. https://github.com/microsoft/vscode/blob/d0bec64f5aef3397dc7d78dceac9ecd455d16cfb/src/vs/workbench/api/common/extHostTerminalService.ts#L769
+
+<img width=""828"" height=""176"" alt=""Screenshot 2025-11-05 at 12 50 26 PM"" src=""https://github.com/user-attachments/assets/e8520c73-b131-40ce-9272-cb7c74e65ce6"" />
+",2025-11-05 17:52:22+00:00,2025-11-05 18:35:00+00:00,2025-11-05 18:35:00+00:00,1,7,4,2,0,1
+microsoft/vscode,275629,fix #275160,sandy081,closed,True,fix #275160,2025-11-05 17:37:06+00:00,2025-11-05 17:55:21+00:00,2025-11-05 17:55:21+00:00,2,5,1,1,0,0
+microsoft/vscode,275626,Handle 403s as well for step up auth,TylerLeonhardt,closed,True,"The spec calls this out but we didn't include it.
+Fixes https://github.com/microsoft/vscode/issues/269883
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 17:27:22+00:00,2025-11-05 17:46:28+00:00,2025-11-05 17:46:28+00:00,12,8,1,1,0,2
+microsoft/vscode,275620,chore: update vscode-codicons reference,rzhao271,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 16:58:58+00:00,2025-11-05 17:18:38+00:00,2025-11-05 17:18:38+00:00,2,2,1,1,0,0
+microsoft/vscode,275619,don't use relative path as absolute,amunger,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+fix https://github.com/microsoft/vscode/issues/275110
+",2025-11-05 16:58:40+00:00,2025-11-06 05:14:00+00:00,2025-11-06 05:14:00+00:00,11,1,1,3,0,5
+microsoft/vscode,275617,fix disposable leak,meganrogge,closed,True,fixes #275388,2025-11-05 16:56:50+00:00,2025-11-05 18:48:46+00:00,2025-11-05 18:48:46+00:00,1,1,1,1,0,2
+microsoft/vscode,275611,improve hidden UX in agent picker,aeschli,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 16:24:21+00:00,2025-11-05 16:44:22+00:00,2025-11-05 16:44:22+00:00,7,5,1,1,0,3
+microsoft/vscode,275609,Regex capture groups,alexr00,closed,True,,2025-11-05 16:16:33+00:00,2025-11-05 16:36:54+00:00,2025-11-05 16:36:53+00:00,1,0,1,1,0,0
+microsoft/vscode,275606,Update git-branch icons for alignment,mrleemurray,closed,True,"Adjust the alignment of git-branch icons to improve visual consistency - nudged branch 1px to right to improve horizontal centering.
+
+Resolves: https://github.com/microsoft/vscode/issues/275394
+
+",2025-11-05 16:13:31+00:00,2025-11-05 16:37:09+00:00,2025-11-05 16:37:09+00:00,0,0,1,1,1,0
+microsoft/vscode,275604,fix https://github.com/microsoft/vscode/issues/275061,jrieken,closed,True,,2025-11-05 16:08:16+00:00,2025-11-05 16:27:28+00:00,2025-11-05 16:27:28+00:00,5,0,1,1,0,1
+microsoft/vscode,275590,Truncate terminal attachment hover contents,Tyriar,closed,True,"Fixes #275351
+
+<img width=""1068"" height=""582"" alt=""image"" src=""https://github.com/user-attachments/assets/9bf98c29-c763-4438-8c33-10447a28fe94"" />
+",2025-11-05 15:12:55+00:00,2025-11-05 15:53:18+00:00,2025-11-05 15:53:18+00:00,22,14,1,1,0,2
+microsoft/vscode,275588,add space if needed before label detail ,meganrogge,closed,True,"fixes #275555
+
+<img width=""500"" height=""135"" alt=""Screenshot 2025-11-05 at 10 06 38 AM"" src=""https://github.com/user-attachments/assets/f88fe8c1-6b26-47a6-b2b8-1f94414c9a3b"" />
+",2025-11-05 15:09:12+00:00,2025-11-07 17:10:28+00:00,2025-11-07 17:10:28+00:00,11,1,1,2,0,4
+microsoft/vscode,275585,"provide commandLine, not prefix, to terminal completion providers ",meganrogge,closed,True,fixes #275546,2025-11-05 15:04:48+00:00,2025-11-05 15:38:29+00:00,2025-11-05 15:38:29+00:00,1,1,1,1,0,0
+microsoft/vscode,275583,Log cwd when analyzing file writes,Tyriar,closed,True,"Part of #275335
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 14:55:20+00:00,2025-11-05 15:26:31+00:00,2025-11-05 15:26:31+00:00,5,4,1,1,0,0
+microsoft/vscode,275582,propagate suggest kind through from extension,meganrogge,closed,True,fixes https://github.com/microsoft/vscode/issues/275385,2025-11-05 14:55:03+00:00,2025-11-05 15:34:52+00:00,2025-11-05 15:34:52+00:00,4,3,2,4,0,0
+microsoft/vscode,275581,SCM - fix actions in the Repositories view's `...` menu,lszomoru,closed,True,Fixes https://github.com/microsoft/vscode/issues/275135,2025-11-05 14:53:59+00:00,2025-11-05 15:16:13+00:00,2025-11-05 15:16:13+00:00,4,6,1,1,0,1
+microsoft/vscode,275580,fixes https://github.com/microsoft/vscode/issues/275214,jrieken,closed,True,,2025-11-05 14:52:34+00:00,2025-11-05 15:12:00+00:00,2025-11-05 15:12:00+00:00,29,2,2,1,0,2
+microsoft/vscode,275579,Don't redact copilot models,lramos15,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+Fix https://github.com/microsoft/vscode-internalbacklog/issues/6030",2025-11-05 14:52:09+00:00,2025-11-05 15:10:49+00:00,2025-11-05 15:10:49+00:00,6,4,1,1,0,1
+microsoft/vscode,275577,Fix terminal completion provider API documentation,Copilot,closed,True,"Fixes #274921
+fixes #275548
+Fixes #275556
+Fixes #275549
+Fixes #275557
+
+The JSDoc for `registerTerminalCompletionProvider` contradicted the actual API signature and lacked documentation for `triggerCharacters`.
+
+Also removed docs that no longer apply.
+
+## Changes
+
+- **Corrected function signature in examples** - Removed non-existent string ID parameter from both `TerminalCompletionProvider` interface and `registerTerminalCompletionProvider` examples
+- **Documented `triggerCharacters` parameter** - Added JSDoc explaining that trigger characters automatically invoke the provider when typed, with example usage
+- **Fixed `replacementRange` format** - Corrected examples to use `[startIndex, endIndex]` instead of incorrect `[startIndex, length]`
+
+## Before
+```typescript
+// Incorrect - no string ID parameter exists
+window.registerTerminalCompletionProvider('extension-provider-id', {
+  provideTerminalCompletions(terminal, context) {
+    return [{ 
+      label: '--version', 
+      replacementRange: [Math.max(0, context.cursorPosition - 2), 2] // Wrong: [start, length]
+    }];
+  }
+});
+```
+
+## After
+```typescript
+// Correct signature
+window.registerTerminalCompletionProvider({
+  provideTerminalCompletions(terminal, context) {
+    return [{ 
+      label: '--version',
+      replacementRange: [Math.max(0, context.cursorPosition - 2), context.cursorPosition] // Correct: [start, end]
+    }];
+  }
+}, '-'); // Optional trigger characters
+```
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>Terminal Completions: Comment and API contradict</issue_title>
+> <issue_description>Testing microsoft/vscode#274921
+> 
+> In the comment for `registerTerminalCompletionProvider` it mentions that the first argument is a string even though it is actually the `TerminalCompletionProvider`.
+> 
+> <img width=""1475"" height=""243"" alt=""Image"" src=""https://github.com/user-attachments/assets/b3aa2537-20e7-4360-9730-8acaed4447b5"" />
+> 
+> Also there is not comment explaining what `triggerCharacters` are</issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#275049
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💬 We'd love your input! Share your thoughts on Copilot coding agent in our [2 minute survey](https://gh.io/copilot-coding-agent-survey).
+",2025-11-05 14:37:55+00:00,2025-11-05 21:28:06+00:00,2025-11-05 21:28:06+00:00,33,14,3,10,3,18
+microsoft/vscode,275571,Add git bash icon to git bash profile,Tyriar,closed,True,"Fixes #275568
+
+<img width=""98"" height=""79"" alt=""image"" src=""https://github.com/user-attachments/assets/7484b353-0c1c-4636-a4b2-26b0450d3909"" />
+
+200% monitor:
+
+<img width=""184"" height=""166"" alt=""image"" src=""https://github.com/user-attachments/assets/a14cef8c-bf1a-4b40-b382-16eebe01222e"" />
+",2025-11-05 14:19:52+00:00,2025-11-07 19:00:34+00:00,2025-11-07 19:00:34+00:00,12,10,2,2,0,1
+microsoft/vscode,275570,Inline chat: fix Escape key to rephrase instead of continuing to panel chat,Copilot,closed,True,"- [x] Understand the current dialog button configuration
+- [x] Swap primary and cancel buttons so Escape key behaves like ""Rephrase""
+- [x] Update logic to match new button configuration
+- [x] Update comments to reflect new behavior
+- [x] Test the changes by building the code
+- [x] Verify no compilation errors
+- [x] Address code review feedback on localization key naming
+- [x] Fix conditional logic to properly handle missing editor case
+
+## Changes Made
+
+Swapped the button configuration in the inline chat ""Continue in Panel Chat?"" dialog:
+- **Primary button**: Now ""Continue in Chat"" (previously ""Rephrase"")
+- **Cancel button**: Now ""Cancel"" (previously ""Continue in Chat"")
+
+When the user presses Escape or clicks Cancel, the dialog now defaults to the ""Rephrase"" behavior (removing the last request), which is the expected behavior per the issue.
+
+The logic was updated to: `if (!editor || result.confirmed)`
+- No editor → Move to panel chat (can't rephrase without editor)
+- Escape/Cancel with editor → Rephrase prompt
+- ""Continue in Chat"" with editor → Move to panel chat
+
+Also improved the localization key from `confirm.no` to `confirm.cancel` for better semantic clarity.
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>Inline chat: pressing Escape from prompt dialog does not pick ""Rephrase""</issue_title>
+> <issue_description>Testing microsoft/vscode#274768
+> 
+> When I cancel this dialog by pressing Escape, I would have assumed this would be like ""Rephrase"", but it went to panel chat:
+> 
+> <img width=""632"" height=""718"" alt=""Image"" src=""https://github.com/user-attachments/assets/d23fede2-ee11-4e39-b5d8-1c9e6a0df7d8"" /></issue_description>
+> 
+> <agent_instructions>Go for it. Drop the rephrase for cancel. This is the code pointer: src/vs/workbench/contrib/inlineChat/browser/inlineChatSessionServiceImpl.ts#L541</agent_instructions>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> <comment_new><author>@jrieken</author><body>
+> @bpasero I would expect the same but when hitting ESC the `IConfirmationResult#confirmed`-flag is set to `false`. So, this is either as designed or I miss something here?</body></comment_new>
+> <comment_new><author>@bpasero</author><body>
+> @jrieken yeah, it will not work as long as the `cancelButton` is set to `Continue in Chat`. I see 2 options:
+> * we make ""Continue in Chat"" the primary button and simply have a normal ""Cancel"" button for rephrase, no need to spell it out explicitly
+> * we add a third button to cancel, which is weird because that is essentially ""Rephrase""</body></comment_new>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#275050
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💬 We'd love your input! Share your thoughts on Copilot coding agent in our [2 minute survey](https://gh.io/copilot-coding-agent-survey).
+",2025-11-05 14:14:55+00:00,2025-11-05 15:46:12+00:00,2025-11-05 15:46:12+00:00,4,4,1,4,0,3
+microsoft/vscode,275569,codicons: rename gitTerminalBash to terminalGitBash in codiconsLibrary; refresh codicon.ttf,mrleemurray,closed,True,Update `git-terminal-bash` to `terminal-git-bash`,2025-11-05 13:55:41+00:00,2025-11-05 14:14:40+00:00,2025-11-05 14:14:40+00:00,1,1,2,1,1,0
+microsoft/vscode,275564,fix #275099,sandy081,closed,True,fix #275099,2025-11-05 13:31:42+00:00,2025-11-05 13:50:42+00:00,2025-11-05 13:50:42+00:00,55,15,4,1,0,0
+microsoft/vscode,275545,Unification improvements,benibenj,closed,True,"```Copilot Generated Description:``` Implement changes to unify extension settings validation and configuration handling, including the introduction of a new property for extension unification in the configuration interface. Adjustments made to the validation logic to accommodate the new structure and ensure proper handling of duplicate settings. Update the extension enablement service to reflect the new configuration approach.
+
+",2025-11-05 12:05:52+00:00,2025-11-05 12:38:31+00:00,2025-11-05 12:38:31+00:00,15,17,5,1,0,2
+microsoft/vscode,275540,SCM - fix repositories view render perf,lszomoru,closed,True,Fixes https://github.com/microsoft/vscode/issues/275017,2025-11-05 11:43:22+00:00,2025-11-05 12:49:45+00:00,2025-11-05 12:49:45+00:00,16,11,1,2,0,2
+microsoft/vscode,275536,fix #275092,sandy081,closed,True,fix #275092,2025-11-05 11:30:08+00:00,2025-11-05 11:49:18+00:00,2025-11-05 11:49:18+00:00,3,2,1,1,0,0
+microsoft/vscode,275535,Update codicons and add new icons,mrleemurray,closed,True,"Addresses:
+
+- https://github.com/microsoft/vscode-codicons/issues/372
+-https://github.com/microsoft/vscode-codicons/issues/370
+- https://github.com/microsoft/vscode/issues/275045
+
+",2025-11-05 11:14:56+00:00,2025-11-05 12:32:08+00:00,2025-11-05 12:32:08+00:00,3,1,3,2,1,0
+microsoft/vscode,275534,make sure inline chat shows again after switching tabs,jrieken,closed,True,,2025-11-05 11:12:43+00:00,2025-11-05 11:31:47+00:00,2025-11-05 11:31:47+00:00,4,14,2,2,0,1
+microsoft/vscode,275533,SCM - improve submodule/worktree rendering when explorer configuration is turned on,lszomoru,closed,True,Fixes https://github.com/microsoft/vscode/issues/275404,2025-11-05 10:53:28+00:00,2025-11-05 11:20:20+00:00,2025-11-05 11:20:20+00:00,34,2,2,2,0,2
+microsoft/vscode,275531,fix #275340,sandy081,closed,True,fix #275340,2025-11-05 10:49:43+00:00,2025-11-05 11:09:00+00:00,2025-11-05 11:09:00+00:00,1,1,1,1,0,1
+microsoft/vscode,275527,SCM - fix repository provider hover,lszomoru,closed,True,Fixes https://github.com/microsoft/vscode/issues/275013,2025-11-05 10:37:56+00:00,2025-11-05 10:59:31+00:00,2025-11-05 10:59:31+00:00,1,1,1,1,0,0
+microsoft/vscode,275526,"Make Stable, Preview, and Experimental filters mutually exclusive in Settings Editor",Copilot,closed,True,"Fixes #274344
+
+The Settings Editor allowed selecting `@stable`, `@tag:preview`, and `@tag:experimental` simultaneously, resulting in ""No Settings Found"" since these use AND logic and no setting can match multiple maturity states.
+
+## Changes
+
+- Added `createMutuallyExclusiveToggleAction()` method that removes conflicting filters before adding the selected filter
+- Applied mutual exclusivity to Stable, Preview, and Experimental filters with appropriate exclusion lists
+- Fixed whitespace handling when removing filters (added `.trim()`)
+
+Selecting any maturity filter now automatically unselects the other two. Other filters (Modified, Advanced, etc.) remain independent.
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>Multi-select in settings editor filters doesn't make sense</issue_title>
+> <issue_description>Testing microsoft/vscode#274344
+> 
+> We don't support `@tag:advanced @tag:experimental @tag:preview` all together so we shouldn't let you do this in the UI. OR these should use OR logic.
+> 
+> <img width=""250"" height=""412"" alt=""Image"" src=""https://github.com/user-attachments/assets/c882498f-0a9b-4bfe-a871-c395ac33269e"" /></issue_description>
+> 
+> <agent_instructions>Fix this by unselecting the filter when other filter is selected. This should be applicable only for Stable, Preview and Experimental filters. When Preview filter is set other two filters should be unset</agent_instructions>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#275337
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💬 We'd love your input! Share your thoughts on Copilot coding agent in our [2 minute survey](https://gh.io/copilot-coding-agent-survey).
+",2025-11-05 10:35:59+00:00,2025-11-05 11:29:52+00:00,2025-11-05 11:29:51+00:00,33,3,1,4,0,2
+microsoft/vscode,275520,fixes https://github.com/microsoft/vscode/issues/274789,jrieken,closed,True,,2025-11-05 09:36:57+00:00,2025-11-05 10:23:34+00:00,2025-11-05 10:23:34+00:00,11,13,2,1,0,0
+microsoft/vscode,275518,GitHub - use different link for hover commands and links in the commit message,lszomoru,closed,True,Fixes https://github.com/microsoft/vscode/issues/267924,2025-11-05 09:28:31+00:00,2025-11-05 09:46:59+00:00,2025-11-05 09:46:59+00:00,19,11,2,1,0,1
+microsoft/vscode,275516,bump distro removing proposed api,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 09:17:06+00:00,2025-11-05 09:41:04+00:00,2025-11-05 09:41:04+00:00,1,1,1,1,0,0
+microsoft/vscode,275513,agent sessions - stop work on shutdown,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 09:07:32+00:00,2025-11-05 09:30:23+00:00,2025-11-05 09:30:23+00:00,54,23,2,1,0,1
+microsoft/vscode,275512,fixes https://github.com/microsoft/vscode/issues/275173,jrieken,closed,True,,2025-11-05 09:05:42+00:00,2025-11-05 09:30:43+00:00,2025-11-05 09:30:43+00:00,2,2,1,1,0,0
+microsoft/vscode,275510,fixes https://github.com/microsoft/vscode/issues/275059,jrieken,closed,True,,2025-11-05 08:57:35+00:00,2025-11-05 09:29:55+00:00,2025-11-05 09:29:55+00:00,1,2,1,1,0,1
+microsoft/vscode,275491,Fixed issue with 'enter' skipping matches in notebook search (issue #275236),dineshc-msft,closed,True,"Fixed issue with 'enter' skipping matches in notebook search (issue #275236)
+
+Enter was registered twice. This is now fixed.
+Shift+Enter did not have this issue, and so it worked well. ",2025-11-05 08:07:24+00:00,2025-11-05 21:12:20+00:00,2025-11-05 21:12:20+00:00,0,20,1,1,0,0
+microsoft/vscode,275485,Fix for cell scrolling on F3 #275247,dineshc-msft,closed,True,"Fixes issue: https://github.com/microsoft/vscode/issues/275247
+
+Fixed issue with notebook cell scrolling when doing F3. 
+
+The fix will scroll the notebook to make the cell visible. 
+",2025-11-05 07:28:35+00:00,2025-11-06 19:49:39+00:00,2025-11-06 19:49:39+00:00,9,5,2,2,0,2
+microsoft/vscode,275481,Inline session creation action if there's only one,mjbvz,closed,True,"Don't require a second UI step if there's only one way of creating the session
+",2025-11-05 06:30:59+00:00,2025-11-05 06:52:30+00:00,2025-11-05 06:52:30+00:00,26,9,1,1,0,1
+microsoft/vscode,275467,add back fix that was accidentally deleted,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+duplicate of https://github.com/microsoft/vscode/pull/274966. accidentally reverted in another PR",2025-11-05 04:34:40+00:00,2025-11-05 04:53:02+00:00,2025-11-05 04:53:02+00:00,4,0,1,1,0,1
+microsoft/vscode,275465,"Revert ""Git - adopt new QuickInputButton location (#275071)""",dmitrivMS,closed,True,"This reverts commit e092054c98f425d9a8e55e22dd0f49eb206c7de3.
+
+Unfortunetely new API only supports toggles, not regular buttons so using it as a button will not provide the right appearance. There is additional work to enable regular buttons with `Inline` location.
+
+This is how it would look like right now (that pressed state is sticky, since it's a toggle):
+<img width=""686"" height=""95"" alt=""image"" src=""https://github.com/user-attachments/assets/42472ca8-b074-44ad-b989-5bebd98895fd"" />
+
+",2025-11-05 04:09:28+00:00,2025-11-05 06:24:33+00:00,2025-11-05 06:24:33+00:00,7,5,1,1,3,0
+microsoft/vscode,275463,Move toggle storage for Go To Line to the base class,dmitrivMS,closed,True,Follow up on comments in https://github.com/microsoft/vscode/pull/275416,2025-11-05 04:05:44+00:00,2025-11-05 14:42:57+00:00,2025-11-05 14:42:57+00:00,42,22,4,8,0,4
+microsoft/vscode,275450,Enable experiment mode 'auto' for chat todo tool settings,bhavyaus,closed,True,cc: @digitarald ,2025-11-05 02:42:40+00:00,2025-11-05 04:07:37+00:00,2025-11-05 04:07:37+00:00,8,2,1,1,0,0
+microsoft/vscode,275449,chat: show Todos (N/N) in title when all tasks are completed,bhavyaus,closed,True,"Fixes:
+https://github.com/microsoft/vscode/issues/275368
+
+cc: @bpasero",2025-11-05 02:34:08+00:00,2025-11-05 04:06:55+00:00,2025-11-05 04:06:55+00:00,1,1,1,1,0,0
+microsoft/vscode,275438,Append well-known path instead of insert,TylerLeonhardt,closed,True,"```
+https://example.com/.well-known/oauth-protected-resource/api/v1
+```
+becomes
+```
+https://example.com/api/v1/.well-known/oauth-protected-resource
+```
+
+I got tripped up by the oauth authoriziation server doing it the other way...
+
+Fixes https://github.com/microsoft/vscode/issues/275161
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 01:14:54+00:00,2025-11-05 02:17:49+00:00,2025-11-05 02:17:49+00:00,12,16,2,1,0,0
+microsoft/vscode,275434,fix codex not having bolded thinking headers,justschen,closed,True,"<img width=""634"" height=""547"" alt=""Screenshot 2025-11-04 at 5 04 55 PM"" src=""https://github.com/user-attachments/assets/ea7a7ac0-c274-45d4-9934-d258829a88c0"" />
+",2025-11-05 01:05:01+00:00,2025-11-05 01:23:19+00:00,2025-11-05 01:23:19+00:00,14,3,1,1,0,2
+microsoft/vscode,275432,fix implicit pill showing up on edits,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+fix this issue
+
+https://github.com/user-attachments/assets/932e06ff-ffca-4214-8225-a8ccceb0baea
+
+
+",2025-11-05 00:46:55+00:00,2025-11-05 01:05:52+00:00,2025-11-05 01:05:52+00:00,1,1,1,1,1,0
+microsoft/vscode,275430,Omit file description when path is `/`,osortega,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+Fixes: https://github.com/microsoft/vscode-internalbacklog/issues/6186",2025-11-05 00:32:29+00:00,2025-11-05 21:11:31+00:00,2025-11-05 21:11:31+00:00,27,1,3,3,2,1
+microsoft/vscode,275426,edits: fix check/uncheck to reset tool approvals,connor4312,closed,True,"Closes #275227
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 00:13:28+00:00,2025-11-05 00:38:33+00:00,2025-11-05 00:38:33+00:00,4,0,1,1,1,1
+microsoft/vscode,275421,api: clarify wording for registerMcpServerDefinitionProvider to reflect autostart,connor4312,closed,True,"Remove wording for the old refresh button and clarify autostart interaction, closes https://github.com/microsoft/vscode/issues/272995
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-05 00:04:19+00:00,2025-11-05 08:58:52+00:00,2025-11-05 08:58:52+00:00,5,3,1,1,0,0
+microsoft/vscode,275419,Hover copy button improvements,benvillalobos,closed,True,"Fixes https://github.com/microsoft/vscode/issues/275326 Cursor now switches to `pointer` when hovering over with mouse
+Fixes https://github.com/microsoft/vscode/issues/275330 Screen reader now announces ""Copied to Clipboard"" when copy is pressed
+",2025-11-04 23:56:19+00:00,2025-11-05 00:14:28+00:00,2025-11-05 00:14:28+00:00,4,1,2,2,0,0
+microsoft/vscode,275416,Go To Line bug fixes,dmitrivMS,closed,True,"Fixes #275000
+Fixes #275001
+Fixes #275321
+
+Moved zero-based offset setting to workspace storage.
+Updated guidance text per suggestions.
+Make sure guidance for offset is updated when toggle state is changed.
+",2025-11-04 23:51:04+00:00,2025-11-05 00:30:51+00:00,2025-11-05 00:30:51+00:00,19,35,3,1,2,4
+microsoft/vscode,275414,disable flaky test,amunger,closed,True,"https://github.com/microsoft/vscode/issues/224924
+",2025-11-04 23:44:20+00:00,2025-11-05 00:03:00+00:00,2025-11-05 00:03:00+00:00,1,1,1,1,0,0
+microsoft/vscode,275410,Support .github/agents/*.md custom agents,TylerLeonhardt,closed,True,"Fixes https://github.com/microsoft/vscode/issues/275673
+
+To align with Copilot CLI & CCA.
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 23:25:13+00:00,2025-11-05 20:12:57+00:00,2025-11-05 20:12:57+00:00,203,1,4,5,0,6
+microsoft/vscode,275400,edits: correctly model file creations for external edits,connor4312,closed,True,"Previously we were creating (empty) files when starting an edit for a URI. Now we defer that which avoids issues with claude code
+
+Closes https://github.com/microsoft/vscode-internalbacklog/issues/6203
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 23:14:45+00:00,2025-11-04 23:45:48+00:00,2025-11-04 23:45:48+00:00,57,29,5,2,0,2
+microsoft/vscode,275369,set active instance to fix attached terminal bug,meganrogge,closed,True,fix #275141,2025-11-04 22:26:10+00:00,2025-11-05 04:07:20+00:00,2025-11-05 04:07:20+00:00,1,0,1,1,0,0
+microsoft/vscode,275364,"reasoning cleanup, less parsing, less clearing, removes setting",justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+removes old settings check that is not used anymore, removes old parsing that isn't used anymore, some better heuristic for clearing nodes and re-rendering the markdown.",2025-11-04 22:18:28+00:00,2025-11-04 22:46:13+00:00,2025-11-04 22:46:13+00:00,39,94,1,1,0,2
+microsoft/vscode,275334,fire event so height of chat list row is correct when terminal chat output is expanded,meganrogge,closed,True,"fixes #274215
+
+The output would get trunchated for any but the final response, like this:
+
+<img width=""544"" height=""565"" alt=""Screenshot 2025-11-04 at 4 45 08 PM"" src=""https://github.com/user-attachments/assets/e19bf311-f68a-4f72-a099-e320ad955d0e"" />
+
+
+We now fire an event when the height changes so the chat list row height gets updated on expand/collapse
+
+https://github.com/user-attachments/assets/72856ccc-7f16-429f-8b5a-9a9c7e9a9b19
+
+",2025-11-04 21:39:37+00:00,2025-11-04 23:47:03+00:00,2025-11-04 23:47:03+00:00,8,0,1,1,0,0
+microsoft/vscode,275325,Ignore initial line if it's whitespace after 633 C,Tyriar,closed,True,"Fixes #275322
+
+This is a Windows problems since there are often cells that have whitespace written to them under conpty.
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 21:07:37+00:00,2025-11-04 21:42:24+00:00,2025-11-04 21:42:24+00:00,4,1,1,1,0,1
+microsoft/vscode,275324,SCM - fix repository artifact actions,lszomoru,closed,True,"Fixes https://github.com/microsoft/vscode/issues/275024
+Fixes https://github.com/microsoft/vscode/issues/275020",2025-11-04 21:03:03+00:00,2025-11-04 21:40:46+00:00,2025-11-04 21:40:46+00:00,19,20,4,1,0,0
+microsoft/vscode,275313,Git - checked out tag should use the target icon,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 20:24:17+00:00,2025-11-04 20:44:23+00:00,2025-11-04 20:44:23+00:00,5,3,1,1,0,0
+microsoft/vscode,275308,Fix chat terminal count not refreshing automatically,Copilot,closed,True,"Fixes https://github.com/microsoft/vscode/issues/274924
+
+When running terminal commands in multiple chat editors, the chat terminal count button showed stale values until the terminal was resized.
+
+## Changes
+
+Added `onDidChangeInstances` event listener to `TerminalTabbedView` to trigger count updates when terminal instances change visibility or location.
+
+```typescript
+// Before: only listened to registration and disposal
+Event.any(
+  this._terminalChatService.onDidRegisterTerminalInstanceWithToolSession,
+  this._terminalService.onDidDisposeInstance
+)
+
+// After: also listens to instance changes (visibility, movement, creation)
+Event.any(
+  this._terminalChatService.onDidRegisterTerminalInstanceWithToolSession,
+  this._terminalService.onDidDisposeInstance,
+  this._terminalService.onDidChangeInstances  // ← added
+)
+```
+
+The existing listeners only caught explicit registration and disposal events. Chat terminals created in editors trigger instance changes that weren't being monitored, causing the count to become stale until layout forced a refresh.
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>Chat terminal count doesn't refresh automatically for chat editors</issue_title>
+> <issue_description>Testing microsoft/vscode#274924
+> 
+> 1. Run a terminal command in two chat editors side by side (or one in the panel and one in an editor)
+> 
+> **bug**
+> The chat terminal button label doesn't refresh automatically until the terminal is resized. It still shows one here
+> 
+> <img width=""1420"" height=""1115"" alt=""Image"" src=""https://github.com/user-attachments/assets/866428e1-2557-469f-833b-5d91f64e8b61"" />
+> 
+> 
+> Clicking on it does show the two chat terminals as expected </issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> <comment_new><author>@mjbvz</author><body>
+> Hm also saw this for a chat in the panel. Seems to happen for anything more than the first chat terminal?</body></comment_new>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#275279
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+✨ Let Copilot coding agent [set things up for you](https://github.com/microsoft/vscode/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.
+",2025-11-04 20:11:29+00:00,2025-11-05 19:00:25+00:00,2025-11-05 19:00:25+00:00,1,1,1,3,0,1
+microsoft/vscode,275292,Git - fix editor tab labels and notifications when comparing references,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 19:57:47+00:00,2025-11-04 20:17:45+00:00,2025-11-04 20:17:45+00:00,40,24,1,1,0,1
+microsoft/vscode,275273,Show focus action on command execution,meganrogge,closed,True,"fixes #275264
+
+Important to enable the user to see the terminal if they want to ASAP or in cases where the command doesn't finish for some reason
+
+https://github.com/user-attachments/assets/d697df86-5f34-409c-9101-3a8bccb822d4
+
+",2025-11-04 19:28:52+00:00,2025-11-04 19:47:35+00:00,2025-11-04 19:47:35+00:00,2,10,2,1,0,0
+microsoft/vscode,275207,Use label service in detected file writes,Tyriar,closed,True,"Fixes #275037
+
+@rwoll exactly the problem I mentioned to you yesterday 😅 ",2025-11-04 17:41:47+00:00,2025-11-04 18:00:17+00:00,2025-11-04 18:00:17+00:00,3,1,1,1,1,1
+microsoft/vscode,275191,Fixes https://github.com/microsoft/vscode/issues/274796,hediet,closed,True,Fixes https://github.com/microsoft/vscode/issues/274796,2025-11-04 17:16:28+00:00,2025-11-04 17:35:33+00:00,2025-11-04 17:35:33+00:00,1,1,1,1,0,0
+microsoft/vscode,275145,Graph - fix case when the merge base is not yet fetched,lszomoru,closed,True,Fixes https://github.com/microsoft/vscode/issues/275089,2025-11-04 15:31:05+00:00,2025-11-04 15:50:24+00:00,2025-11-04 15:50:24+00:00,81,76,1,1,0,2
+microsoft/vscode,275142,Fix attach to chat not working after window reload,Copilot,closed,True,"Fixes #issue_number
+
+## Description
+
+After window reload, `lastFocusedWidget` is undefined and the existing fallback to find a widget may also fail, causing ""Attach To Chat"" to silently do nothing.
+
+Added fallback to automatically open chat view when no widget found, matching pattern in `terminal.chatAgentTools.contribution.ts`:
+
+```typescript
+let widget = this._chatWidgetService.lastFocusedWidget 
+    ?? this._chatWidgetService.getWidgetsByLocations(ChatAgentLocation.Chat)
+        ?.find(w => w.attachmentCapabilities.supportsTerminalAttachments);
+
+// Open chat view if not found
+if (!widget) {
+    widget = await showChatView(this._viewsService, this._layoutService);
+}
+
+if (!widget) {
+    return;
+}
+```
+
+**Changes:**
+- Added `IViewsService` and `IWorkbenchLayoutService` to `DecorationAddon` constructor
+- Call `showChatView()` when widget unavailable
+- Early return if chat cannot be opened
+
+Co-authored-by: meganrogge <29464607+meganrogge@users.noreply.github.com>
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>attach to chat sometimes does not work</issue_title>
+> <issue_description>Happens after reloading the window, requires clicking into chat input first</issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> <comment_new><author>@meganrogge</author><body>
+> Happens when widget is undefined here I believe 
+> 
+> https://github.com/microsoft/vscode/blob/05a37b7e27695d002e674c59e1a6b763c700b365/src/vs/workbench/contrib/terminal/browser/xterm/decorationAddon.ts#L535</body></comment_new>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#275140
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+✨ Let Copilot coding agent [set things up for you](https://github.com/microsoft/vscode/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.
+",2025-11-04 15:14:31+00:00,2025-11-04 23:48:22+00:00,2025-11-04 23:48:22+00:00,18,4,1,5,0,3
+microsoft/vscode,275075,Support .git in repo cache and improve language,alexr00,closed,True,Done while testing https://github.com/microsoft/vscode/issues/274930,2025-11-04 10:47:51+00:00,2025-11-04 15:48:24+00:00,2025-11-04 15:48:24+00:00,80,8,3,2,0,0
+microsoft/vscode,275072,prompt files: set editor.insertSpaces: true,aeschli,closed,True,"Prompt files can not use tabs due to the YAML in the front matter header
+
+Fixes #275064
+",2025-11-04 10:32:57+00:00,2025-11-04 10:52:12+00:00,2025-11-04 10:52:12+00:00,9,0,1,1,0,1
+microsoft/vscode,275071,Git - adopt new QuickInputButton location,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 10:31:12+00:00,2025-11-04 10:49:32+00:00,2025-11-04 10:49:32+00:00,5,7,1,1,0,1
+microsoft/vscode,275057,fix inappropriate height of terminal chat output widget,meganrogge,closed,True,"fix #275051
+
+This looks bad, thus fixing ASAP
+
+<img width=""499"" height=""557"" alt=""Screenshot 2025-11-04 at 5 24 00 AM"" src=""https://github.com/user-attachments/assets/7c193c17-8e4e-43a4-826b-9d8d0ae531ce"" />
+
+",2025-11-04 10:03:46+00:00,2025-11-04 10:24:37+00:00,2025-11-04 10:24:37+00:00,0,1,1,1,0,0
+microsoft/vscode,274998,fix a few thinking rendering issues and cleanup,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+fix https://github.com/microsoft/vscode/issues/274993",2025-11-04 07:47:53+00:00,2025-11-04 08:08:37+00:00,2025-11-04 08:08:37+00:00,10,10,2,1,1,1
+microsoft/vscode,274973,Fix terminal command attachment after reload for non-Copilot terminals,Copilot,closed,True,"## Description
+
+Fixes #issue (command.id undefined after reload preventing chat attachment)
+
+After window reload, clicking ""Attach to Chat"" on terminal command decorations failed for manually-run commands because `command.id` was undefined. Only Copilot-initiated commands received IDs via `setNextCommandId`.
+
+## Changes
+
+- **`terminalInstance.ts`**: Generate UUID for manually-run commands when they start (via `onCommandStarted` listener). The ID is synchronized to both renderer and ptyHost using `setNextCommandId`, ensuring the same ID is used everywhere and persists across reloads.
+
+IDs flow through existing infrastructure: command starts → ID generated in renderer → synced to ptyHost via `setNextCommandId` → command finishes → serialized with terminal state → restored on reload → available for chat attachment URI.
+
+## How to Test
+
+1. Open terminal, run any command
+2. Click command decoration → ""Attach to Chat""
+3. Reload window (Cmd+R)
+4. Click attachment in chat
+5. Command should focus (previously would fail)
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>on reload, clicking attach to chat action does not focus command</issue_title>
+> <issue_description>1. click command decoration
+> 2. attach to chat
+> 3. reload window
+> 4. click attachment
+> 5. 🐛 doesn't focus command </issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> <comment_new><author>@meganrogge</author><body>
+> that's because `command.id` is undefined here after reload for non-copilot terminals. perhaps because `await this._processManager.setNextCommandId(commandLine, commandId);` is only called for copilot terminals and we need to do something similar on command finished for the others too so it's stored in the ptyHost's serialized shell integration addon
+> 
+> https://github.com/microsoft/vscode/blob/a016bfe59358abc6b169895ef365ccfc7264c0af/src/vs/workbench/contrib/terminal/browser/xterm/decorationAddon.ts#L534</body></comment_new>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#274955
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+✨ Let Copilot coding agent [set things up for you](https://github.com/microsoft/vscode/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.
+",2025-11-04 03:05:15+00:00,2025-11-04 20:36:11+00:00,2025-11-04 20:36:11+00:00,9,0,1,7,2,1
+microsoft/vscode,274966,fix implicit context showing up on empty webviews,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+cc @alexr00 ref the random `implicit` chat context being added on non-file web views/editors (like settings)
+
+<img width=""304"" height=""239"" alt=""image (44)"" src=""https://github.com/user-attachments/assets/f9e3ed58-279e-4925-a25b-a61d67706e56"" />
+
+",2025-11-04 02:14:29+00:00,2025-11-04 06:00:20+00:00,2025-11-04 06:00:20+00:00,4,0,1,1,0,1
+microsoft/vscode,274963,"if no focused chat widget, get the first one for chat",meganrogge,closed,True,fix #274960,2025-11-04 02:11:01+00:00,2025-11-04 10:16:21+00:00,2025-11-04 10:16:21+00:00,1,1,1,3,0,1
+microsoft/vscode,274954,ensure command id defined for non copilot terminals,meganrogge,closed,True,"Fixes the attach to chat feature
+
+cc @tyriar",2025-11-04 01:36:58+00:00,2025-11-04 03:15:31+00:00,2025-11-04 03:15:31+00:00,24,26,5,7,0,2
+microsoft/vscode,274951,fix setting description,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 01:29:28+00:00,2025-11-04 02:01:52+00:00,2025-11-04 02:01:52+00:00,1,1,1,1,0,0
+microsoft/vscode,274943,Include custom mode instructions for subagents,roblourens,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 01:07:52+00:00,2025-11-04 02:08:12+00:00,2025-11-04 02:08:12+00:00,14,3,1,1,0,2
+microsoft/vscode,274942,fix css of terminal chat output,meganrogge,closed,True,fix #274306,2025-11-04 00:57:02+00:00,2025-11-04 02:00:37+00:00,2025-11-04 02:00:36+00:00,14,31,2,3,0,2
+microsoft/vscode,274941,add better thinking styles and fix single line issue,justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+fix https://github.com/microsoft/vscode/issues/269079
+
+<img width=""472"" height=""402"" alt=""Screenshot 2025-11-03 at 4 50 13 PM"" src=""https://github.com/user-attachments/assets/d5637989-e3c6-4205-bc0f-e1685865422f"" />
+
+<img width=""472"" height=""202"" alt=""Screenshot 2025-11-03 at 4 50 02 PM"" src=""https://github.com/user-attachments/assets/44fd2baa-682c-49c7-aed0-a7292cbbb16b"" />
+",2025-11-04 00:52:22+00:00,2025-11-04 01:28:36+00:00,2025-11-04 01:28:36+00:00,40,2,1,1,0,3
+microsoft/vscode,274931,log the edit error,amunger,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+give some information where edits do not go through, e.g. https://github.com/microsoft/vscode/issues/274360#event-20645092432
+",2025-11-04 00:21:10+00:00,2025-11-05 19:34:18+00:00,2025-11-05 19:34:18+00:00,4,1,1,2,0,2
+microsoft/vscode,274929,Avoid extra `toDisposable` call,mjbvz,closed,True,Minor nit noticed while debugging ,2025-11-04 00:12:01+00:00,2025-11-04 00:32:04+00:00,2025-11-04 00:32:04+00:00,3,4,1,1,0,0
+microsoft/vscode,274927,mcp: fix focus trap in tool error hover,connor4312,closed,True,"Closes #262332
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-04 00:11:10+00:00,2025-11-04 00:54:37+00:00,2025-11-04 00:54:37+00:00,3,1,1,1,0,0
+microsoft/vscode,274922,mcp: add better validation for extension-contributed servers,connor4312,closed,True,"Closes #271751
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 23:57:55+00:00,2025-11-04 06:00:43+00:00,2025-11-04 06:00:43+00:00,28,3,2,2,2,1
+microsoft/vscode,274920,Add tool for searching settings UI,TylerLeonhardt,closed,True,"Since the input box is a monaco editor, it struggles.
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 23:55:16+00:00,2025-11-04 00:28:27+00:00,2025-11-04 00:28:27+00:00,18,18,1,2,1,1
+microsoft/vscode,274919,chat: clear todo list when request response is cancelled,bhavyaus,closed,True,"Fixes:
+https://github.com/microsoft/vscode/issues/274729",2025-11-03 23:48:37+00:00,2025-11-04 00:13:43+00:00,2025-11-04 00:13:43+00:00,6,0,1,1,1,1
+microsoft/vscode,274916,edits: fix wrong type in notebook edits,connor4312,closed,True,"Closes #274908
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 23:39:10+00:00,2025-11-03 23:58:18+00:00,2025-11-03 23:58:18+00:00,33,19,4,1,0,4
+microsoft/vscode,274911,edits: add additional msbuild files to edits patterns,connor4312,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 23:03:52+00:00,2025-11-03 23:26:24+00:00,2025-11-03 23:26:24+00:00,1,1,1,1,0,1
+microsoft/vscode,274905,chore: suppress node warnings,rzhao271,closed,True,Suppresses the warnings now that we have tried to resolve them.,2025-11-03 22:47:54+00:00,2025-11-04 03:45:30+00:00,2025-11-04 03:45:30+00:00,6,2,2,2,2,0
+microsoft/vscode,274902,Handle tree sitter exception in file writes,Tyriar,closed,True,"Fixes #274889
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 22:38:37+00:00,2025-11-03 23:06:09+00:00,2025-11-03 23:06:09+00:00,11,1,1,1,0,1
+microsoft/vscode,274900,Graph - use list active selection color variables,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 22:33:27+00:00,2025-11-03 23:02:55+00:00,2025-11-03 23:02:55+00:00,14,14,1,1,0,1
+microsoft/vscode,274899,Hide some internals of `ChatEditorUri`,mjbvz,closed,True,"We don't need to export this namespace anymore
+",2025-11-03 22:31:44+00:00,2025-11-03 22:52:31+00:00,2025-11-03 22:52:31+00:00,6,6,1,1,0,1
+microsoft/vscode,274898,[json] update service,aeschli,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 22:28:33+00:00,2025-11-03 22:54:39+00:00,2025-11-03 22:54:39+00:00,5,5,2,1,0,0
+microsoft/vscode,274897,edits: fix bad undo/redo around messages with no edits,connor4312,closed,True,"Handles cases around edits with no contained undo stops
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 22:27:34+00:00,2025-11-03 23:07:02+00:00,2025-11-03 23:07:02+00:00,92,38,2,2,0,3
+microsoft/vscode,274893,"still show focus action even if no `command` so it's available for basic, none execute strategies",meganrogge,closed,True,"fixes #274876
+
+tested using powerlevel10k with zsh that has basic shell integration
+
+cc @Tyriar ",2025-11-03 21:59:00+00:00,2025-11-03 22:18:19+00:00,2025-11-03 22:18:19+00:00,14,16,1,1,0,2
+microsoft/vscode,274892,Fix leak for ContributedChatSessionData,mjbvz,closed,True,"Fixes #272405
+",2025-11-03 21:57:19+00:00,2025-11-03 22:16:33+00:00,2025-11-03 22:16:32+00:00,18,19,1,1,0,1
+microsoft/vscode,274886,add workspace setting for output location hidden,meganrogge,closed,True,,2025-11-03 21:42:56+00:00,2025-11-03 22:02:49+00:00,2025-11-03 22:02:49+00:00,2,1,1,1,0,0
+microsoft/vscode,274883,make visible if contains model picker,amunger,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+the model picker is no longer visible in notebooks since it was moved to the attachments container in https://github.com/microsoft/vscode/commit/3628ca55162af9f8ad490a0ec64f778b40277d00#diff-5d3a76b247712e1fafd2b106510dac31c6d1d27530e25b47034eac7ab5bf392a, and notebook inline does not have any attachments.",2025-11-03 21:34:27+00:00,2025-11-04 15:40:33+00:00,2025-11-04 15:40:33+00:00,1,1,1,1,1,1
+microsoft/vscode,274881,"if part is hidden, like a failed apply patch, do not break thinking",justschen,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 20:58:28+00:00,2025-11-03 21:17:08+00:00,2025-11-03 21:17:08+00:00,1,1,1,1,1,1
+microsoft/vscode,274869,clean up,meganrogge,closed,True,"from #274417
+
+cc @tyriar",2025-11-03 20:19:06+00:00,2025-11-03 20:53:46+00:00,2025-11-03 20:53:46+00:00,4,24,2,1,0,0
+microsoft/vscode,274865,Fallback for detected agent (to identify contributed agents),rebornix,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 20:02:17+00:00,2025-11-03 22:34:24+00:00,2025-11-03 22:34:24+00:00,5,5,2,2,3,1
+microsoft/vscode,274864,Fix leak in selection box md rendering,mjbvz,closed,True,"Fixes #269352
+
+",2025-11-03 20:01:43+00:00,2025-11-03 20:42:24+00:00,2025-11-03 20:42:24+00:00,10,5,1,1,1,1
+microsoft/vscode,274862,Fix flicker in focus terminal,Tyriar,closed,True,"Fixes #274314
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 19:55:03+00:00,2025-11-03 20:50:16+00:00,2025-11-03 20:50:16+00:00,5,1,1,1,0,1
+microsoft/vscode,274861,fix terminal tabs height,meganrogge,closed,True,"fixes #274319
+
+
+https://github.com/user-attachments/assets/195a78d2-b147-4eea-9664-4d6c9017d473
+
+
+",2025-11-03 19:50:38+00:00,2025-11-03 20:40:01+00:00,2025-11-03 20:40:01+00:00,3,5,2,2,0,1
+microsoft/vscode,274858,Avoid cast,mjbvz,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 19:43:45+00:00,2025-11-03 20:13:11+00:00,2025-11-03 20:13:11+00:00,3,3,1,1,1,0
+microsoft/vscode,274849,rm margin from chat output element,meganrogge,closed,True,"fix #274308
+
+<img width=""279"" height=""103"" alt=""Screenshot 2025-11-03 at 2 30 49 PM"" src=""https://github.com/user-attachments/assets/e0f7765d-39b5-497c-a269-f63dfd7753ba"" />
+",2025-11-03 19:31:51+00:00,2025-11-03 20:00:13+00:00,2025-11-03 20:00:13+00:00,4,0,1,1,0,1
+microsoft/vscode,274848,Fix agent sessions reporting to status,osortega,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+
+Fixes: https://github.com/microsoft/vscode/issues/271496
+
+This happened because existing widgets will not register the progress listener when the model change. It will only register the title listener
+
+Bonus refactor: moving a listener for the chatview to the sessions view",2025-11-03 19:30:26+00:00,2025-11-03 21:05:13+00:00,2025-11-03 21:05:13+00:00,22,49,3,2,1,1
+microsoft/vscode,274847,Enable Linux policy generation step in CI,pwang347,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+Validated via https://dev.azure.com/monacotools/Monaco/_build/results?buildId=370663&view=results",2025-11-03 19:28:23+00:00,2025-11-03 21:06:54+00:00,2025-11-03 21:06:54+00:00,8,1,2,3,1,0
+microsoft/vscode,274845,Fix text selection artifacts in expanded terminal tool output,Copilot,closed,True,"
+<img width=""647"" height=""465"" alt=""Screenshot 2025-11-03 at 2 58 38 PM"" src=""https://github.com/user-attachments/assets/4cdd6f93-51e2-410c-bdf3-c649b67e377f"" />
+
+
+## Fix for Unexpected Lines in Expanded Terminal Tool
+
+### Problem
+When selecting text in the expanded terminal output within chat, unexpected gaps/lines appeared between selected text. This was caused by xterm.js's serialize addon applying inline styles with `height` and `line-height` properties to the HTML output.
+
+### Root Cause
+- xterm.js's serialize addon generates HTML with inline styles on div and span elements
+- These inline styles include both `height: 18.2px` and `line-height: 18.2px`
+- These inline styles have higher CSS specificity than regular CSS rules
+- When selecting text across multiple divs with fixed heights, the browser shows gaps
+
+### Solution
+Override both inline height and line-height properties:
+```css
+.chat-terminal-output div,
+.chat-terminal-output span {
+	height: auto !important;
+	line-height: normal !important;
+}
+```
+
+This ensures proper text selection without unexpected gaps by:
+1. Setting height to auto so divs don't have fixed heights
+2. Normalizing line-height to match the font-size (12px)
+3. Targeting both div and span elements that xterm generates
+
+### Changes
+- Modified: `src/vs/workbench/contrib/chat/browser/chatContentParts/media/chatTerminalToolProgressPart.css`
+  - Updated CSS rule to override both height and line-height
+  - Added span selector to cover all xterm-generated elements
+
+Follows up on #273175
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>Unexpected lines when selecting text in expanded terminal tool</issue_title>
+> <issue_description>Following up on https://github.com/microsoft/vscode/pull/273175
+> 
+> <img width=""644"" height=""309"" alt=""Image"" src=""https://github.com/user-attachments/assets/f082e9f1-8516-423d-9f7e-163bd3db6a01"" />
+> 
+> Probably due to this 18.2px line height:
+> 
+> <img width=""630"" height=""276"" alt=""Image"" src=""https://github.com/user-attachments/assets/9bbc527d-a240-481e-a304-61c38ac17c6f"" /></issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> <comment_new><author>@Tyriar</author><body>
+> If/when we switch to xterm.js this would get fixed</body></comment_new>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#274310
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",2025-11-03 19:15:00+00:00,2025-11-04 00:23:45+00:00,2025-11-04 00:23:45+00:00,6,0,1,5,2,1
+microsoft/vscode,274841,Use 'Custom Agents' for user defined agents,aeschli,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 18:48:30+00:00,2025-11-03 19:06:54+00:00,2025-11-03 19:06:53+00:00,7,7,1,1,0,0
+microsoft/vscode,274840,edits: transfer edit session to committed agent chat session,connor4312,closed,True,"Working set and edit history transfers, however chat pills do not yet
+show up since they don't survive the chat history transfer.
+
+Refs #274198 cc @joshspicer
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 18:47:09+00:00,2025-11-03 19:06:10+00:00,2025-11-03 19:06:10+00:00,70,44,11,1,0,2
+microsoft/vscode,274831,Make sure to dispose of provided session listeners,mjbvz,closed,True,"Fixes #272404
+
+",2025-11-03 18:20:47+00:00,2025-11-03 18:39:51+00:00,2025-11-03 18:39:51+00:00,4,6,1,1,0,4
+microsoft/vscode,274828,Add chat session title to View Chat Terminals action,Copilot,closed,True,"## Adding chat session title to ""View Chat Terminals"" action ✅
+
+This PR addresses the issue of adding chat session titles to the ""View Chat Terminals"" action to help users differentiate terminals across different chat sessions.
+
+### Implementation Status
+
+- [x] Explore the codebase and understand the ""View Chat Terminals"" action structure
+- [x] Identify how to retrieve chat session titles from terminal instances
+- [x] Start the build process to validate changes
+- [x] Add method to ITerminalChatService to expose the terminal-to-session-ID mapping
+- [x] Update the ShowChatTerminalsAction to include session titles in the quick pick
+- [x] Address code review feedback (optimize lookup, fix whitespace)
+- [x] Fix undefined chatModel issue with fallback to persisted title
+- [x] Fix chat session ID and tool session ID alignment issue
+- [x] Fix memory leak in registerTerminalInstanceWithChatSession
+- [x] Validate all changes with build and linting
+- [x] Code review passed with no issues
+
+### Changes Summary
+
+**1. Terminal Chat Service Interface** (`src/vs/workbench/contrib/terminal/browser/terminal.ts`)
+- Added `getToolSessionIdForInstance(instance: ITerminalInstance): string | undefined` method to retrieve the tool session ID
+- Added `registerTerminalInstanceWithChatSession(chatSessionId: string, instance: ITerminalInstance): void` to register chat session association
+- Added `getChatSessionIdForInstance(instance: ITerminalInstance): string | undefined` to retrieve the chat session ID
+
+**2. Terminal Chat Service Implementation** (`src/vs/workbench/contrib/terminalContrib/chat/browser/terminalChatService.ts`)
+- Added `_toolSessionIdByTerminalInstance` reverse lookup map for O(1) performance
+- Added `_chatSessionIdByTerminalInstance` map to store chat session ID associations
+- Added `_chatSessionListenersByTerminalInstance` DisposableMap to track disposal listeners and prevent memory leaks
+- Implemented all new methods with proper lifecycle management
+- **Fixed memory leak**: `registerTerminalInstanceWithChatSession()` now checks if already registered and properly cleans up previous listeners
+
+**3. Run In Terminal Tool** (`src/vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool.ts`)
+- Updated `_initBackgroundTerminal` to register chat session ID alongside tool session ID
+- Updated `_initForegroundTerminal` to register chat session ID for both new and cached terminals
+- Updated `_restoreTerminalAssociations` to restore chat session ID mappings
+
+**4. View Chat Terminals Action** (`src/vs/workbench/contrib/terminalContrib/chat/browser/terminalChatActions.ts`)
+- Changed to use `getChatSessionIdForInstance()` instead of `getToolSessionIdForInstance()`
+- Now correctly retrieves chat session titles using the actual chat session ID
+- Maintains fallback to persisted session title for inactive sessions
+
+### Root Cause Analysis
+
+The issue was that there are two distinct IDs in the system:
+1. **Tool Session ID**: A UUID generated for each terminal tool invocation, used for linking the terminal to the chat UI component
+2. **Chat Session ID**: The actual chat session identifier, needed to retrieve the chat session title
+
+Previously, the code was trying to use the tool session ID to get the chat session title, which caused `chatModel` to be undefined because these IDs are not aligned.
+
+### Solution
+
+Added a separate mapping to track chat session IDs alongside tool session IDs. The tool session ID continues to be used for UI component linking, while the chat session ID is now properly stored and retrieved for displaying the session title.
+
+### Memory Leak Fix
+
+The initial implementation had a memory leak where multiple registrations of the same terminal instance would create duplicate disposal listeners. Fixed by:
+- Using a `DisposableMap` to track listeners per terminal instance
+- Checking if already registered with the same session ID and skipping re-registration
+- Properly cleaning up previous listeners when re-registering with a different session ID
+
+### User Experience
+
+The ""View Chat Terminals"" quick pick now displays:
+- **Label**: Terminal icon and title (e.g., `$(terminal) bash`)
+- **Description**: Chat session title and/or status (e.g., `My Chat Session • Hidden` or `My Chat Session`)
+- **Detail**: Last executed command (e.g., `Last: npm install`)
+
+This enhancement makes it easy for users to identify which chat session a terminal belongs to, especially when working with multiple chat sessions that have created terminals.
+
+### Technical Details
+
+**Performance Optimization:**
+- O(1) lookup for both tool session ID and chat session ID using reverse maps
+- All maps kept synchronized with proper lifecycle management
+
+**Robustness:**
+- Proper separation of concerns between tool session IDs and chat session IDs
+- Handles cases where chat session is no longer active by falling back to `getPersistedSessionTitle()`
+- Automatic cleanup when terminal instances are disposed
+- No memory leaks from duplicate listener registrations
+
+**Code Quality:**
+- ✅ Build: 0 compilation errors
+- ✅ ESLint: No issues  
+- ✅ Code Review: All feedback addressed
+- ✅ VS Code Guidelines: Followed all coding standards
+- ✅ Type Safety: Full TypeScript type checking maintained
+- ✅ Minimal Changes: Only modified necessary files
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",2025-11-03 18:08:50+00:00,2025-11-03 21:02:21+00:00,2025-11-03 21:02:21+00:00,82,1,4,8,2,6
+microsoft/vscode,274826,Hydrate machine id for device id in contexts where device id is undefined (i.e. web),lramos15,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 18:00:07+00:00,2025-11-03 18:20:27+00:00,2025-11-03 18:20:27+00:00,5,5,5,1,3,5
+microsoft/vscode,274825,Run OSS tool,chrmarti,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 17:59:48+00:00,2025-11-03 18:33:07+00:00,2025-11-03 18:33:07+00:00,34,680,3,1,0,2
+microsoft/vscode,274820,add (END) detection to output monitor,meganrogge,closed,True,"fixes https://github.com/microsoft/vscode-copilot-issues/issues/339
+
+cc @tyriar",2025-11-03 17:37:56+00:00,2025-11-03 17:56:27+00:00,2025-11-03 17:56:27+00:00,3,1,1,1,0,1
+microsoft/vscode,274818,[WIP] WIP address feedback on alphabetically sorting the model list,Copilot,closed,True,"- [x] Move sort from identifier to display name (metadata.name)
+- [x] Validate the change compiles correctly
+- [x] Reply to the comment with the fix
+
+## Summary
+
+Successfully addressed the feedback from PR #274815. The model list is now sorted by the display name (`metadata.name`) instead of the internal identifier string. This ensures users see models sorted alphabetically by their user-friendly names rather than by internal identifiers.
+
+**Changes made:**
+- Moved `.sort()` from before `.map()` to after `coalesce()`
+- Changed sort comparator from `m1.localeCompare(m2)` to `m1.metadata.name.localeCompare(m2.metadata.name)`
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",2025-11-03 17:25:37+00:00,2025-11-03 17:31:46+00:00,2025-11-03 17:31:46+00:00,2,2,1,2,0,0
+microsoft/vscode,274815,Alphabetically sort the model list,lramos15,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+Fix https://github.com/microsoft/vscode/issues/26728",2025-11-03 17:14:46+00:00,2025-11-03 17:52:21+00:00,2025-11-03 17:52:21+00:00,2,2,1,3,1,2
+microsoft/vscode,274812,fix bug with terminal tabs height,meganrogge,closed,True,"fix #274775
+
+came from https://github.com/microsoft/vscode/pull/274149/files#diff-6a263c9ca2488a8a6e12b56bf2346c1e2762e2f87d0377fa6bb1db1adf9808aeL268",2025-11-03 17:10:40+00:00,2025-11-03 17:40:08+00:00,2025-11-03 17:40:08+00:00,1,1,1,1,0,0
+microsoft/vscode,274811,Store data using session resource instead of id,mjbvz,closed,True,"For #274403
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 17:08:37+00:00,2025-11-03 17:51:59+00:00,2025-11-03 17:51:59+00:00,5,4,1,1,1,0
+microsoft/vscode,274809,Log session resource instead of id,mjbvz,closed,True,"For #274403
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 17:06:45+00:00,2025-11-08 12:48:40+00:00,2025-11-08 12:48:40+00:00,6,6,1,1,0,8
+microsoft/vscode,274807,More `any` removal,mjbvz,closed,True,"For #274723
+
+",2025-11-03 16:59:00+00:00,2025-11-03 17:27:29+00:00,2025-11-03 17:27:29+00:00,5,6,5,1,0,0
+microsoft/vscode,274806,bump copyright,joshspicer,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 16:47:51+00:00,2025-11-03 19:29:37+00:00,2025-11-03 19:29:37+00:00,2,2,2,2,0,0
+microsoft/vscode,274804,Make `executeCommand` return `unknown` instead of `any` by default,mjbvz,closed,True,"For #274723
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 16:45:13+00:00,2025-11-03 17:12:44+00:00,2025-11-03 17:12:44+00:00,30,19,10,1,0,3
+microsoft/vscode,274802,Get rid of a few more anys,mjbvz,closed,True,"For #274723
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 16:38:09+00:00,2025-11-03 17:03:17+00:00,2025-11-03 17:03:17+00:00,8,8,2,1,0,3
+microsoft/vscode,274801,Block cwds that have unknowns,Tyriar,closed,True,"Part of #274167
+Part of #274166
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 16:33:48+00:00,2025-11-03 17:18:04+00:00,2025-11-03 17:18:04+00:00,359,6,2,3,0,3
+microsoft/vscode,274800,SCM - set min height and expand repository when toggling the setting,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 16:32:18+00:00,2025-11-03 17:07:54+00:00,2025-11-03 17:07:54+00:00,7,0,1,2,0,2
+microsoft/vscode,274798,"add experimental, experiment to `outputLocation`",meganrogge,closed,True,Part of https://github.com/microsoft/vscode-internalbacklog/issues/6162,2025-11-03 16:30:45+00:00,2025-11-03 16:51:04+00:00,2025-11-03 16:51:04+00:00,5,1,1,1,0,0
+microsoft/vscode,274797,Require Window Reload for extension unification,benibenj,closed,True,"```Copilot Generated Description:``` Implement changes to require a window reload for the extension unification feature, including updates to configuration validation and extension enablement logic.
+
+https://github.com/microsoft/vscode-internalbacklog/issues/6073",2025-11-03 16:30:41+00:00,2025-11-03 16:54:05+00:00,2025-11-03 16:54:05+00:00,26,14,6,1,0,2
+microsoft/vscode,274794,Move chat context provider into chat namespace,alexr00,closed,True,,2025-11-03 16:15:56+00:00,2025-11-03 16:35:36+00:00,2025-11-03 16:35:36+00:00,5,5,2,1,0,0
+microsoft/vscode,274791,prevent duplicate chat terminal focus actions from being added,meganrogge,closed,True,fixes #274728,2025-11-03 16:12:03+00:00,2025-11-03 16:35:11+00:00,2025-11-03 16:35:11+00:00,9,1,1,1,0,0
+microsoft/vscode,274786,SCM - use unicode codes in labels,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 15:43:21+00:00,2025-11-03 16:02:25+00:00,2025-11-03 16:02:25+00:00,7,7,3,1,0,0
+microsoft/vscode,274782,fix extension unification remote setup,benibenj,closed,True,"```Copilot Generated Description:``` Update the logic to check for the completion extension installation on both remote and local environments. Adjust the condition to determine if the extension is disabled by unification.
+
+",2025-11-03 15:13:49+00:00,2025-11-03 15:34:56+00:00,2025-11-03 15:34:56+00:00,4,3,1,1,0,0
+microsoft/vscode,274780,prompt files: update name attribute on rename file,aeschli,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 15:00:41+00:00,2025-11-03 15:36:17+00:00,2025-11-03 15:36:17+00:00,40,9,3,1,0,2
+microsoft/vscode,274779,Update milestone,chrmarti,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 14:59:46+00:00,2025-11-03 15:31:37+00:00,2025-11-03 15:31:37+00:00,5,5,5,1,0,1
+microsoft/vscode,274778,promptFilePicker: polish,aeschli,closed,True,Feedback from https://github.com/microsoft/vscode/pull/274755,2025-11-03 14:57:46+00:00,2025-11-03 15:24:26+00:00,2025-11-03 15:24:25+00:00,12,12,2,1,0,0
+microsoft/vscode,274777,agent sessions - offer action to toggle to the new single view,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 14:57:23+00:00,2025-11-03 15:28:16+00:00,2025-11-03 15:28:15+00:00,48,1,2,1,0,2
+microsoft/vscode,274776,Git - improve compare reference notification,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 14:55:08+00:00,2025-11-03 15:13:40+00:00,2025-11-03 15:13:40+00:00,12,14,1,1,0,2
+microsoft/vscode,274771,SCM - refresh repository tree on checkout,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 14:45:27+00:00,2025-11-03 15:04:21+00:00,2025-11-03 15:04:21+00:00,14,0,1,1,0,1
+microsoft/vscode,274769,SCM - improve labels incoming/outgoing resources,lszomoru,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 14:39:15+00:00,2025-11-03 14:58:20+00:00,2025-11-03 14:58:20+00:00,24,7,2,1,0,2
+microsoft/vscode,274765,Adopt @vscode/proxy-agent 0.36.0,chrmarti,closed,True,https://github.com/microsoft/vscode/pull/274631,2025-11-03 14:29:18+00:00,2025-11-03 16:05:25+00:00,2025-11-03 16:05:25+00:00,36,34,8,2,1,1
+microsoft/vscode,274761,Add configurable extension download timeout setting,Copilot,closed,True,"Corporate proxies with security scanning can stall initial data transfer for 60+ seconds, causing extension installation failures with the hardcoded 10-second timeout.
+
+## Changes
+
+**Configuration** (`src/vs/workbench/contrib/extensions/browser/extensions.contribution.ts`)
+- Added `extensions.requestTimeout` setting (default: 60000ms, min: 0)
+- Scoped specifically to extension downloads from the Marketplace
+- Registered in extensions contribution following VS Code patterns
+- Tagged as using online services with APPLICATION scope
+
+**Extension Gallery Service** (`src/vs/platform/extensionManagement/common/extensionGalleryService.ts`)
+- Replaced hardcoded `REQUEST_TIME_OUT = 10_000` with `DEFAULT_REQUEST_TIMEOUT = 60000` constant
+- Added `getRequestTimeout()` to read from `extensions.requestTimeout` configuration with fallback to default
+- Updated 4 HTTP request sites: metadata fetch, asset downloads (primary/fallback), control manifest fetch
+
+## Usage
+
+```json
+{
+  ""extensions.requestTimeout"": 90000  // 90 seconds
+}
+```
+
+Set to 0 to disable timeout.
+
+Addresses @chrmarti's feedback to increase default before adding configurability and @sandy081's feedback to scope the setting to extensions only rather than making it a general HTTP setting.
+
+<!-- START COPILOT CODING AGENT SUFFIX -->
+
+
+
+<details>
+
+<summary>Original prompt</summary>
+
+> 
+> ----
+> 
+> *This section details on the original issue you should resolve*
+> 
+> <issue_title>Add setting for electron request timeout, currently 10000ms, used when installing extensions</issue_title>
+> <issue_description><!-- ⚠️⚠️ Do Not Delete This! feature_request_template ⚠️⚠️ -->
+> <!-- Please read our Rules of Conduct: https://opensource.microsoft.com/codeofconduct/ -->
+> <!-- Please search existing issues to avoid creating duplicates. -->
+> 
+> <!-- Describe the feature you'd like. -->
+> I'd like to install VS Code extensions like Copilot and Python. The network path traverses a corporate proxy server that performs various scans etc. before it relinquishes any data. This process results in a 60+ second ""stall"" at the start of the download.  VS Code always gives up after 10 seconds. A sample error is shown next:
+> ```
+> 2025-06-24 16:06:52.654 [error] [Window] Request timeout after 10000ms: Error: Request timeout after 10000ms
+> at Timeout.<anonymous> (file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:116:27676)
+> at listOnTimeout (node:internal/timers:588:17)
+> at process.processTimers (node:internal/timers:523:7)
+> 2025-06-24 16:06:54.684 [trace] [Network] 
+> ```
+> Please expose the 10000ms setting so it could be increased as needed. Thanks in advance for considering this.</issue_description>
+> 
+> ## Comments on the Issue (you are @copilot in this section)
+> 
+> <comments>
+> <comment_new><author>@chrmarti</author><body>
+> @sandy081 Could this be a regression from https://github.com/microsoft/vscode/commit/8e2a65c89f7c69cf3be53c6c597d3bd5be07ead0? Can we increase this before adding another setting?</body></comment_new>
+> </comments>
+> 
+
+
+</details>
+
+- Fixes microsoft/vscode#258236
+
+<!-- START COPILOT CODING AGENT TIPS -->
+---
+
+💬 We'd love your input! Share your thoughts on Copilot coding agent in our [2 minute survey](https://gh.io/copilot-coding-agent-survey).
+",2025-11-03 14:16:52+00:00,2025-11-05 11:15:33+00:00,2025-11-05 11:15:32+00:00,20,8,3,5,2,7
+microsoft/vscode,274758,remove proposedAPI check for chatAgent contributions,aeschli,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 14:06:52+00:00,2025-11-03 14:34:25+00:00,2025-11-03 14:34:25+00:00,0,4,1,1,0,1
+microsoft/vscode,274756,Add keybinding to skip button,Tyriar,closed,True,"Fixes #274654
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 14:04:02+00:00,2025-11-03 14:42:22+00:00,2025-11-03 14:42:22+00:00,8,8,1,2,0,1
+microsoft/vscode,274755,manage agents: use eye-closed icon to mark invisible,aeschli,closed,True,,2025-11-03 14:02:03+00:00,2025-11-03 14:20:53+00:00,2025-11-03 14:20:52+00:00,173,222,2,3,0,12
+microsoft/vscode,274754,enable inline chat v2 for team selfhost,jrieken,closed,True,,2025-11-03 14:00:47+00:00,2025-11-03 14:19:46+00:00,2025-11-03 14:19:46+00:00,1,14,1,1,0,1
+microsoft/vscode,274753,Ensure SI capabilities are added ASAP,Tyriar,closed,True,"There was a race condition causing ext host API events to not fire when SI got activated before the process was launched which is the case specifically for tasks now.
+
+Fixes #272945
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 13:55:44+00:00,2025-11-03 14:27:25+00:00,2025-11-03 14:27:25+00:00,4,3,1,1,0,0
+microsoft/vscode,274747,Add AI tools to command allow list,Tyriar,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 13:12:00+00:00,2025-11-03 14:06:25+00:00,2025-11-03 14:06:25+00:00,10,0,1,1,0,1
+microsoft/vscode,274743,Adopt SingleOrMany in tasks/terminal,Tyriar,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 13:03:09+00:00,2025-11-03 14:27:11+00:00,2025-11-03 14:27:11+00:00,56,44,21,2,0,2
+microsoft/vscode,274742,Adopt MaybePromise in terminal,Tyriar,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 12:45:56+00:00,2025-11-03 13:06:23+00:00,2025-11-03 13:06:23+00:00,17,14,10,1,0,1
+microsoft/vscode,274732,cleanup any-usages,jrieken,closed,True,https://github.com/microsoft/vscode/issues/274723,2025-11-03 11:57:46+00:00,2025-11-03 13:45:30+00:00,2025-11-03 13:45:30+00:00,63,80,21,2,0,2
+microsoft/vscode,274730,"add ""don't ask again"" option for inline chat to panel chat tool",jrieken,closed,True,,2025-11-03 11:38:21+00:00,2025-11-03 13:22:41+00:00,2025-11-03 13:22:40+00:00,43,11,1,2,0,2
+microsoft/vscode,274722,debt - enable `no-restricted-syntax` for all our code and use local overrides,bpasero,closed,True,"<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 11:12:22+00:00,2025-11-03 11:32:53+00:00,2025-11-03 11:32:53+00:00,292,132,84,1,1,0
+microsoft/vscode,274721,"Revert ""Issue #210694 add hoverforeground and hoverbackground to activity bars""",benibenj,closed,True,"```Copilot Generated Description:``` Revert the addition of hoverForeground and hoverBackground settings for activity bars and activityBarTop. This change removes the associated color definitions and CSS styles that were previously introduced for hover effects.
+
+",2025-11-03 11:11:27+00:00,2025-11-03 11:29:54+00:00,2025-11-03 11:29:54+00:00,8,58,6,1,1,0
+microsoft/vscode,274719,Only disable tree sitter parser/pwsh on Windows,Tyriar,closed,True,"Part of #273177
+
+<!-- Thank you for submitting a Pull Request. Please:
+* Read our Pull Request guidelines:
+  https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests
+* Associate an issue with the Pull Request.
+* Ensure that the code is up-to-date with the `main` branch.
+* Include a description of the proposed changes and how to test them.
+-->
+",2025-11-03 11:06:53+00:00,2025-11-03 11:25:06+00:00,2025-11-03 11:25:06+00:00,11,8,4,1,0,0
