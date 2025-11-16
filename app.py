@@ -21,16 +21,27 @@ class BertClassifier(nn.Module):
         logits = self.classifier(cls_token)
         return logits
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Usando dispositivo: {device}")
 
-tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
-bert = DistilBertModel.from_pretrained("distilbert-base-uncased").to(device)
-model = BertClassifier(bert_model=bert, num_classes=2, freeze_bert=False).to(device)
+# 🔥 WRAP DO CARREGAMENTO DO MODELO EM TRY/EXCEPT
+try:
+    device = torch.device("cpu")
+    print(f"Usando dispositivo: {device}")
 
-model.load_state_dict(torch.load("modelo_classifica_commit(1).pth", map_location=device))
-model.eval()
-print("Modelo carregado com sucesso!")
+    tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+    bert = DistilBertModel.from_pretrained("distilbert-base-uncased").to(device)
+
+    model = BertClassifier(bert_model=bert, num_classes=2, freeze_bert=False).to(device)
+
+    print("Carregando pesos...")
+    model.load_state_dict(torch.load("modelo_classifica_commit(1).pth", map_location=device))
+
+    model.eval()
+    print("Modelo carregado com sucesso!")
+
+except Exception as e:
+    print("\n🔥 ERRO AO INICIAR O MODELO 🔥")
+    print(e)
+    raise e
 
 def classify(message: str) -> bool:
     with torch.no_grad():
@@ -47,7 +58,6 @@ def classify(message: str) -> bool:
 def webhook():
     data = request.json
 
-    # O GitHub manda vários commits no evento push
     commits = data.get("commits", [])
 
     for c in commits:
@@ -62,6 +72,5 @@ def webhook():
 
     return jsonify({"status": "ok"}), 200
 
-
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(port=5000, debug=True)
