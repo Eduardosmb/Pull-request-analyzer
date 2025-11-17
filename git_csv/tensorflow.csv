@@ -1,0 +1,2493 @@
+﻿repo,pr_number,title,author,state,was_merged,body,created_at,closed_at,merged_at,additions,deletions,changed_files,commits,comments_count,review_comments_count
+tensorflow/tensorflow,104018,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-08 12:13:39+00:00,2025-11-08 13:48:57+00:00,2025-11-08 13:48:57+00:00,29,27,2,1,0,0
+tensorflow/tensorflow,104015,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-08 10:18:05+00:00,2025-11-08 12:08:03+00:00,2025-11-08 12:08:02+00:00,63,54,11,1,0,0
+tensorflow/tensorflow,104011,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-08 08:04:08+00:00,2025-11-08 09:33:14+00:00,2025-11-08 09:33:14+00:00,43,43,12,1,0,0
+tensorflow/tensorflow,104009,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-08 05:48:55+00:00,2025-11-08 07:42:21+00:00,2025-11-08 07:42:21+00:00,156,150,4,1,0,0
+tensorflow/tensorflow,104008,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-08 05:48:49+00:00,2025-11-08 07:30:35+00:00,2025-11-08 07:30:35+00:00,38,38,12,1,0,0
+tensorflow/tensorflow,104001,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-08 04:36:13+00:00,2025-11-08 06:24:20+00:00,2025-11-08 06:24:20+00:00,2,4,1,1,0,0
+tensorflow/tensorflow,103993,[StableHLO Optim] Coalesce adjacent concatenated splats,copybara-service[bot],closed,True,"[StableHLO Optim] Coalesce adjacent concatenated splats
+
+`Pattern: concat(splat_a, splat_a, X) -> concat(splat_a_resize, X)`
+",2025-11-07 23:16:24+00:00,2025-11-08 16:27:57+00:00,2025-11-08 16:27:57+00:00,154,2,1,1,0,0
+tensorflow/tensorflow,103992,[XLA] Migrate dot_operation_test to use PJRT,copybara-service[bot],closed,True,"[XLA] Migrate dot_operation_test to use PJRT
+",2025-11-07 22:58:18+00:00,2025-11-07 23:31:31+00:00,2025-11-07 23:31:31+00:00,360,441,2,1,0,0
+tensorflow/tensorflow,103986,Allow DCE side-effecting custom calls,copybara-service[bot],closed,True,"Allow DCE side-effecting custom calls
+",2025-11-07 21:28:06+00:00,2025-11-08 02:02:56+00:00,2025-11-08 02:02:55+00:00,9,1,1,1,0,0
+tensorflow/tensorflow,103982,Add `--repo_env=HERMETIC_CUDA_UMD_VERSION=12.8.1` for nightly TF wheel builds.,copybara-service[bot],closed,True,"Add `--repo_env=HERMETIC_CUDA_UMD_VERSION=12.8.1` for nightly TF wheel builds.
+
+This change is made to pass the correct UMD version (`570.124.06`) for KMD version on the machine (`570.86.15`)
+",2025-11-07 19:29:47+00:00,2025-11-07 21:06:27+00:00,2025-11-07 21:06:27+00:00,1,1,1,1,1,0
+tensorflow/tensorflow,103981,downgrade error message to warning,copybara-service[bot],closed,True,"downgrade error message to warning
+
+Reverts 08cfeaf6e86a411d0f9605a33dc528fdc93db072
+",2025-11-07 19:16:37+00:00,2025-11-07 20:05:22+00:00,2025-11-07 20:05:22+00:00,2,1,1,1,0,0
+tensorflow/tensorflow,103963,Reverts 3f575133c691e8bbecc7e1aa36b20c6535c6b57e,copybara-service[bot],closed,True,"Reverts 3f575133c691e8bbecc7e1aa36b20c6535c6b57e
+",2025-11-07 16:25:48+00:00,2025-11-07 19:38:11+00:00,2025-11-07 19:38:11+00:00,78,4,4,1,0,0
+tensorflow/tensorflow,103939,Introduce `GpuAotCompilationResult`,copybara-service[bot],closed,True,"Introduce `GpuAotCompilationResult`
+
+This will be created by the gpu_compiler, and used for the be used for the new AOT / runtime split logic.
+",2025-11-07 14:26:19+00:00,2025-11-07 16:39:15+00:00,2025-11-07 16:39:14+00:00,299,0,3,1,0,0
+tensorflow/tensorflow,103938,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 14:21:37+00:00,2025-11-07 16:06:51+00:00,2025-11-07 16:06:50+00:00,31,30,3,1,0,0
+tensorflow/tensorflow,103936,[XLA:GPU] Make BufferDebugLog generic over the entry type.,copybara-service[bot],closed,True,"[XLA:GPU] Make BufferDebugLog generic over the entry type.
+
+The goal of the cl is to make BufferDebugLog class entry type independent.
+In the nearest future we would like to extend amount of data we collect on the device side by different buffer debug kernels. Checksum kernel needs only one value while NaN checker (would be renamed as FloatChecker in the future) requires a few more values.
+
+This change templates `ReadFromDevice` and `GetDeviceEntries` in `BufferDebugLog` to allow different entry types to be used in the debug log. The `RequiredSizeForEntries` function is also updated to accept the size of each entry.
+",2025-11-07 14:07:27+00:00,2025-11-07 23:24:13+00:00,2025-11-07 23:24:13+00:00,120,73,11,1,0,0
+tensorflow/tensorflow,103935,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 14:00:22+00:00,2025-11-07 15:54:32+00:00,2025-11-07 15:54:31+00:00,47,45,7,1,0,0
+tensorflow/tensorflow,103932,[XLA][codegen] Move checking if triton supports an HLO instruction outside of code emission,copybara-service[bot],closed,True,"[XLA][codegen] Move checking if triton supports an HLO instruction outside of code emission
+",2025-11-07 13:06:00+00:00,2025-11-07 15:29:09+00:00,2025-11-07 15:29:09+00:00,37,18,1,1,0,0
+tensorflow/tensorflow,103931,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 12:58:05+00:00,2025-11-07 14:44:25+00:00,2025-11-07 14:44:25+00:00,6,6,1,1,0,0
+tensorflow/tensorflow,103928,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 11:53:01+00:00,2025-11-07 13:39:00+00:00,2025-11-07 13:39:00+00:00,631,588,39,1,0,0
+tensorflow/tensorflow,103927,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 11:51:32+00:00,2025-11-07 13:49:42+00:00,2025-11-07 13:49:42+00:00,390,366,17,1,0,0
+tensorflow/tensorflow,103914,PR #32970: [NVIDIA GPU] Set nccl max channels to 32 for blackwell,copybara-service[bot],closed,True,"PR #32970: [NVIDIA GPU] Set nccl max channels to 32 for blackwell
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/32970
+
+📝 Summary of Changes
+Starting NCCL 2.28, nccl reduced the default max channels for collectives on blackwell from 32 to 16.
+We need to pin it to 32 in xla to avoid surprise perf regressions.
+
+🎯 Justification
+Without this, default xla will incur perf regression after nccl 2.28 on blackwell.
+
+🚀 Kind of Contribution
+🐛 Bug Fix
+
+📊 Benchmark (for Performance Improvements)
+Ran all benchmarks on blackwell and observed no perf regressions with this change.
+
+🧪 Unit Tests:
+NA
+
+🧪 Execution Tests:
+All benchmarks under tools/benchmark
+
+Copybara import of the project:
+
+--
+9da412947d8bd1af2c28bc0ece4dbe43e9119723 by TJ Xu <tjx@nvidia.com>:
+
+set nccl max channels to 32 for blackwell
+
+--
+1838ffdf04a90cfbd4f75d5ff138be395d74d6e7 by TJ Xu <tjx@nvidia.com>:
+
+Only set the cta count for blackwell only
+
+--
+53e0ec113f43556a94022634ee4bd22a08c83975 by TJ Xu <tjx@nvidia.com>:
+
+removed macro
+
+--
+ee2d6038b150b8412afcd3de54ca0f3d8dd53dde by TJ Xu <tjx@nvidia.com>:
+
+use runtime check for nccl version
+
+--
+9d68d5ca880d7afd7e458902337b16ff75fdfb43 by TJ Xu <tjx@nvidia.com>:
+
+Changed include file
+
+Merging this change closes #32970
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32970 from Tixxx:tixxx/set_max_cta_blackwell 9d68d5ca880d7afd7e458902337b16ff75fdfb43
+",2025-11-07 10:05:43+00:00,2025-11-07 11:58:19+00:00,2025-11-07 11:58:18+00:00,45,18,7,1,0,0
+tensorflow/tensorflow,103910,Move KernelMetadata into its own file,copybara-service[bot],closed,True,"Move KernelMetadata into its own file
+
+- Takes the class `KernelMetadata` from `kernel.h` and moves it into a new file `kernel_metadata.h`
+- Moves the setter and getter implementations from `kernel.cc` into `kernel_metadata.h`
+- Adds some basic unit tests
+- Fixes up dependencies in targets that depend on `KernelMetadata`
+",2025-11-07 09:45:15+00:00,2025-11-07 11:45:01+00:00,2025-11-07 11:45:01+00:00,171,60,19,1,0,0
+tensorflow/tensorflow,103909,PR #33671: fix(Triton/ROCm): Add missing createTritonGPUAllocateWarpGroups pass to pipeline,copybara-service[bot],closed,True,"PR #33671: fix(Triton/ROCm): Add missing createTritonGPUAllocateWarpGroups pass to pipeline
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33671
+
+This PR fixes the Triton compilation pipeline for ROCm by adding the `createTritonGPUAllocateWarpGroups` pass, which was missing.
+
+This pass is necessary for the `ExtractThreadDims` function to work correctly during code generation. It adds the `ttg.total-num-warps` attribute to the MLIR module, which is later consumed in `emitter_helpers.cc`. Without this pass, the compilation fails when trying to extract thread dimensions.
+
+c/ @khasanovaa @chsigg  @AleksaArsic
+
+Copybara import of the project:
+
+--
+3f9c437a9decf9f9be9c87d52486da67440b403c by Hugo Mano <hugo@zml.ai>:
+
+fix(Triton/ROCm): Add missing createTritonGPUAllocateWarpGroups pass to pipeline
+
+--
+4ec8907749e2c0de17ab5a694f2731f58435681f by Hugo Mano <hugo@zml.ai>:
+
+format
+
+Merging this change closes #33671
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33671 from hugomano:hugomano/fix-rocm-triton-compilation-pipeline 4ec8907749e2c0de17ab5a694f2731f58435681f
+",2025-11-07 09:45:13+00:00,2025-11-07 17:56:34+00:00,2025-11-07 17:56:33+00:00,4,0,1,1,0,0
+tensorflow/tensorflow,103908,[XLA:CPU] Pass MLIRContext to EmitFusionKernel.,copybara-service[bot],closed,True,"[XLA:CPU] Pass MLIRContext to EmitFusionKernel.
+",2025-11-07 08:55:41+00:00,2025-11-07 14:58:53+00:00,2025-11-07 14:58:53+00:00,24,16,8,1,0,0
+tensorflow/tensorflow,103907,Remove buffer sharing logic related to GPU SliceInput fusions,copybara-service[bot],closed,True,"Remove buffer sharing logic related to GPU SliceInput fusions
+
+These fusions were created by the horizontal fusion passes. Those have been
+deleted already.
+",2025-11-07 08:49:00+00:00,2025-11-07 11:38:17+00:00,2025-11-07 11:38:17+00:00,0,376,3,1,0,0
+tensorflow/tensorflow,103904,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 07:56:40+00:00,2025-11-07 10:39:44+00:00,2025-11-07 10:39:44+00:00,63,57,8,1,0,0
+tensorflow/tensorflow,103903,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 07:53:53+00:00,2025-11-07 10:08:35+00:00,2025-11-07 10:08:35+00:00,8,8,3,1,0,0
+tensorflow/tensorflow,103902,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 07:20:19+00:00,2025-11-07 09:03:34+00:00,2025-11-07 09:03:34+00:00,10,10,2,1,0,0
+tensorflow/tensorflow,103898,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 06:04:38+00:00,2025-11-07 07:57:06+00:00,2025-11-07 07:57:06+00:00,79,74,3,1,0,0
+tensorflow/tensorflow,103894,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 04:58:29+00:00,2025-11-07 06:55:48+00:00,2025-11-07 06:55:48+00:00,19,20,6,1,0,0
+tensorflow/tensorflow,103889,Disclaim support for small dots in YNNPACK,copybara-service[bot],closed,True,"Disclaim support for small dots in YNNPACK
+
+These are probably not that helpful to send to YNNPACK anyways, and this works around a bug where `xla_cpu_small_call` attributes result in inconsistent dot handling logic.
+",2025-11-07 03:57:31+00:00,2025-11-07 05:06:58+00:00,2025-11-07 05:06:58+00:00,7,0,1,1,0,0
+tensorflow/tensorflow,103888,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 03:49:34+00:00,2025-11-07 05:55:31+00:00,2025-11-07 05:55:31+00:00,2,1,1,1,0,0
+tensorflow/tensorflow,103885,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-07 03:38:06+00:00,2025-11-08 07:06:05+00:00,2025-11-08 07:06:05+00:00,48,46,8,1,0,0
+tensorflow/tensorflow,103876,PR #33655: [XLA:GPU] Set NCCL kernels to highest priority in cuda graph,copybara-service[bot],closed,True,"PR #33655: [XLA:GPU] Set NCCL kernels to highest priority in cuda graph
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33655
+
+📝 Summary of Changes
+This PR change the default priority for NCCL kernels in command buffer to highest priority, which is the same as when NCCL is running without cuda-graph. 
+
+🎯 Justification
+Test below workloads on GB200 clusters, the PR's perf improvements, all have perf improvements, I think we should make the default setting.  
+
+<img width=""283"" height=""155"" alt=""image"" src=""https://github.com/user-attachments/assets/377a7776-912b-42d3-a48e-a948be56c3c5"" />
+
+
+🚀 Kind of Contribution
+⚡️ Performance Improvement,
+
+🧪 Unit Tests:
+Change the default settings for command buffer command, not new feature. 
+
+
+
+Copybara import of the project:
+
+--
+e50386a638abf6e346c1c8f2ca2512d924406676 by Shawn Wang <shawnw@nvidia.com>:
+
+Set NCCL kernels to highest priority in cuda graph
+
+Merging this change closes #33655
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33655 from shawnwang18:shawnw/set_nccl_priority_highest e50386a638abf6e346c1c8f2ca2512d924406676
+",2025-11-07 01:43:06+00:00,2025-11-07 10:57:28+00:00,2025-11-07 10:57:28+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103875,Rollback of CL breaking builds,copybara-service[bot],closed,True,"Rollback of CL breaking builds
+
+Reverts ea9f8804e917315408ea9fbfd9044e33a0e556fe
+",2025-11-07 00:57:55+00:00,2025-11-07 02:45:04+00:00,2025-11-07 02:45:04+00:00,4,78,4,1,0,0
+tensorflow/tensorflow,103870,Add broadcasting APIs with support for bounded dynamism,copybara-service[bot],closed,True,"Add broadcasting APIs with support for bounded dynamism
+",2025-11-06 23:42:59+00:00,2025-11-07 20:29:02+00:00,2025-11-07 20:29:02+00:00,805,0,1,1,0,0
+tensorflow/tensorflow,103868,Integrate StableHLO at openxla/stablehlo@3f27c53c,copybara-service[bot],closed,True,"Integrate StableHLO at openxla/stablehlo@3f27c53c
+",2025-11-06 23:29:03+00:00,2025-11-07 18:53:38+00:00,2025-11-07 18:53:38+00:00,38,634,2,1,0,0
+tensorflow/tensorflow,103865,Reenable framework_build_test as presubmit,copybara-service[bot],closed,True,"Reenable framework_build_test as presubmit
+",2025-11-06 23:03:34+00:00,2025-11-07 06:29:04+00:00,2025-11-07 06:29:04+00:00,0,1,1,1,0,0
+tensorflow/tensorflow,103861,Replace ios_x86_64 with ios_arm64,copybara-service[bot],closed,True,"Replace ios_x86_64 with ios_arm64
+",2025-11-06 21:53:47+00:00,2025-11-06 23:05:57+00:00,2025-11-06 23:05:57+00:00,2,2,1,1,0,0
+tensorflow/tensorflow,103859,[xla:gpu] Add command buffer + profiling TraceMe warning,copybara-service[bot],closed,True,"[xla:gpu] Add command buffer + profiling TraceMe warning
+",2025-11-06 21:25:13+00:00,2025-11-06 22:06:15+00:00,2025-11-06 22:06:15+00:00,2,1,1,1,0,0
+tensorflow/tensorflow,103857,Reuse session in tests,copybara-service[bot],closed,True,"Reuse session in tests
+",2025-11-06 20:53:32+00:00,2025-11-07 07:30:39+00:00,2025-11-07 07:30:39+00:00,541,463,3,1,0,0
+tensorflow/tensorflow,103855,Remove @xla references in platform/default/*.bzl (Attempt 2),copybara-service[bot],closed,True,"Remove @xla references in platform/default/*.bzl (Attempt 2)
+",2025-11-06 19:57:38+00:00,2025-11-07 00:05:18+00:00,2025-11-07 00:05:18+00:00,23,23,3,1,0,0
+tensorflow/tensorflow,103853,PR #33681: [ROCm] Fix hermetic build,copybara-service[bot],closed,True,"PR #33681: [ROCm] Fix hermetic build
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33681
+
+📝 Summary of Changes
+Fix build after got broken by this pr merge: [https://github.com/openxla/xla/pull/29769](https://github.com/openxla/xla/pull/29769/files)
+
+🎯 Justification
+Add back missing dependencies and make hipblaslt mandatory
+
+🚀 Kind of Contribution
+Please remove what does not apply: 🐛 Bug Fix, 
+
+📊 Benchmark (for Performance Improvements)
+Build fix for rocm config, not relevant
+
+🧪 Unit Tests:
+Build fix for rocm config, not relevant
+
+🧪 Execution Tests:
+Build fix for rocm config, not relevant
+
+Copybara import of the project:
+
+--
+436d89a3aef19f4823f446e354eb64d615fa8fbb by Alexandros Theodoridis <atheodor@amd.com>:
+
+Fix hermetic build
+
+Merging this change closes #33681
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33681 from ROCm:fix_hermetic_build_add_missing_dependency 436d89a3aef19f4823f446e354eb64d615fa8fbb
+",2025-11-06 19:17:43+00:00,2025-11-07 11:17:36+00:00,2025-11-07 11:17:36+00:00,56,41,4,1,0,0
+tensorflow/tensorflow,103847,[xla:gpu] Skip autotuner configs if we fail to nest gemm fusion.,copybara-service[bot],closed,True,"[xla:gpu] Skip autotuner configs if we fail to nest gemm fusion.
+
+We do not want to route anything to the legacy emitter anymore.
+
+The autotuner now verifies that `NestGemmFusion` successfully rewrites the HLO module and that the resulting fusion is of the expected Triton nested GEMM kind.
+",2025-11-06 17:02:48+00:00,2025-11-07 15:43:58+00:00,2025-11-07 15:43:58+00:00,11,0,1,1,0,0
+tensorflow/tensorflow,103846,Enable new Triton emitter features and switch to nested GEMM fusion in tests.,copybara-service[bot],closed,True,"Enable new Triton emitter features and switch to nested GEMM fusion in tests.
+
+The generic emitter uses this input and is the new default path. The legacy emitter will be removed soon.
+
+Change fusion kind from `__triton_scaled_dot_fusion` to `__triton_nested_gemm_fusion` in one test so that `GemmFusionAutotunerRewriterVisitor::HandleFusion` does not add a `triton_gemm_config` which would then trigger NestGemmFusion to double nest and break tiling analysis. The plan here is to remove `__triton_scaled_dot_fusion` in the near future, so we don't need to do anything else.
+",2025-11-06 16:51:40+00:00,2025-11-07 06:06:24+00:00,2025-11-07 06:06:24+00:00,15,41,1,1,0,0
+tensorflow/tensorflow,103845,"`UnflattenCallGraph` assumed graph was flat, but we can get rid of assumption and use the pass for general deduplication. For this we should only hash unique computations, to avoid redundant work for performance.",copybara-service[bot],closed,True,"`UnflattenCallGraph` assumed graph was flat, but we can get rid of assumption and use the pass for general deduplication. For this we should only hash unique computations, to avoid redundant work for performance.
+",2025-11-06 16:48:56+00:00,2025-11-07 16:27:31+00:00,2025-11-07 16:27:31+00:00,4,4,2,1,0,0
+tensorflow/tensorflow,103844,NFC: Remove unused function and simplify return.,copybara-service[bot],closed,True,"NFC: Remove unused function and simplify return.
+
+This change removes the unused `GetDotCount` function and simplifies the return statement in `NestGemmFusion::Run`.
+",2025-11-06 16:46:45+00:00,2025-11-07 13:56:40+00:00,2025-11-07 13:56:40+00:00,1,8,1,1,0,0
+tensorflow/tensorflow,103833,[XLA:CPU] Remove the unused CpuFusionEmitterBase.,copybara-service[bot],closed,True,"[XLA:CPU] Remove the unused CpuFusionEmitterBase.
+",2025-11-06 15:08:33+00:00,2025-11-06 18:49:31+00:00,2025-11-06 18:49:30+00:00,0,18,1,1,0,0
+tensorflow/tensorflow,103832,Integrate LLVM at llvm/llvm-project@2bc22ea02edd,copybara-service[bot],closed,True,"Integrate LLVM at llvm/llvm-project@2bc22ea02edd
+
+Updates LLVM usage to match
+[2bc22ea02edd](https://github.com/llvm/llvm-project/commit/2bc22ea02edd)
+",2025-11-06 14:42:53+00:00,2025-11-08 05:23:39+00:00,2025-11-08 05:23:38+00:00,1722,9,6,1,0,0
+tensorflow/tensorflow,103831,[XLA:GPU] pure mechanical rename from NanCount to FloatCheck and from nan_count to float_check,copybara-service[bot],closed,True,"[XLA:GPU] pure mechanical rename from NanCount to FloatCheck and from nan_count to float_check
+
+The goal of the cl is to prepare the code base for more float checks.
+It will be Inf check, min and max checks, etc.
+",2025-11-06 14:11:39+00:00,2025-11-06 17:29:41+00:00,2025-11-06 17:29:41+00:00,125,118,17,1,0,0
+tensorflow/tensorflow,103827,Migrate Triton dot algorithm tests to use nested GEMM fusion.,copybara-service[bot],closed,True,"Migrate Triton dot algorithm tests to use nested GEMM fusion.
+
+The generic emitter uses this input and is the new default path. The legacy emitter will be removed soon.
+
+This change updates several tests to use the `__triton_nested_gemm_fusion` backend config instead of the legacy `__triton_gemm`. This involves restructuring the HLO to include nested fusions for the LHS and RHS operands. Additionally, several generic Triton emitter features are enabled in the test debug options to support the new nested fusion structure. The test utility for dot fusions is also updated to correctly parse block-level parameters from the backend config.
+
+Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+",2025-11-06 13:21:45+00:00,2025-11-06 16:01:58+00:00,2025-11-06 16:01:58+00:00,142,47,4,1,0,0
+tensorflow/tensorflow,103826,Introduce KernelArgumentPackingSpec,copybara-service[bot],closed,True,"Introduce KernelArgumentPackingSpec
+
+This is a declarative way of defining a transformation from `xla::emitters::KernelArguments` to the actual kernel launch arguments that a specific CUDA or ROCm kernel needs.
+
+`xla::emitters::KernelArguments` derives the kernel arguments from the HLO parameters and result. It's order is fixed and the argument type is always a pointer to a buffer since every HLO value is getting turned into a buffer.
+
+Currently when we want to launch a custom kernel that don't comply with the order of `xla::emitters::KernelArguments` or when we need some additional parameters we define a `stream_executor::Kernel::KernelArgsPacking` which is callback function that does the argument packing (transformation). This is infinitively flexible but doesn't allow serialization to a proto.
+
+`KernelArgumentPackingSpec` solves that by allowing to create the kernel arguments ahead of time with some placeholders where later on the buffer addresses will be inserted.
+",2025-11-06 12:35:59+00:00,2025-11-08 17:23:44+00:00,2025-11-08 17:23:44+00:00,645,0,5,1,0,0
+tensorflow/tensorflow,103824,[XLA:GPU] Simplify kernel registration.,copybara-service[bot],closed,True,"[XLA:GPU] Simplify kernel registration.
+
+We don't need the lambda, and we can directly return KernelLoaderSpec instead
+of StatusOr<KernelLoaderSpec>.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32628 from mtsokol:docs/error-codes fed970962e5b38eb2ae977bf57d50eacd0f85acf
+",2025-11-06 12:24:10+00:00,2025-11-06 15:15:49+00:00,2025-11-06 15:15:49+00:00,9,14,2,1,0,0
+tensorflow/tensorflow,103818,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+
+Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32628 from mtsokol:docs/error-codes fed970962e5b38eb2ae977bf57d50eacd0f85acf
+",2025-11-06 11:00:41+00:00,2025-11-06 15:55:20+00:00,2025-11-06 15:55:20+00:00,2,3,1,1,0,0
+tensorflow/tensorflow,103817,"Move `GpuThunkGpuAotCompilationResult` to a new file, and rename it.",copybara-service[bot],closed,True,"Move `GpuThunkGpuAotCompilationResult` to a new file, and rename it.
+
+Moving it out of the `gpu_compiler.cc` since that class is already huge.
+
+Renaming to legacy since it will be replaced the new result form the runtime split project, and removing the ""thunk"" part since this has nothing to do with thunks (unlike the new upcoming result).
+
+Unfortunately we had to create a `LoadExecutableFromAotResult` function in compiler.h to avoid a circular dependency in between `LegacyGpuAotCompilationResult` and `GpuCompiler`.
+
+Also fixing some includes and braces along the way.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32934 from Intel-tensorflow:akhil/modify_change_op_type_condition e74b6f19977e6095e312707f48b13dc7e1f9ea43
+",2025-11-06 10:38:43+00:00,2025-11-07 12:13:39+00:00,2025-11-07 12:13:38+00:00,353,195,7,1,0,0
+tensorflow/tensorflow,103815,Fix the pipeline for YNN reduce fusions.,copybara-service[bot],closed,True,"Fix the pipeline for YNN reduce fusions.
+",2025-11-06 10:20:06+00:00,2025-11-06 17:44:17+00:00,2025-11-06 17:44:16+00:00,4,0,1,1,0,0
+tensorflow/tensorflow,103814,Reverts c963ecc3131a1726b2e604766b2b416368031fb2,copybara-service[bot],closed,True,"Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+",2025-11-06 10:01:26+00:00,2025-11-06 14:31:38+00:00,2025-11-06 14:31:38+00:00,177,162,8,1,0,0
+tensorflow/tensorflow,103792,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33106 from dimvar:cudnn-cuda-graph b2f357e89343eaf5325df9b88b68acd04f6fdf87
+",2025-11-06 07:47:42+00:00,2025-11-06 14:03:49+00:00,2025-11-06 14:03:49+00:00,25,25,3,1,0,0
+tensorflow/tensorflow,103780,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33106 from dimvar:cudnn-cuda-graph b2f357e89343eaf5325df9b88b68acd04f6fdf87
+",2025-11-06 07:45:28+00:00,2025-11-06 14:19:24+00:00,2025-11-06 14:19:24+00:00,56,55,12,1,0,0
+tensorflow/tensorflow,103779,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:45:26+00:00,2025-11-06 13:19:01+00:00,2025-11-06 13:19:01+00:00,22,19,3,1,0,0
+tensorflow/tensorflow,103773,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+
+Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+",2025-11-06 07:45:01+00:00,2025-11-06 16:55:28+00:00,2025-11-06 16:55:28+00:00,39,36,2,1,0,0
+tensorflow/tensorflow,103771,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:44:56+00:00,2025-11-07 04:57:40+00:00,2025-11-07 04:57:40+00:00,130,124,16,1,0,0
+tensorflow/tensorflow,103761,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:44:18+00:00,2025-11-07 04:29:19+00:00,2025-11-07 04:29:19+00:00,12,11,3,1,0,0
+tensorflow/tensorflow,103750,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+
+Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+",2025-11-06 07:43:32+00:00,2025-11-06 16:15:56+00:00,2025-11-06 16:15:56+00:00,9,9,3,1,0,0
+tensorflow/tensorflow,103741,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:42:25+00:00,2025-11-06 12:40:24+00:00,2025-11-06 12:40:24+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103735,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:41:45+00:00,2025-11-06 13:34:11+00:00,2025-11-06 13:34:11+00:00,70,66,8,1,0,0
+tensorflow/tensorflow,103733,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:41:42+00:00,2025-11-06 13:12:00+00:00,2025-11-06 13:12:00+00:00,218,209,14,1,0,0
+tensorflow/tensorflow,103726,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:41:02+00:00,2025-11-06 12:57:15+00:00,2025-11-06 12:57:16+00:00,3,3,2,1,0,0
+tensorflow/tensorflow,103716,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:40:09+00:00,2025-11-07 03:56:06+00:00,2025-11-07 03:56:06+00:00,2,2,1,1,0,0
+tensorflow/tensorflow,103712,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 07:26:16+00:00,2025-11-06 12:46:26+00:00,2025-11-06 12:46:26+00:00,26,25,5,1,0,0
+tensorflow/tensorflow,103704,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:57:35+00:00,2025-11-06 12:32:02+00:00,2025-11-06 12:32:02+00:00,9,9,2,1,0,0
+tensorflow/tensorflow,103694,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:54:59+00:00,2025-11-06 11:03:18+00:00,2025-11-06 11:03:18+00:00,12,12,3,1,0,0
+tensorflow/tensorflow,103693,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:54:11+00:00,2025-11-06 11:55:38+00:00,2025-11-06 11:55:38+00:00,4,4,1,1,0,0
+tensorflow/tensorflow,103691,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:54:02+00:00,2025-11-06 11:09:09+00:00,2025-11-06 11:09:08+00:00,401,376,34,1,0,0
+tensorflow/tensorflow,103689,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:52:49+00:00,2025-11-06 12:12:11+00:00,2025-11-06 12:12:11+00:00,158,151,50,1,0,0
+tensorflow/tensorflow,103685,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:52:00+00:00,2025-11-06 11:43:57+00:00,2025-11-06 11:43:56+00:00,70,68,16,1,0,0
+tensorflow/tensorflow,103679,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:48:38+00:00,2025-11-06 09:04:04+00:00,2025-11-06 09:04:04+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103678,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:47:50+00:00,2025-11-06 08:41:51+00:00,2025-11-06 08:41:51+00:00,4,3,2,1,0,0
+tensorflow/tensorflow,103677,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:47:42+00:00,2025-11-06 09:43:51+00:00,2025-11-06 09:43:51+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103674,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:46:34+00:00,2025-11-06 10:51:48+00:00,2025-11-06 10:51:48+00:00,15,15,2,1,0,0
+tensorflow/tensorflow,103672,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:45:40+00:00,2025-11-06 10:13:56+00:00,2025-11-06 10:13:55+00:00,3,3,3,1,0,0
+tensorflow/tensorflow,103670,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 06:44:43+00:00,2025-11-06 10:23:36+00:00,2025-11-06 10:23:36+00:00,18,17,4,1,0,0
+tensorflow/tensorflow,103662,"Do not `RewriteLayoutWithShardedShape` if the sharding is unreduced, similar to replicated/maximal/manual sharding.",copybara-service[bot],closed,True,"Do not `RewriteLayoutWithShardedShape` if the sharding is unreduced, similar to replicated/maximal/manual sharding.
+",2025-11-06 05:57:07+00:00,2025-11-06 20:27:27+00:00,2025-11-06 20:27:27+00:00,2,1,1,1,0,0
+tensorflow/tensorflow,103659,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 04:13:59+00:00,2025-11-07 09:41:33+00:00,2025-11-07 09:41:33+00:00,6,0,5,1,0,0
+tensorflow/tensorflow,103651,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+
+Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+",2025-11-06 03:59:15+00:00,2025-11-06 16:26:09+00:00,2025-11-06 16:26:09+00:00,0,2,2,1,0,0
+tensorflow/tensorflow,103650,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 03:58:24+00:00,2025-11-06 07:38:26+00:00,2025-11-06 07:38:26+00:00,3,3,2,1,0,0
+tensorflow/tensorflow,103646,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 03:55:13+00:00,2025-11-07 10:29:44+00:00,2025-11-07 10:29:44+00:00,111,104,10,1,0,0
+tensorflow/tensorflow,103641,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 03:47:38+00:00,2025-11-07 06:42:42+00:00,2025-11-07 06:42:42+00:00,18,18,2,1,0,0
+tensorflow/tensorflow,103638,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 03:46:27+00:00,2025-11-07 09:59:00+00:00,2025-11-07 09:59:00+00:00,15,15,6,1,0,0
+tensorflow/tensorflow,103635,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-06 03:40:58+00:00,2025-11-06 07:57:26+00:00,2025-11-06 07:57:26+00:00,224,220,20,1,0,0
+tensorflow/tensorflow,103629,Rename `HostBounds` to `ProcessBounds`,copybara-service[bot],closed,True,"Rename `HostBounds` to `ProcessBounds`
+",2025-11-06 02:07:14+00:00,2025-11-06 19:37:23+00:00,2025-11-06 19:37:23+00:00,7,6,1,1,0,0
+tensorflow/tensorflow,103625,[xla:hlo] Do not depend on XLA:CPU implementation from HloEvaluator,copybara-service[bot],closed,True,"[xla:hlo] Do not depend on XLA:CPU implementation from HloEvaluator
+",2025-11-05 23:49:05+00:00,2025-11-06 04:53:09+00:00,2025-11-06 04:53:09+00:00,37,43,2,1,0,0
+tensorflow/tensorflow,103623,[xla:cpu] Bring back tsl_copts() to BuiltinDefinitionGenerator,copybara-service[bot],closed,True,"[xla:cpu] Bring back tsl_copts() to BuiltinDefinitionGenerator
+",2025-11-05 23:35:38+00:00,2025-11-06 04:12:51+00:00,2025-11-06 04:12:51+00:00,2,1,1,1,0,0
+tensorflow/tensorflow,103622,Fix duplicated compilation within a single test case.,copybara-service[bot],closed,True,"Fix duplicated compilation within a single test case.
+
+In an effort to avoid accidental fingerprint collision issues, we are going to
+allow only one load per serialized executable during (split) execution.
+
+This patch fixes all the tests that load a given executable more than once in a
+single test case.
+",2025-11-05 23:05:48+00:00,2025-11-06 18:10:42+00:00,2025-11-06 18:10:42+00:00,44,20,5,1,0,0
+tensorflow/tensorflow,103615,Remove read references to untuple_result now that everyone always sets true.,copybara-service[bot],closed,True,"Remove read references to untuple_result now that everyone always sets true.
+",2025-11-05 21:20:33+00:00,2025-11-06 01:52:36+00:00,2025-11-06 01:52:36+00:00,5,27,4,1,0,0
+tensorflow/tensorflow,103614,Refactor: Use `absl::ascii_*` functions and improve string parsing.,copybara-service[bot],closed,True,"Refactor: Use `absl::ascii_*` functions and improve string parsing.
+
+This change replaces manual character range checks (e.g., `c >= '0' && c <= '9'`) with more idiomatic and potentially safer `absl::ascii_isdigit`, `absl::ascii_isalpha`, and `absl::ascii_isalnum` functions. Additionally, it refactors `ParseTensorName` to use `absl::string_view` methods and `tsl::str_util::ConsumeLeadingDigits`, and updates `ConsumeLeadingDigits` to use `std::from_chars`. The unused `Strnlen` function is also removed.
+",2025-11-05 21:12:12+00:00,2025-11-07 23:57:43+00:00,2025-11-07 23:57:43+00:00,67,108,17,1,0,0
+tensorflow/tensorflow,103613,Add legalization for mhlo.case to tfl.if.,copybara-service[bot],closed,True,"Add legalization for mhlo.case to tfl.if.
+
+Converts mhlo.case ops with two branches to tfl.if. The tfl.if predicate is true if the index is not 0, with the then_region corresponding to branch 1 and the else_region to branch 0.
+",2025-11-05 21:02:50+00:00,2025-11-06 00:28:46+00:00,2025-11-06 00:28:46+00:00,180,3,6,1,0,0
+tensorflow/tensorflow,103612,[PjRT] Refactor SocketAddress to use sockaddr_storage.,copybara-service[bot],closed,True,"[PjRT] Refactor SocketAddress to use sockaddr_storage.
+
+This change replaces the union in `SocketAddress` with `sockaddr_storage` to provide a more unified way of handling both IPv4 and IPv6 addresses.
+
+Key changes include:
+*   Using `sockaddr_storage` for internal storage.
+*   Adding a `len()` method to return the correct size for socket operations.
+*   Refactoring `ToString()` to use `getnameinfo` for address formatting.
+*   Rewriting `Parse()` to handle IPv4 and IPv6 addresses more robustly using `absl::string_view` and standard parsing functions.
+*   Updating `SocketListener` methods to work with the new `SocketAddress` structure.
+",2025-11-05 20:58:56+00:00,2025-11-06 06:13:23+00:00,2025-11-06 06:13:23+00:00,123,111,2,1,0,0
+tensorflow/tensorflow,103611,Introduce split compilation fail duplicate load feature.,copybara-service[bot],closed,True,"Introduce split compilation fail duplicate load feature.
+
+It is rare that tests load the same executable twice for a given test. That's
+why we're introducing a new feature that explictly fails a duplicate load so
+that we can catch instances of fingerprint collisions that may have previously
+gone unnoticed.
+",2025-11-05 20:29:42+00:00,2025-11-06 21:46:36+00:00,2025-11-06 21:46:36+00:00,78,4,4,1,0,0
+tensorflow/tensorflow,103609,Log ExecutePhase deserialization filename.,copybara-service[bot],closed,True,"Log ExecutePhase deserialization filename.
+",2025-11-05 19:27:33+00:00,2025-11-06 19:03:50+00:00,2025-11-06 19:03:50+00:00,8,6,1,1,0,0
+tensorflow/tensorflow,103608,Allow `stablehlo.reshape` ops with complex element types to be folded.,copybara-service[bot],closed,True,"Allow `stablehlo.reshape` ops with complex element types to be folded.
+",2025-11-05 19:10:03+00:00,2025-11-07 23:43:41+00:00,2025-11-07 23:43:41+00:00,44,0,1,1,0,0
+tensorflow/tensorflow,103606,Add the separate env var to select a custom user mode driver version to match it with KMD version installed on the execution machine.,copybara-service[bot],closed,True,"Add the separate env var to select a custom user mode driver version to match it with KMD version installed on the execution machine.
+
+The version of the User Mode Driver is controlled by the environment variable `HERMETIC_CUDA_UMD_VERSION`. If it is not set, the version of the User Mode Driver will be the same as specified in `HERMETIC_CUDA_VERSION`.
+
+1) The flag `--@cuda_driver//:enable_forward_compatibility` is renamed to `--@cuda_driver//:include_cuda_umd_libs`. The default value is flipped from false to true.
+
+2) Selection of the hermetic user mode driver should depend on the kernel mode driver installed on the execution machine. User mode driver shouldn't be older than kernel mode driver. Hence, there must be an option to choose hermetic user mode driver version separately from the CUDA runtime version.
+",2025-11-05 18:29:36+00:00,2025-11-07 02:15:18+00:00,2025-11-07 02:15:18+00:00,19,21,8,1,1,0
+tensorflow/tensorflow,103605,PR #29769:  [ROCm] upstream using rocprofiler-sdk (v3) for tracing AMD GPU events ,copybara-service[bot],closed,True,"PR #29769:  [ROCm] upstream using rocprofiler-sdk (v3) for tracing AMD GPU events 
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/29769
+
+@xla-rotation, would you please kindly help review this PR?
+
+We are phasing out development and support for roctracer/rocprofiler/rocprof/rocprofv2 in favor of rocprofiler-sdk (v3) in upcoming ROCm releases. rocprofielr-sdk (v3) also moves away from cupti. 
+
+This PR integrates rocprofiler-sdk (v3) into XLA for profiling GPU events on AMD GPUs. 
+
+-  Integrate rocprofiler-sdk (v3) to XLA for improved profiling of GPU events, support both time-based and step-based profiling,
+- Add unit tests for rocm_collector and rocm_tracer 
+Copybara import of the project:
+
+--
+ab064425550acf959ec7b6d404b294b6bc8a34f3 by cj401-amd <chunyjin@amd.com>:
+
+update with refactoring based on the PR comments
+
+--
+8f8ad5a5d77e2930a7489815baf3bf2bfbac7558 by cj401-amd <chunyjin@amd.com>:
+
+update with VLOG(2) and fix a bug, new line at the EoF
+
+--
+6a85e5cfc4b1696b47df94b7e1082567e3cdac8a by cj401-amd <chunyjin@amd.com>:
+
+update the macro
+
+--
+cb13f7e5cce2e9e64efa224ca35cfecf5fcdf5ba by cj401-amd <chunyjin@amd.com>:
+
+update header files
+
+--
+15ec380fb3a6e7e053d3d466496496451a2121e8 by cj401-amd <chunyjin@amd.com>:
+
+update a: addressing comments, b: add kernel details, c: update rocprofiler-sdk path
+
+--
+3ee71f30300c482de2730c39bb5568d3b5f58509 by cj401-amd <chunyjin@amd.com>:
+
+add rocprofiler-sdk debs for hermetic build
+
+--
+ac2249dbf7978425bf0afe0c12f952d557f2943e by cj401-amd <chunyjin@amd.com>:
+
+update with a successful hermetic build locally
+
+Merging this change closes #29769
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/29769 from ROCm:ci_cj-rocprof-v3-roctracer-v1 ac2249dbf7978425bf0afe0c12f952d557f2943e
+",2025-11-05 17:37:39+00:00,2025-11-06 08:53:50+00:00,2025-11-06 08:53:50+00:00,2091,2731,16,1,0,0
+tensorflow/tensorflow,103604,PR #33533: [XLA:GPU] Unify the priority setting for cuda stream and cuda graph nodes,copybara-service[bot],closed,True,"PR #33533: [XLA:GPU] Unify the priority setting for cuda stream and cuda graph nodes
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33533
+
+📝 Summary of Changes
+This PR refactors the code to uses a common approach to fetch priority value for gpu device when setting the priority for cuda stream and cuda graph nodes.
+
+
+🎯 Justification
+Code refactoring for better code reuse, make stream_executor:GetGpuDeviceStreamPrirority call once.
+
+
+🚀 Kind of Contribution
+Please remove what does not apply: ♻️ Cleanup
+
+📊 Benchmark (for Performance Improvements)
+No new feature introduced.
+
+Copybara import of the project:
+
+--
+895c8580d012d17ece3a0ebac650b13836062c6d by Shawn Wang <shawnw@nvidia.com>:
+
+Unify the priority setting for cuda stream and cuda graph nodes.
+
+Merging this change closes #33533
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33533 from shawnwang18:shawnw/nccl_priority_high 895c8580d012d17ece3a0ebac650b13836062c6d
+",2025-11-05 17:20:38+00:00,2025-11-07 07:43:56+00:00,2025-11-07 07:43:56+00:00,62,49,8,1,0,0
+tensorflow/tensorflow,103602,PR #33284: PjRt API changes for improved cross host transfers,copybara-service[bot],closed,True,"PR #33284: PjRt API changes for improved cross host transfers
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33284
+
+📝 Summary of Changes
+This PR adds methods `CrossHostSendBuffers` and `CrossHostReceiveBuffers` to PjRt clients as a new cross-host data transfer API. This new API enables optimizations when running on GPUs such as communicator caching and aggregating transfers with NCCL group calls. The new API evolved from discussions with @emilyfertig (for eg see discussion in #32074 , #32076 , #32295 ). 
+
+🎯 Justification
+The current implementation of cross-process device-puts on GPUs does not cache communicators for reuse across multiple transfers between the same sets of devices, and does not aggregate transfers of multiple arrays together with NCCL group calls. This PR adds cross-host transfer methods `CrossHostSendBuffers` and `CrossHostReceiveBuffers` that now have information about the global device IDs involved in the data transfer so that communicators can be cached. Further, since these methods operate on multiple arrays, transfers can be aggregated with NCCL group calls.
+
+🚀 Kind of Contribution
+⚡️ Performance Improvement
+
+📊 Benchmark (for Performance Improvements)
+This PR only makes API changes necessary for future performance improvements such as communicator caching, so no benchmarks were ran for this PR. Follow-up PRs implementing performance improvements will include benchmarks.
+
+🧪 Unit Tests:
+Unit tests for the new API have been added inside `se_gpu_pjrt_client_test.cc`.
+
+🧪 Execution Tests:
+When building XLA with the code in this PR along with [a patch for `pjrt_ifrt/pjrt_client.cc`](https://gist.github.com/rao-ashish/ba5cd773906c8e428147bb80a3568912) so that it uses the new API, I verified that [these 4 correctness checks](https://gist.github.com/rao-ashish/24ac0df0cb18243c649ac535964b31b8) pass. The IFRT changes will be included in a follow-up PR once other PjRt clients have implemented the new API.
+Copybara import of the project:
+
+--
+7e0eb7e5dd0a32f32df966ca83c5efda920a92de by Ashish Rao <asrao@nvidia.com>:
+
+PjRt API changes for improved cross host transfers
+
+Merging this change closes #33284
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33284 from rao-ashish:asrao/transfer_api_changes 7e0eb7e5dd0a32f32df966ca83c5efda920a92de
+",2025-11-05 16:04:51+00:00,2025-11-05 19:44:43+00:00,2025-11-05 19:44:43+00:00,1063,127,11,1,0,0
+tensorflow/tensorflow,103601,Attempt to fix internal CI Windows issues.,copybara-service[bot],closed,True,"Attempt to fix internal CI Windows issues.
+",2025-11-05 16:01:31+00:00,2025-11-06 19:44:35+00:00,2025-11-06 19:44:35+00:00,4,1,4,1,0,0
+tensorflow/tensorflow,103600,[XLA:GPU] Fix missing to_scalar/to_tensor in bitcast lowering.,copybara-service[bot],closed,True,"[XLA:GPU] Fix missing to_scalar/to_tensor in bitcast lowering.
+",2025-11-05 15:46:03+00:00,2025-11-05 17:33:24+00:00,2025-11-05 17:33:24+00:00,34,3,3,1,0,0
+tensorflow/tensorflow,103596,PR #33212: [ROCm] Enable HloEvaluator for more complex ops,copybara-service[bot],closed,True,"PR #33212: [ROCm] Enable HloEvaluator for more complex ops
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33212
+
+This PR enables the HloEvaluator to handle complex numbers in more operations (trigonometric and hyperbolic). Tests are added to check if folding works for these operations.
+
+It also disables `constant_folding` in `complex_unary_op_test.cc` test, as it was intended to check the accuracy of backends implementations. If constant folding remains enabled, the test ends up checking the accuracy of `libstdc++` implementations for `tan`, `asin`, and `asinh` instead
+Copybara import of the project:
+
+--
+af6ae1d31b7d6bab2401a99dc397945c824e8631 by Aleksei Nurmukhametov <anurmukh@amd.com>:
+
+Do not run constant_folding on complex_unary_op_test.cc
+
+--
+d3074cc139f07ef6e91723f6290b8294dcc38717 by Aleksei Nurmukhametov <anurmukh@amd.com>:
+
+Enable HloEvaluator for more complex ops
+
+Merging this change closes #33212
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33212 from ROCm:enable-hloevaluator-for-more-complex-ops d3074cc139f07ef6e91723f6290b8294dcc38717
+",2025-11-05 13:52:28+00:00,2025-11-05 15:01:31+00:00,2025-11-05 15:01:31+00:00,182,110,4,1,0,0
+tensorflow/tensorflow,103595,[XLA:CPU][XTile] Use bufferization rather than unrealized_conversion_cast.,copybara-service[bot],closed,True,"[XLA:CPU][XTile] Use bufferization rather than unrealized_conversion_cast.
+
+This will enable us to rewrite the lowering patterns at a higher level if needed and also allow us to reuse buffers. It will also make vectorizing using target length vectors possible e.g vector<8xf32> rather than the current scheme of emitting super-vectors and relying on LLVM to split.
+",2025-11-05 13:45:44+00:00,2025-11-05 15:13:59+00:00,2025-11-05 15:13:59+00:00,132,40,11,1,0,0
+tensorflow/tensorflow,103593,[XLA:GPU] Exclude Intel targets from internal wildcard build,copybara-service[bot],closed,True,"[XLA:GPU] Exclude Intel targets from internal wildcard build
+
+We can't easily depend on SYCL, so for now let's disable all SYCL specific targets in the internal build.
+",2025-11-05 12:26:53+00:00,2025-11-05 13:03:13+00:00,2025-11-05 13:03:13+00:00,27,11,3,1,0,0
+tensorflow/tensorflow,103589,[XLA:GPU/TMA] Move the restriction on GEMMs with broadcasts and pipelining from the autotuner to the emitter.,copybara-service[bot],closed,True,"[XLA:GPU/TMA] Move the restriction on GEMMs with broadcasts and pipelining from the autotuner to the emitter.
+
+This is a more precise filter, allowing previously disabled configurations to run and only disable TMA optionality on parameters that go through broadcasts.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32934 from Intel-tensorflow:akhil/modify_change_op_type_condition e74b6f19977e6095e312707f48b13dc7e1f9ea43
+",2025-11-05 11:29:41+00:00,2025-11-07 11:51:46+00:00,2025-11-07 11:51:46+00:00,81,67,11,1,0,0
+tensorflow/tensorflow,103588,Replace forward quotes with backward quotes in TFLite opaque api documentation.,copybara-service[bot],closed,True,"Replace forward quotes with backward quotes in TFLite opaque api documentation.
+",2025-11-05 11:17:57+00:00,2025-11-06 12:22:08+00:00,2025-11-06 12:22:08+00:00,163,163,2,1,0,0
+tensorflow/tensorflow,103585,Add flag that dumps a serialized `GpuExecutable`,copybara-service[bot],closed,True,"Add flag that dumps a serialized `GpuExecutable`
+
+Also removes an unused import in `gpu_executable.proto`
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33504 from cool-RR:format-bytes f738426970e6f067df3dde2f93bd2736294e7e5d
+",2025-11-05 10:37:58+00:00,2025-11-05 14:51:02+00:00,2025-11-05 14:51:01+00:00,134,19,7,1,0,0
+tensorflow/tensorflow,103581,"PR #33504: Add human-readable units to ""Out of memory"" errors (e.g. 7.34GB)",copybara-service[bot],closed,True,"PR #33504: Add human-readable units to ""Out of memory"" errors (e.g. 7.34GB)
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33504
+
+
+  📝 Summary of Changes
+
+  Improved memory allocation error messages in tf_allocator_adapter.cc to display byte counts with comma separators
+  and human-readable units.
+
+  Before:
+  Out of memory while trying to allocate 7450374152 bytes.
+
+  After:
+  Out of memory while trying to allocate 7,450,374,152 bytes (6.94GiB).
+
+  Changes:
+  - Added FormatByteSize() helper function that formats byte counts with commas for readability
+  - Leverages existing tsl::strings::HumanReadableNumBytes() utility to append human-readable size (MiB/GiB/TiB)
+  - Updated MemoryAllocationError() to use the new formatting
+
+  🎯 Justification
+
+  When debugging out-of-memory errors, users need to quickly understand allocation sizes. Without formatting, it's
+  difficult to distinguish between millions and billions at a glance (e.g., is 7450374152 closer to 7 million or 7
+  billion?).
+
+  This change improves the developer experience by:
+  1. Making large numbers easier to parse with comma separators
+  2. Providing immediate intuition about size magnitude (MB vs GB vs TB)
+  3. Maintaining exact byte precision for detailed debugging
+
+  This benefits all workloads that encounter memory allocation failures, making error messages more actionable.
+
+  🚀 Kind of Contribution
+
+  ♻️ Cleanup
+
+  🧪 Unit Tests
+
+  No new unit tests added. This change only affects error message formatting and does not alter program logic or
+  behavior. The existing allocation failure paths remain unchanged.
+
+  🧪 Execution Tests
+
+  No new execution tests needed. This is a cosmetic improvement to error messages that does not affect execution
+  correctness or trigger any new code paths.
+Copybara import of the project:
+
+--
+f738426970e6f067df3dde2f93bd2736294e7e5d by Ram Rachum <ram@rachum.com>:
+
+Use human-readable units in ""Out of memory"" errors (e.g. 7.34GB)
+
+Merging this change closes #33504
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33504 from cool-RR:format-bytes f738426970e6f067df3dde2f93bd2736294e7e5d
+",2025-11-05 09:49:26+00:00,2025-11-05 13:33:22+00:00,2025-11-05 13:33:21+00:00,4,1,2,1,0,0
+tensorflow/tensorflow,103578,PR #33505: [XLA:GPU] Dump command buffer contents to folder specified by --xla-dump-to through dump.h,copybara-service[bot],closed,True,"PR #33505: [XLA:GPU] Dump command buffer contents to folder specified by --xla-dump-to through dump.h
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33505
+
+📝 Summary of Changes
+This PR migrates the command buffer content's dump through dump.h 
+
+Copybara import of the project:
+
+--
+0b870f229a40435766613743d47f274e06af4763 by Shawn Wang <shawnw@nvidia.com>:
+
+Dump command buffer contents to folder specified by --xla-dump-to through dump.h
+
+--
+123c2541701f4d65771b522fbb68e1e0edb7a6e4 by Shawn Wang <shawnw@nvidia.com>:
+
+clang format fix
+
+Merging this change closes #33505
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33505 from shawnwang18:shawnw/stringfy_cmd_buffer 123c2541701f4d65771b522fbb68e1e0edb7a6e4
+",2025-11-05 09:02:47+00:00,2025-11-05 09:50:44+00:00,2025-11-05 09:50:44+00:00,41,8,8,1,0,0
+tensorflow/tensorflow,103575,Preserve tmpdir for rocm. Fixes build for certain docker setups that don't have standard tmpdir locations,copybara-service[bot],closed,True,"Preserve tmpdir for rocm. Fixes build for certain docker setups that don't have standard tmpdir locations
+",2025-11-05 05:51:02+00:00,2025-11-05 23:42:20+00:00,2025-11-05 23:42:20+00:00,9,0,2,1,0,0
+tensorflow/tensorflow,103572,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-05 05:00:28+00:00,2025-11-06 04:40:48+00:00,2025-11-06 04:40:48+00:00,71,6,16,1,0,0
+tensorflow/tensorflow,103570,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-05 04:58:42+00:00,2025-11-08 06:14:21+00:00,2025-11-08 06:14:21+00:00,0,1,1,1,0,0
+tensorflow/tensorflow,103563,Refactor `tsl::numbers` to use `absl::StrAppendFormat` and improve negative number handling.,copybara-service[bot],closed,True,"Refactor `tsl::numbers` to use `absl::StrAppendFormat` and improve negative number handling.
+
+This change replaces usages of `Appendf` with `absl::StrAppendFormat` and updates includes. It also refactors `HumanReadableNum` and `HumanReadableNumBytes` to handle negative inputs, including `std::numeric_limits<int64_t>::min()`, by converting to `uint64_t` for magnitude calculations and prepending a negative sign. The special case for `kint64min` in `HumanReadableNumBytes` is removed, and the output is now a properly formatted byte string.
+",2025-11-05 04:20:05+00:00,2025-11-06 06:45:31+00:00,2025-11-06 06:45:31+00:00,33,35,2,1,0,0
+tensorflow/tensorflow,103561,Add missing buffer holds for raw buffer transfers.,copybara-service[bot],closed,True,"Add missing buffer holds for raw buffer transfers.
+",2025-11-05 04:14:30+00:00,2025-11-05 04:50:51+00:00,2025-11-05 04:50:51+00:00,2,0,1,1,0,0
+tensorflow/tensorflow,103558,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-05 03:36:41+00:00,2025-11-05 07:08:31+00:00,2025-11-05 07:08:30+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103557,[xla:cpu] Move GetDeviceOrdinal to cpu_executable,copybara-service[bot],closed,True,"[xla:cpu] Move GetDeviceOrdinal to cpu_executable
+
+Preparing for removing mostly unused cpu_runtime.h
+",2025-11-05 03:26:12+00:00,2025-11-05 17:06:20+00:00,2025-11-05 17:06:19+00:00,11,39,4,1,0,0
+tensorflow/tensorflow,103554,[xla:cpu] Move BuiltinDefinitionGenerator to backends/cpu/codegen,copybara-service[bot],closed,True,"[xla:cpu] Move BuiltinDefinitionGenerator to backends/cpu/codegen
+
+Rename RuntimeSymbolGenerator to BuiltinDefinitionGenerator to better reflect what it is doing in our compilation pipeline.
+",2025-11-05 03:10:11+00:00,2025-11-05 06:57:30+00:00,2025-11-05 06:57:30+00:00,53,44,9,1,0,0
+tensorflow/tensorflow,103551,Replace `ValidateSingleDimensionAxes` with `ValidateSpanOfAxes`.,copybara-service[bot],closed,True,"Replace `ValidateSingleDimensionAxes` with `ValidateSpanOfAxes`.
+",2025-11-05 01:10:22+00:00,2025-11-06 05:34:38+00:00,2025-11-06 05:34:37+00:00,28,70,5,1,0,0
+tensorflow/tensorflow,103550,Fix tests that become flaky when you insert delays after buffer creation for robustness testing.,copybara-service[bot],closed,True,"Fix tests that become flaky when you insert delays after buffer creation for robustness testing.
+
+I believe it has to do with BufferFromHostBuffer results need to be blocked on
+before destroying because they don't provide on_done callbacks. An alternative
+fix could be to make shared_ptrs to the host data and capture that in the
+on_done callback.
+",2025-11-05 00:45:21+00:00,2025-11-05 01:30:12+00:00,2025-11-05 01:30:12+00:00,8,1,2,1,0,0
+tensorflow/tensorflow,103549,Enable bf16 dots in YNNPACK by default,copybara-service[bot],closed,True,"Enable bf16 dots in YNNPACK by default
+",2025-11-05 00:23:15+00:00,2025-11-06 19:30:15+00:00,2025-11-06 19:30:15+00:00,1,3,1,1,0,0
+tensorflow/tensorflow,103547,[ReplicaGroupV3][Validation] add CanCoexistWithoutOverlap function which is more efficient check of (cancoexist && !overlaps),copybara-service[bot],closed,True,"[ReplicaGroupV3][Validation] add CanCoexistWithoutOverlap function which is more efficient check of (cancoexist && !overlaps)
+",2025-11-04 23:47:47+00:00,2025-11-06 00:57:14+00:00,2025-11-06 00:57:14+00:00,68,2,3,1,0,0
+tensorflow/tensorflow,103546,[xla:cpu] Delete runtime_fp16 library,copybara-service[bot],closed,True,"[xla:cpu] Delete runtime_fp16 library
+",2025-11-04 22:50:09+00:00,2025-11-05 00:43:24+00:00,2025-11-05 00:43:24+00:00,0,206,3,1,0,0
+tensorflow/tensorflow,103545,[xla:cpu] Delete runtime_pow library,copybara-service[bot],closed,True,"[xla:cpu] Delete runtime_pow library
+",2025-11-04 22:49:36+00:00,2025-11-05 03:11:18+00:00,2025-11-05 03:11:18+00:00,0,78,3,1,0,0
+tensorflow/tensorflow,103544,"Disable asan,msan targets for TAP CI.",copybara-service[bot],closed,True,"Disable asan,msan targets for TAP CI.
+",2025-11-04 22:49:17+00:00,2025-11-06 23:49:00+00:00,2025-11-06 23:49:00+00:00,3,0,2,1,0,0
+tensorflow/tensorflow,103542,Pathways status_annotator_util: Group by stack traces and sort.,copybara-service[bot],closed,True,"Pathways status_annotator_util: Group by stack traces and sort.
+",2025-11-04 22:01:24+00:00,2025-11-04 23:51:19+00:00,2025-11-04 23:51:19+00:00,216,34,7,1,0,0
+tensorflow/tensorflow,103540,Update rules_ml_toolchain to version with nvcc wrapper get_option fix.,copybara-service[bot],closed,True,"Update rules_ml_toolchain to version with nvcc wrapper get_option fix.
+",2025-11-04 20:20:48+00:00,2025-11-04 22:08:20+00:00,2025-11-04 22:08:20+00:00,9,9,3,1,0,0
+tensorflow/tensorflow,103537,Replace custom alpha/alphanum checks with Abseil functions and use standard integer types.,copybara-service[bot],closed,True,"Replace custom alpha/alphanum checks with Abseil functions and use standard integer types.
+
+This change replaces `IsAlpha` and `IsAlphaNum` with `absl::ascii_isalpha` and `absl::ascii_isalnum`, respectively. It also updates `tensorflow::int*` and `tensorflow::uint*` types to their standard `*_t` equivalents (e.g., `int8_t`, `uint32_t`). Additionally, `absl::StrAppend` is used for string building within a loop.
+",2025-11-04 19:15:09+00:00,2025-11-04 21:55:08+00:00,2025-11-04 21:55:08+00:00,12,17,1,1,0,0
+tensorflow/tensorflow,103535,[xla:cpu] Copy service/cpu/runtime_fp16 to cpu/codegen/builtin_fp16,copybara-service[bot],closed,True,"[xla:cpu] Copy service/cpu/runtime_fp16 to cpu/codegen/builtin_fp16
+",2025-11-04 19:02:40+00:00,2025-11-04 22:48:08+00:00,2025-11-04 22:48:08+00:00,200,2,5,1,0,0
+tensorflow/tensorflow,103530,[xla:cpu] Fix chromiumos build,copybara-service[bot],closed,True,"[xla:cpu] Fix chromiumos build
+",2025-11-04 16:19:48+00:00,2025-11-04 17:13:18+00:00,2025-11-04 17:13:18+00:00,8,3,1,1,0,0
+tensorflow/tensorflow,103527,PR #32934: [XLA:CPU][oneDNN] Fix failing oneDNN tests and F16 regressions,copybara-service[bot],closed,True,"PR #32934: [XLA:CPU][oneDNN] Fix failing oneDNN tests and F16 regressions
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/32934
+
+This PR addresses the side effects of a previous XLA commit (https://github.com/openxla/xla/commit/bd3f15e30fd588a53c8d7a594bafaa34d4f4adb5) that prevented any fusions for oneDNN F16 custom calls. In particular, this PR:
+1. Expands the type promotion condition to include checks for oneDNN CCs too.
+2. Use oneDNN float support for both oneDNN CCs and graph based execution.
+Copybara import of the project:
+
+--
+00c688e5c73b802591f6266e46e264acc6ab3052 by Akhil Goel <akhil.goel@intel.com>:
+
+Initial commit
+
+--
+e74b6f19977e6095e312707f48b13dc7e1f9ea43 by Akhil Goel <akhil.goel@intel.com>:
+
+Address review comment
+
+Merging this change closes #32934
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32934 from Intel-tensorflow:akhil/modify_change_op_type_condition e74b6f19977e6095e312707f48b13dc7e1f9ea43
+",2025-11-04 15:44:50+00:00,2025-11-07 11:28:14+00:00,2025-11-07 11:28:15+00:00,6,3,2,1,0,0
+tensorflow/tensorflow,103526,PR #32800: [XLA:CPU][oneDNN] Undo proto workarounds after switching to thunks based execution,copybara-service[bot],closed,True,"PR #32800: [XLA:CPU][oneDNN] Undo proto workarounds after switching to thunks based execution
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/32800
+
+This PR removes the proto workarounds that were added to make the code work with the legacy runtime. Specifically, it undoes:
+1. Using 1-based indexing for proto repeated fields.
+2. Type punning for floats.
+
+Copybara import of the project:
+
+--
+21c6726ba769ffa28fcf16242927b7aeda21eed7 by Akhil Goel <akhil.goel@intel.com>:
+
+Undo proto workarounds
+
+Merging this change closes #32800
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32800 from Intel-tensorflow:akhil/proto_change 21c6726ba769ffa28fcf16242927b7aeda21eed7
+",2025-11-04 15:42:17+00:00,2025-11-04 17:22:56+00:00,2025-11-04 17:22:56+00:00,40,61,6,1,0,0
+tensorflow/tensorflow,103524,PR #33464: Add a new version of ShapeUtil::ByteStrides() and fix its use in the GPU compiler.,copybara-service[bot],closed,True,"PR #33464: Add a new version of ShapeUtil::ByteStrides() and fix its use in the GPU compiler.
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33464
+
+📝 Summary of Changes
+Disable incorrect GPU copy fusions on packed sub-byte types using incorrect stride calculations.
+Multiple uses in PJRT rely on the existing behavior of ByteStrides() which ignores element_size_in_bits - this is now called UnpackedByteStrides().
+
+🎯 Justification
+Fixes GPU DynamicMemcpyFusion which relies on ByteStrides().
+
+🚀 Kind of Contribution
+🐛 Bug Fix
+
+🧪 Unit Tests:
+Yes.
+
+🧪 Execution Tests:
+No.
+Copybara import of the project:
+
+--
+e54830e71c9dbf88b0f4613323ec964ec16bbbd9 by Ilia Sergachev <isergachev@nvidia.com>:
+
+Add a new version of ShapeUtil::ByteStrides() and fix its use in the GPU compiler.
+
+Disable incorrect GPU copy fusions on packed sub-byte types using
+incorrect stride calculations.
+
+--
+7947ec3fbb9aec276d22da664110d88c95e87f91 by Ilia Sergachev <isergachev@nvidia.com>:
+
+Address review comment.
+
+Merging this change closes #33464
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33464 from openxla:byte_strides 7947ec3fbb9aec276d22da664110d88c95e87f91
+",2025-11-04 14:36:33+00:00,2025-11-04 16:37:43+00:00,2025-11-04 16:37:43+00:00,105,56,11,1,0,0
+tensorflow/tensorflow,103523,Clean up includes in `gpu_compiler` and `dump`,copybara-service[bot],closed,True,"Clean up includes in `gpu_compiler` and `dump`
+",2025-11-04 14:28:06+00:00,2025-11-04 16:16:30+00:00,2025-11-04 16:16:29+00:00,9,12,6,1,0,0
+tensorflow/tensorflow,103522,Fix template specialization for ROCM sort kernels,copybara-service[bot],closed,True,"Fix template specialization for ROCM sort kernels
+
+Extra qualifications for template specializiations used to work in older versions of clang but don't work in newer versions anymore. I believe this is why this code was submitted as-is in the first place.
+",2025-11-04 13:53:31+00:00,2025-11-04 15:40:09+00:00,2025-11-04 15:40:08+00:00,2,2,1,1,0,0
+tensorflow/tensorflow,103521,[XLA:GPU] Trigger a crash if nan_counter check was requested,copybara-service[bot],closed,True,"[XLA:GPU] Trigger a crash if nan_counter check was requested
+
+The kernel could be unstable and produce NaN values.
+When one want to detect such cases they need to set the flag xla_gpu_experimental_enable_nan_counter_on_thunks to true. 
+In this case the counter for NaN values will be triggered
+and if there is any then the execution will be crashed.
+",2025-11-04 13:47:50+00:00,2025-11-05 11:30:22+00:00,2025-11-05 11:30:22+00:00,139,52,14,1,0,0
+tensorflow/tensorflow,103520,[xla:gpu] Migrate Triton tests to use `__triton_nested_gemm_fusion`.,copybara-service[bot],closed,True,"[xla:gpu] Migrate Triton tests to use `__triton_nested_gemm_fusion`.
+
+The legacy emitter code path is deprecated and will be removed.
+
+This change updates various Triton-related tests to use the new `__triton_nested_gemm_fusion` kind, which involves structuring the HLO with nested fusions for the LHS and RHS of the dot operation. The backend configurations are updated to use `block_level_fusion_config` with `output_tiles` instead of the deprecated `triton_gemm_config`. Several previously disabled tests are re-enabled as part of this migration.
+",2025-11-04 13:24:17+00:00,2025-11-04 17:02:37+00:00,2025-11-04 17:02:36+00:00,219,141,5,1,0,0
+tensorflow/tensorflow,103519,Pass allocation info to `InterpreterBuilder` in `InterpreterCreateWithOpResolver`.,copybara-service[bot],closed,True,"Pass allocation info to `InterpreterBuilder` in `InterpreterCreateWithOpResolver`.
+",2025-11-04 13:04:20+00:00,2025-11-05 13:19:28+00:00,2025-11-05 13:19:28+00:00,3,1,2,1,0,0
+tensorflow/tensorflow,103518,[XLA:GPU] Remove suffix argument from template definition macro.,copybara-service[bot],closed,True,"[XLA:GPU] Remove suffix argument from template definition macro.
+
+It is unused.
+",2025-11-04 12:54:00+00:00,2025-11-04 13:49:04+00:00,2025-11-04 13:49:04+00:00,29,29,1,1,0,0
+tensorflow/tensorflow,103517,[XLA:GPU][XTile] Add support to emit 0D tensor constants in the tiled emitter.,copybara-service[bot],closed,True,"[XLA:GPU][XTile] Add support to emit 0D tensor constants in the tiled emitter.
+
+One of a chain of commits to remove the special casing for 0D tensors so that the triton specific requirement is moved to the lowering stage, e.g. the upcoming XTile::CPU backend doesn't have such a requirement, and consistently using tensors makes it simpler.
+",2025-11-04 12:14:09+00:00,2025-11-06 14:25:34+00:00,2025-11-06 14:25:33+00:00,51,69,6,1,0,0
+tensorflow/tensorflow,103516,[XLA:GPU][XTile] Always pass tensors in the values map in the tiled emitter.,copybara-service[bot],closed,True,"[XLA:GPU][XTile] Always pass tensors in the values map in the tiled emitter.
+",2025-11-04 12:12:23+00:00,2025-11-05 13:55:39+00:00,2025-11-05 13:55:39+00:00,41,43,3,1,0,0
+tensorflow/tensorflow,103513,[XLA:GPU][XTile] Finalize removal of ScalarOrTensor.,copybara-service[bot],closed,True,"[XLA:GPU][XTile] Finalize removal of ScalarOrTensor.
+
+The (almost*) final commit to remove the special casing for 0D tensors so that the triton specific requirement is moved to the lowering stage, e.g. the upcoming XTile::CPU backend doesn't have such a requirement, and consistently using tensors makes it simpler.
+
+*The almost is because we still have to handle the special case for dot but this will soon be migrated to stable hlo.
+
+Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+",2025-11-04 12:10:07+00:00,2025-11-06 15:48:47+00:00,2025-11-06 15:48:47+00:00,35,119,3,1,0,0
+tensorflow/tensorflow,103512,"[XLA:GPU][XTile] Support 0D tensors in emitting transpose, bitcast, broadcast and dot helpers.",copybara-service[bot],closed,True,"[XLA:GPU][XTile] Support 0D tensors in emitting transpose, bitcast, broadcast and dot helpers.
+",2025-11-04 12:07:46+00:00,2025-11-05 12:07:44+00:00,2025-11-05 12:07:43+00:00,107,119,1,1,0,0
+tensorflow/tensorflow,103511,PR #32812: [XLA:CPU] Add support for riscv64,copybara-service[bot],closed,True,"PR #32812: [XLA:CPU] Add support for riscv64
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/32812
+
+Co-author: @kxxt
+
+📝 Summary of Changes:
+
+This pull request adds support for RISC-V 64 architecture across the build system, code generation, and Python packaging infrastructure.
+
+🎯 Justification:
+
+The changes ensure that riscv64 is recognized as a valid target in Bazel build configurations, LLVM toolchain selection, Python manylinux compliance checks, and related tests and patches. This allows the project to build and test components for riscv64 alongside other supported architectures.
+
+🚀 Kind of Contribution: ✨ New Feature
+
+
+Copybara import of the project:
+
+--
+0d02393a6335fb43d67678d0cd15d671e77dc089 by gns <root@infi.wang>:
+
+[XLA:CPU] Add support for riscv64
+
+Co-authored-by: Levi Zim <rsworktech@outlook.com>
+
+--
+5d95fb479e45524299ff4193b99bb4db0d74483b by gns <root@infi.wang>:
+
+Refresh `rules_python` riscv64 patch
+
+Co-authored-by: Levi Zim <rsworktech@outlook.com>
+
+Merging this change closes #32812
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32812 from infiWang:riscv64 5d95fb479e45524299ff4193b99bb4db0d74483b
+",2025-11-04 11:55:38+00:00,2025-11-05 11:01:44+00:00,2025-11-05 11:01:43+00:00,57,0,12,1,0,0
+tensorflow/tensorflow,103510,Introduce NullableShapedSlice,copybara-service[bot],closed,True,"Introduce NullableShapedSlice
+
+`NullableShapedSlice` is a terrible name and a replacement for `std::optional<ShapedSlice>` which is used in a bunch of places.
+
+The main difference is that `NullableShapedSlice` has `ToProto` and `FromProto` functions and is therefore serializable. The type is needed because protobuf doesn't allow optional fields in all cases (thanks protobuf!), therefore we can't always use `optional ShapedSliceProto` to model a `std::optional<ShapedSlice>`.
+
+The change also moves `ShapedSlice` into its own file and adds missing unit tests.
+",2025-11-04 11:01:42+00:00,2025-11-04 12:51:25+00:00,2025-11-04 12:51:25+00:00,526,105,20,1,0,0
+tensorflow/tensorflow,103508,PR #33513: [docs] note mlir-hlo deprecation,copybara-service[bot],closed,True,"PR #33513: [docs] note mlir-hlo deprecation
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33513
+
+Closes #33472, by noting that the project will be deprecated.  Will reduce the chance of folk exploring the project without this knowledge. 
+Copybara import of the project:
+
+--
+f82b0101b6823094c9572d82c0e38d64bd1b7adb by Perry Gibson <perry@gibsonic.org>:
+
+docs: note mlir-hlo deprecation
+
+Merging this change closes #33513
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33513 from Wheest:pez/mlirHLO f82b0101b6823094c9572d82c0e38d64bd1b7adb
+",2025-11-04 10:44:13+00:00,2025-11-04 11:48:21+00:00,2025-11-04 11:48:21+00:00,4,0,1,1,0,0
+tensorflow/tensorflow,103507,[XLA:GPU] ThunkBufferDebugPass: implement thunk filtering,copybara-service[bot],closed,True,"[XLA:GPU] ThunkBufferDebugPass: implement thunk filtering
+
+Interpret the values passed via command line flags:
+
+- `--xla_gpu_experimental_thunk_buffer_debug_filter_by_thunk_id_ranges`
+- `--xla_gpu_experimental_thunk_buffer_debug_filter_by_profile_annotation_re`
+
+And only instrument thunks that pass all the configured filters.
+",2025-11-04 10:34:10+00:00,2025-11-04 11:34:10+00:00,2025-11-04 11:34:10+00:00,332,11,3,1,0,0
+tensorflow/tensorflow,103503,PR #33454: Bump github/codeql-action from 4.31.0 to 4.31.2,copybara-service[bot],closed,True,"PR #33454: Bump github/codeql-action from 4.31.0 to 4.31.2
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33454
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 4.31.0 to 4.31.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/github/codeql-action/releases"">github/codeql-action's releases</a>.</em></p>
+<blockquote>
+<h2>v4.31.2</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>4.31.2 - 30 Oct 2025</h2>
+<p>No user facing changes.</p>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v4.31.2/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v4.31.1</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>4.31.1 - 30 Oct 2025</h2>
+<ul>
+<li>The <code>add-snippets</code> input has been removed from the <code>analyze</code> action. This input has been deprecated since CodeQL Action 3.26.4 in August 2024 when this removal was announced.</li>
+</ul>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v4.31.1/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/github/codeql-action/blob/main/CHANGELOG.md"">github/codeql-action's changelog</a>.</em></p>
+<blockquote>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>[UNRELEASED]</h2>
+<p>No user facing changes.</p>
+<h2>4.31.2 - 30 Oct 2025</h2>
+<p>No user facing changes.</p>
+<h2>4.31.1 - 30 Oct 2025</h2>
+<ul>
+<li>The <code>add-snippets</code> input has been removed from the <code>analyze</code> action. This input has been deprecated since CodeQL Action 3.26.4 in August 2024 when this removal was announced.</li>
+</ul>
+<h2>4.31.0 - 24 Oct 2025</h2>
+<ul>
+<li>Bump minimum CodeQL bundle version to 2.17.6. <a href=""https://redirect.github.com/github/codeql-action/pull/3223"">#3223</a></li>
+<li>When SARIF files are uploaded by the <code>analyze</code> or <code>upload-sarif</code> actions, the CodeQL Action automatically performs post-processing steps to prepare the data for the upload. Previously, these post-processing steps were only performed before an upload took place. We are now changing this so that the post-processing steps will always be performed, even when the SARIF files are not uploaded. This does not change anything for the <code>upload-sarif</code> action. For <code>analyze</code>, this may affect Advanced Setup for CodeQL users who specify a value other than <code>always</code> for the <code>upload</code> input. <a href=""https://redirect.github.com/github/codeql-action/pull/3222"">#3222</a></li>
+</ul>
+<h2>4.30.9 - 17 Oct 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.23.3. <a href=""https://redirect.github.com/github/codeql-action/pull/3205"">#3205</a></li>
+<li>Experimental: A new <code>setup-codeql</code> action has been added which is similar to <code>init</code>, except it only installs the CodeQL CLI and does not initialize a database. Do not use this in production as it is part of an internal experiment and subject to change at any time. <a href=""https://redirect.github.com/github/codeql-action/pull/3204"">#3204</a></li>
+</ul>
+<h2>4.30.8 - 10 Oct 2025</h2>
+<p>No user facing changes.</p>
+<h2>4.30.7 - 06 Oct 2025</h2>
+<ul>
+<li>[v4+ only] The CodeQL Action now runs on Node.js v24. <a href=""https://redirect.github.com/github/codeql-action/pull/3169"">#3169</a></li>
+</ul>
+<h2>3.30.6 - 02 Oct 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.23.2. <a href=""https://redirect.github.com/github/codeql-action/pull/3168"">#3168</a></li>
+</ul>
+<h2>3.30.5 - 26 Sep 2025</h2>
+<ul>
+<li>We fixed a bug that was introduced in <code>3.30.4</code> with <code>upload-sarif</code> which resulted in files without a <code>.sarif</code> extension not getting uploaded. <a href=""https://redirect.github.com/github/codeql-action/pull/3160"">#3160</a></li>
+</ul>
+<h2>3.30.4 - 25 Sep 2025</h2>
+<ul>
+<li>We have improved the CodeQL Action's ability to validate that the workflow it is used in does not use different versions of the CodeQL Action for different workflow steps. Mixing different versions of the CodeQL Action in the same workflow is unsupported and can lead to unpredictable results. A warning will now be emitted from the <code>codeql-action/init</code> step if different versions of the CodeQL Action are detected in the workflow file. Additionally, an error will now be thrown by the other CodeQL Action steps if they load a configuration file that was generated by a different version of the <code>codeql-action/init</code> step. <a href=""https://redirect.github.com/github/codeql-action/pull/3099"">#3099</a> and <a href=""https://redirect.github.com/github/codeql-action/pull/3100"">#3100</a></li>
+<li>We added support for reducing the size of dependency caches for Java analyses, which will reduce cache usage and speed up workflows. This will be enabled automatically at a later time. <a href=""https://redirect.github.com/github/codeql-action/pull/3107"">#3107</a></li>
+<li>You can now run the latest CodeQL nightly bundle by passing <code>tools: nightly</code> to the <code>init</code> action. In general, the nightly bundle is unstable and we only recommend running it when directed by GitHub staff. <a href=""https://redirect.github.com/github/codeql-action/pull/3130"">#3130</a></li>
+<li>Update default CodeQL bundle version to 2.23.1. <a href=""https://redirect.github.com/github/codeql-action/pull/3118"">#3118</a></li>
+</ul>
+<h2>3.30.3 - 10 Sep 2025</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/github/codeql-action/commit/0499de31b99561a6d14a36a5f662c2a54f91beee""><code>0499de3</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3261"">#3261</a> from github/henrymercer/setup-python</li>
+<li><a href=""https://github.com/github/codeql-action/commit/3b96745d2bb2af9f01a0c9a19f4ffd034ae37879""><code>3b96745</code></a> Set up Python in mergeback workflow</li>
+<li><a href=""https://github.com/github/codeql-action/commit/8a06050a8c0348fb4738f28e0cfbb6727cf054ce""><code>8a06050</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3259"">#3259</a> from github/update-v4.31.2-9576b5cbe</li>
+<li><a href=""https://github.com/github/codeql-action/commit/752a642cb25304f2aaae33cfcc3911673bf65aca""><code>752a642</code></a> Update changelog for v4.31.2</li>
+<li><a href=""https://github.com/github/codeql-action/commit/9576b5cbe818ddefe4e1b444017536fe40b9ab2d""><code>9576b5c</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3258"">#3258</a> from github/mbg/enablement-errors/case-insensitive</li>
+<li><a href=""https://github.com/github/codeql-action/commit/cc8843728c8296d35175b82c7f1bb3748290764a""><code>cc88437</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3257"">#3257</a> from github/henrymercer/ubuntu-slim</li>
+<li><a href=""https://github.com/github/codeql-action/commit/f0e9bf07f44488f7e3adf5ff01d04e6392b60b3b""><code>f0e9bf0</code></a> Make <code>isEnablementError</code> case-insensitive</li>
+<li><a href=""https://github.com/github/codeql-action/commit/2a3599c52055e7a5443d3fef8981a4d543586dde""><code>2a3599c</code></a> Run lightweight workflows on <code>ubuntu-slim</code></li>
+<li><a href=""https://github.com/github/codeql-action/commit/514ff4d116ef04d9ffc8adb3da5abb07961cb990""><code>514ff4d</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3256"">#3256</a> from github/henrymercer/resolve-bad-merge</li>
+<li><a href=""https://github.com/github/codeql-action/commit/aab1c2f9318aa4b88e7532de10fe02ac860d5ab8""><code>aab1c2f</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3253"">#3253</a> from github/mergeback/v4.31.1-to-main-5fe9434c</li>
+<li>Additional commits viewable in <a href=""https://github.com/github/codeql-action/compare/4e94bd11f71e507f7f87df81788dff88d1dacbfb...0499de31b99561a6d14a36a5f662c2a54f91beee"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github/codeql-action&package-manager=github_actions&previous-version=4.31.0&new-version=4.31.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+Copybara import of the project:
+
+--
+9d905217a59998109e45770f5acc26c398909cff by dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>:
+
+Bump github/codeql-action from 4.31.0 to 4.31.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 4.31.0 to 4.31.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/4e94bd11f71e507f7f87df81788dff88d1dacbfb...0499de31b99561a6d14a36a5f662c2a54f91beee)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 4.31.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Merging this change closes #33454
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33454 from openxla:dependabot/github_actions/github/codeql-action-4.31.2 9d905217a59998109e45770f5acc26c398909cff
+",2025-11-04 09:12:14+00:00,2025-11-04 12:04:39+00:00,2025-11-04 12:04:38+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103502,PR #32921: [XLA:GPU][oneAPI] SYCL memcpy functions and tests,copybara-service[bot],closed,True,"PR #32921: [XLA:GPU][oneAPI] SYCL memcpy functions and tests
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/32921
+
+Co-author: @kanvi-nervana 
+
+This PR implements SYCL memcpy functions and adds corresponding tests. It also implements some misc. features in `sycl_gpu_runtime` such as functions to get SYCL frequency, synchronize stream etc.
+
+It depends on https://github.com/openxla/xla/pull/32918.
+Copybara import of the project:
+
+--
+ab502809dd97114bd8b4ab4ac22501cf55e55118 by Bhavani Subramanian <bhavani1.subramanian@intel.com>:
+
+Added SyclStreamPool and tests
+
+--
+1c3dc3a79b65726210f22017387226a29aae8617 by Bhavani Subramanian <bhavani1.subramanian@intel.com>:
+
+Added SYCL memory management functions and tests
+
+--
+52933925f2b87a1e56ee90f80798db93a6d785e6 by Bhavani Subramanian <bhavani1.subramanian@intel.com>:
+
+Added SYCL memcpy functions and tests
+
+--
+730f94b00b78db2c4692fc06276c77b9377cdebe by Bhavani Subramanian <bhavani1.subramanian@intel.com>:
+
+Addressed review comments:
+- Use a function for SyclAsyncHandler
+- Qualified all SYCL functions with ::sycl::
+- Use absl::flat_hash_map for StreamPoolMap
+- Removed `else` blocks after `return` statements
+- Added ABSL_ATTRIBUTE_NONNULL for stream_handle
+- Use TF_ASSERT_OK instead of ASSERT_TRUE(...ok())
+- Use EXPECT_THAT instead of EXPECT_EQ when checking error status
+
+Merging this change closes #32921
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32921 from Intel-tensorflow:bhavanis/sycl_memcpy 730f94b00b78db2c4692fc06276c77b9377cdebe
+",2025-11-04 08:15:22+00:00,2025-11-04 11:25:06+00:00,2025-11-04 11:25:05+00:00,1430,22,7,1,0,0
+tensorflow/tensorflow,103501,PR #33414: [ROCm] Add missing keepalive timeout for rbe builds in rocm,copybara-service[bot],closed,True,"PR #33414: [ROCm] Add missing keepalive timeout for rbe builds in rocm
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33414
+
+📝 Summary of Changes
+Set keepalive time to prevent connection drop from bazel client during rbe builds
+
+🎯 Justification
+Set keepalive time to prevent connection drop from bazel client during rbe builds
+
+
+🚀 Kind of Contribution
+Please remove what does not apply: 🐛 Bug Fix
+
+📊 Benchmark (for Performance Improvements)
+Not relevant
+
+🧪 Unit Tests:
+Not relevant
+
+🧪 Execution Tests:
+Not relevant
+
+Copybara import of the project:
+
+--
+76a26b318dac967b17a64abfbbbb00ca26980b5a by Alexandros Theodoridis <atheodor@amd.com>:
+
+Add missing keepalive timeout for rbe builds in rocm
+
+Merging this change closes #33414
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33414 from ROCm:ci_add_missing_keepalive_timeout_for_rbe_builds 76a26b318dac967b17a64abfbbbb00ca26980b5a
+",2025-11-04 08:09:34+00:00,2025-11-07 11:07:03+00:00,2025-11-07 11:07:03+00:00,2,1,1,1,0,0
+tensorflow/tensorflow,103500,PR #33261: [ROCm] make rbe docker image parametrized move to local config rocm,copybara-service[bot],closed,True,"PR #33261: [ROCm] make rbe docker image parametrized move to local config rocm
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33261
+
+📝 Summary of Changes
+Move rbe platform to local_config_rocm and make the docker image configurable
+
+🎯 Justification
+ROCm ci requires rocm rbe build image to be configurable to match with what is used by the CI worker node
+
+🚀 Kind of Contribution
+Please remove what does not apply: 
+✨ New Feature
+
+📊 Benchmark (for Performance Improvements)
+Not relevant, CI config
+
+🧪 Unit Tests:
+Not relevant, CI config
+
+🧪 Execution Tests:
+Not relevant, CI config.
+
+Copybara import of the project:
+
+--
+3054eedc59a3d6333bf8390d5af5ea27339186d3 by Alexandros Theodoridis <atheodor@amd.com>:
+
+Make rocm rbe docker image parametrized
+
+--
+fc63fa14135f45a0e73f47d1740db36295d15e59 by Alexandros Theodoridis <atheodor@amd.com>:
+
+Put additional arguments to the end of the build command to be able to override args
+
+--
+1948a89ad0180745c2888921d9c4fa4f04dbf8ef by Alexandros Theodoridis <atheodor@amd.com>:
+
+Add env var dependency
+
+--
+bafafddd42dd8edf8713c980f68a4e4e512df345 by Alexandros Theodoridis <atheodor@amd.com>:
+
+Add image description
+
+--
+10984dacaa66cc3435f44249977bde2cb6252dfb by Alexandros Theodoridis <atheodor@amd.com>:
+
+Restore invalid change
+
+Merging this change closes #33261
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33261 from ROCm:ci_make_rbe_docker_image_parametrized_move_to_local_config_rocm 10984dacaa66cc3435f44249977bde2cb6252dfb
+",2025-11-04 08:08:21+00:00,2025-11-04 10:59:05+00:00,2025-11-04 10:59:05+00:00,25,74,6,1,0,0
+tensorflow/tensorflow,103498,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-04 07:48:10+00:00,2025-11-04 09:36:56+00:00,2025-11-04 09:36:56+00:00,362,344,32,1,0,0
+tensorflow/tensorflow,103497,Add `xla_cpu_enable_platform_dependent_math` flag,copybara-service[bot],closed,True,"Add `xla_cpu_enable_platform_dependent_math` flag
+
+This new flag is default true, which matches existing behavior. It enables us to add new behaviors if this is changed to false, where we avoid using platform dependent optimizations and logic, in an attempt to produce consistent results across CPUs.
+
+This mirrors the backend flag `disable_platform_dependent_math`. This flag is currently always set, and I don't think we should change that in this change, as it would be a breaking change for clients that haven't had a chance to set this new front end flag yet.
+
+This is currently hooked up to YNNPACK in this change, however, it is not currently tested, because:
+- YNNPACK fp32 and bf16 dots are currently disabled (in part due to lacking this flag).
+- XLA dots currently are already not deterministic (unless using backend specific environment variables).
+- Therefore, this flag has no functional changes that can be observed with any available options.
+
+I think that we should add the flag, allow clients to set the flag, then we can enable YNNPACK, and then we can add some test coverage of this behavior. We could add some more flags to control whether fp32 and bf16 is enabled in YNNPACK, but I don't think we should do that.
+
+For now, I've manually tested this with fp32 and bf16 support in YNNPACK hacked on, and verified that this flag does cause YNNPACK to avoid using `tile_k > 1` kernels (the only behavior currently affected by this flag).
+",2025-11-04 07:29:36+00:00,2025-11-05 01:07:39+00:00,2025-11-05 01:07:39+00:00,38,8,6,1,0,0
+tensorflow/tensorflow,103495,Remove `ProtoParseNumeric` and inline its logic into `SafeStringToNumeric`.,copybara-service[bot],closed,True,"Remove `ProtoParseNumeric` and inline its logic into `SafeStringToNumeric`.
+
+The `ProtoParseNumeric` helper functions are removed. The `SafeStringToNumeric` template now uses `if constexpr` to directly call the appropriate `absl::SimpleAto*` function based on the numeric type.
+",2025-11-04 05:32:36+00:00,2025-11-05 04:33:54+00:00,2025-11-05 04:33:53+00:00,13,75,4,1,0,0
+tensorflow/tensorflow,103493,[XLA] Make LHS fragmentation estimate more accurate,copybara-service[bot],closed,True,"[XLA] Make LHS fragmentation estimate more accurate
+
+...by only considering the default memory space, as that is the only one that we consider when tracking memory pressure.
+
+Additionally clarify that we're trying to achieve the initial memory limit by consistently lowering the target.
+",2025-11-04 04:52:25+00:00,2025-11-05 02:23:53+00:00,2025-11-05 02:23:53+00:00,9,3,1,1,0,0
+tensorflow/tensorflow,103492,[TSL] Migrate code to using ABSL types,copybara-service[bot],closed,True,"[TSL] Migrate code to using ABSL types
+
+No functional change is intended.
+",2025-11-04 03:35:31+00:00,2025-11-04 23:19:33+00:00,2025-11-04 23:19:33+00:00,99,117,4,1,0,0
+tensorflow/tensorflow,103491,Make converting PjRtBuffers to literals just a little bit easier.,copybara-service[bot],closed,True,"Make converting PjRtBuffers to literals just a little bit easier.
+",2025-11-04 03:31:28+00:00,2025-11-04 21:43:58+00:00,2025-11-04 21:43:58+00:00,77,51,3,1,0,0
+tensorflow/tensorflow,103490,Update PremappedCopierState::FlushReadyWorkItemsInOrder to ensure on_done gests,copybara-service[bot],closed,True,"Update PremappedCopierState::FlushReadyWorkItemsInOrder to ensure on_done gests
+destroyed as part of invocation.
+",2025-11-04 02:31:37+00:00,2025-11-04 03:15:13+00:00,2025-11-04 03:15:13+00:00,30,24,2,1,0,0
+tensorflow/tensorflow,103489,Also temporarily disable bf16 in YNNPACK,copybara-service[bot],closed,True,"Also temporarily disable bf16 in YNNPACK
+
+This way, we can avoid all numerical non-determinism for now.
+",2025-11-04 02:16:35+00:00,2025-11-04 05:08:29+00:00,2025-11-04 05:08:29+00:00,4,2,1,1,0,0
+tensorflow/tensorflow,103487,"Oops, test doesn't actually use BufferReturner.",copybara-service[bot],closed,True,"Oops, test doesn't actually use BufferReturner.
+",2025-11-04 01:59:53+00:00,2025-11-04 02:30:41+00:00,2025-11-04 02:30:41+00:00,5,2,1,1,0,0
+tensorflow/tensorflow,103486,[xla:cpu] Copy service/cpu/runtime_pow to cpu/codegen/builtin_pow,copybara-service[bot],closed,True,"[xla:cpu] Copy service/cpu/runtime_pow to cpu/codegen/builtin_pow
+
+First change in preparation of moving XLA:CPU builtins to backends/cpu/codegen folder
+",2025-11-04 01:51:45+00:00,2025-11-04 04:41:05+00:00,2025-11-04 04:41:04+00:00,78,2,5,1,0,0
+tensorflow/tensorflow,103485,Protect filling out GetReadyFuture with a mutex.,copybara-service[bot],closed,True,"Protect filling out GetReadyFuture with a mutex.
+",2025-11-04 01:42:17+00:00,2025-11-04 02:17:14+00:00,2025-11-04 02:17:14+00:00,55,0,3,1,0,0
+tensorflow/tensorflow,103484,[xla:cpu] Do not register builtin runtime symbols as custom calls,copybara-service[bot],closed,True,"[xla:cpu] Do not register builtin runtime symbols as custom calls
+
+Simplify runtime symbols registration with XLA:CPU executables
+",2025-11-04 01:27:42+00:00,2025-11-04 02:46:48+00:00,2025-11-04 02:46:48+00:00,124,193,5,1,0,0
+tensorflow/tensorflow,103477,Remove obsolete log,copybara-service[bot],closed,True,"Remove obsolete log
+",2025-11-03 22:33:47+00:00,2025-11-03 23:47:22+00:00,2025-11-03 23:47:21+00:00,0,4,1,1,0,0
+tensorflow/tensorflow,103476,Updating internal visibility rules.,copybara-service[bot],closed,True,"Updating internal visibility rules.
+",2025-11-03 22:16:54+00:00,2025-11-06 18:42:13+00:00,2025-11-06 18:42:13+00:00,2,1,3,1,0,0
+tensorflow/tensorflow,103475,Add file utility to docker container image,copybara-service[bot],closed,True,"Add file utility to docker container image
+",2025-11-03 22:08:41+00:00,2025-11-03 23:35:16+00:00,2025-11-03 23:35:16+00:00,1,0,1,1,0,0
+tensorflow/tensorflow,103472,Enable YNNPACK by default,copybara-service[bot],closed,True,"Enable YNNPACK by default
+
+It is currently limited to handling dots of int8 inputs.
+",2025-11-03 21:00:20+00:00,2025-11-04 18:55:07+00:00,2025-11-04 18:55:07+00:00,2,0,1,1,0,0
+tensorflow/tensorflow,103471,[ReplicaGroupV3][Validation] add overlap check for axes in v3 replica group.,copybara-service[bot],closed,True,"[ReplicaGroupV3][Validation] add overlap check for axes in v3 replica group.
+",2025-11-03 20:55:08+00:00,2025-11-05 01:40:47+00:00,2025-11-05 01:40:47+00:00,81,9,4,1,0,0
+tensorflow/tensorflow,103465,Propagate errors in TFRT GPU client.,copybara-service[bot],closed,True,"Propagate errors in TFRT GPU client.
+
+A `TrackedGpuDeviceBuffer` has two futures: a `definition_event_` and a
+`ready_event_`. The definition event is fulfilled when the GPU computation that
+writes the buffer is scheduled. The ready event is fulfilled when the GPU
+computation that writes the buffer finishes.
+
+Definition events are critical for scheduling a sequence of data-dependent
+computations on the GPU. If the output of computation A is an input to
+computation B, then you cannot schedule B until A's definition event is
+fulfilled.
+
+Ready events, on the other hand, are not needed for scheduling computation.
+Instead, they are used to wait for computations to finish. This is needed in
+two scenarios. First, if a user calls `BlockUntilReady`, we can block on a
+buffer's ready event. Second, if a user tranfers a GPU buffer to host memory to
+inspect it (e.g., print it), then we can also block on the buffers ready event.
+
+Before this change, the TFRT GPU client was not implementing ready events
+correctly for two reasons. First, device to host transfer was ignoring the
+ready event. Second, the ready event of a computation was ignoring errors on
+the ready events of its inputs. This fixes both issues, ensuring that errors
+are fully propagated.
+",2025-11-03 18:30:30+00:00,2025-11-03 19:11:08+00:00,2025-11-03 19:11:08+00:00,31,0,2,1,0,0
+tensorflow/tensorflow,103464,[XLA:GPU][XTile] Move reshape scalar logic to triton lowering.,copybara-service[bot],closed,True,"[XLA:GPU][XTile] Move reshape scalar logic to triton lowering.
+
+The previous logic emitted code that was specific to triton, the CPU -> vector lowering works directly so move this code to triton specific lowering.
+
+It also means that we add another op that supports 0D tensors.
+",2025-11-03 17:36:53+00:00,2025-11-05 11:14:27+00:00,2025-11-05 11:14:27+00:00,124,160,6,1,0,0
+tensorflow/tensorflow,103463,[Autotuner] Add MIOpen backend. The backend only returns a default algorithm.,copybara-service[bot],closed,True,"[Autotuner] Add MIOpen backend. The backend only returns a default algorithm.
+",2025-11-03 17:35:09+00:00,2025-11-06 15:23:06+00:00,2025-11-06 15:23:05+00:00,448,0,4,1,0,0
+tensorflow/tensorflow,103461,PR #33470: PjRT C API: make PJRT FFI C extension header compliant,copybara-service[bot],closed,True,"PR #33470: PjRT C API: make PJRT FFI C extension header compliant
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33470
+
+This PR refactors the way C structs are defined in the `pjrt_c_api_ffi_extension.h` header to use `typedef struct` instead of plain `struct`. This change improves compatibility and clarity when using these types in C code.
+
+c/ @ezhulenev
+
+Copybara import of the project:
+
+--
+e63933896594d38fd8463144f03347e1e8d082f7 by Hugo Mano <hugo@zml.ai>:
+
+PjRT C API: make PJRT FFI C extension header compliant
+
+Merging this change closes #33470
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33470 from hugomano:hugomano/fix-pjrt-c-api-ffi-extension e63933896594d38fd8463144f03347e1e8d082f7
+",2025-11-03 16:50:13+00:00,2025-11-03 18:33:31+00:00,2025-11-03 18:33:31+00:00,4,4,1,1,0,0
+tensorflow/tensorflow,103460,[xla:cpu] Add serialization support for YnnFusionThunk,copybara-service[bot],closed,True,"[xla:cpu] Add serialization support for YnnFusionThunk
+",2025-11-03 16:34:26+00:00,2025-11-03 20:04:43+00:00,2025-11-03 20:04:43+00:00,191,17,9,1,0,0
+tensorflow/tensorflow,103459,[XLA:GPU] Pass peer pointers for each kernel parameter.,copybara-service[bot],closed,True,"[XLA:GPU] Pass peer pointers for each kernel parameter.
+",2025-11-03 16:24:30+00:00,2025-11-05 09:37:41+00:00,2025-11-05 09:37:41+00:00,225,90,8,1,0,0
+tensorflow/tensorflow,103458,[XLA:CPU] Log a warning instead of returning an error when target machine features for compilation and execution don't match.,copybara-service[bot],closed,True,"[XLA:CPU] Log a warning instead of returning an error when target machine features for compilation and execution don't match.
+",2025-11-03 16:10:05+00:00,2025-11-04 10:43:31+00:00,2025-11-04 10:43:31+00:00,18,15,1,1,0,0
+tensorflow/tensorflow,103455,[XLA:CPU][XTile] Fix scalar extract dynamic folding and only create the size of mask needed in FoldExtractIntoCreateMask.,copybara-service[bot],closed,True,"[XLA:CPU][XTile] Fix scalar extract dynamic folding and only create the size of mask needed in FoldExtractIntoCreateMask.
+",2025-11-03 14:47:12+00:00,2025-11-03 17:21:37+00:00,2025-11-03 17:21:37+00:00,92,20,2,1,0,0
+tensorflow/tensorflow,103453,Rollback change that broke presubmit build.,copybara-service[bot],closed,True,"Rollback change that broke presubmit build.
+
+Reverts 9c8c270936133cdd51fd0e64fe66dd9f75f6bad9
+",2025-11-03 14:20:23+00:00,2025-11-03 15:18:55+00:00,2025-11-03 15:18:55+00:00,28,28,3,1,0,0
+tensorflow/tensorflow,103452,[XLA:GPU] Support start_index_map in ComputeOutputToInputGatherOpIndexing and in the gather emitter,copybara-service[bot],closed,True,"[XLA:GPU] Support start_index_map in ComputeOutputToInputGatherOpIndexing and in the gather emitter
+",2025-11-03 14:06:00+00:00,2025-11-05 14:31:36+00:00,2025-11-05 14:31:35+00:00,100,17,6,1,0,0
+tensorflow/tensorflow,103451,[XLA:GPU]: Remove redundant cast from triton function lowering.,copybara-service[bot],closed,True,"[XLA:GPU]: Remove redundant cast from triton function lowering.
+
+We are adding some llvm casts that are not needed when both the source
+and destination is the same.
+
+In addition it makes the assumption that everything is a !tt.ptr<> which won't
+be true when we emit collectives.
+",2025-11-03 13:53:55+00:00,2025-11-04 14:10:47+00:00,2025-11-04 14:10:47+00:00,16,19,1,1,0,0
+tensorflow/tensorflow,103445,[XLA:GPU] Fix issues found by ASAN,copybara-service[bot],closed,True,"[XLA:GPU] Fix issues found by ASAN
+
+* `execution_context` passed down to `CustomCallThunk::BuildCallOptions`
+  is null when called for stages other than Execute, so `absl_nonnull`
+  annotation was incorrect.
+* Use locals instead of temporaries for the reference arguments passed
+  to calls in `CustomCallThunk` tests.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33454 from openxla:dependabot/github_actions/github/codeql-action-4.31.2 9d905217a59998109e45770f5acc26c398909cff
+",2025-11-03 12:56:54+00:00,2025-11-04 14:52:13+00:00,2025-11-04 14:52:12+00:00,7,6,3,1,0,0
+tensorflow/tensorflow,103444,[XLA:GPU]: Add ability to pass opaque args count to xtile entry function.,copybara-service[bot],closed,True,"[XLA:GPU]: Add ability to pass opaque args count to xtile entry function.
+
+In certain cases the arguments to a triton/xtile function could be scalars
+or opaque arguments such as pointers to synchronization memory on a another GPU
+that should not be tiled with the regular tiling infra.
+
+This change allows skipping type validation for such arguments if the count
+of such arguments is explicitly specified as an attribute.
+",2025-11-03 12:39:06+00:00,2025-11-04 13:14:22+00:00,2025-11-04 13:14:22+00:00,69,10,5,1,0,0
+tensorflow/tensorflow,103442,Fix typo in bazelrc,copybara-service[bot],closed,True,"Fix typo in bazelrc
+",2025-11-03 12:30:53+00:00,2025-11-03 16:00:15+00:00,2025-11-03 16:00:15+00:00,2,2,1,1,0,0
+tensorflow/tensorflow,103440,[XLA:GPU] Remove unused libdevice_path in generic emitter.,copybara-service[bot],closed,True,"[XLA:GPU] Remove unused libdevice_path in generic emitter.
+",2025-11-03 12:02:59+00:00,2025-11-03 16:53:37+00:00,2025-11-03 16:53:37+00:00,34,48,1,1,0,0
+tensorflow/tensorflow,103439,[XLA:GPU] Refactor GEMM fusion pass planing loop to use builder,copybara-service[bot],closed,True,"[XLA:GPU] Refactor GEMM fusion pass planing loop to use builder
+
+By splitting out the plan building logic we make the loop itself more compact and understandable.
+",2025-11-03 12:00:16+00:00,2025-11-04 11:58:15+00:00,2025-11-04 11:58:15+00:00,111,74,1,1,0,0
+tensorflow/tensorflow,103437,[XLA:GPU][XTile] Use to_scalar/to_tensor rather than tensor extract/from_elements.,copybara-service[bot],closed,True,"[XLA:GPU][XTile] Use to_scalar/to_tensor rather than tensor extract/from_elements.
+",2025-11-03 11:25:57+00:00,2025-11-03 18:06:10+00:00,2025-11-03 18:06:10+00:00,125,250,7,1,0,0
+tensorflow/tensorflow,103436,[XTile] Introduce to/from tensor ops.,copybara-service[bot],closed,True,"[XTile] Introduce to/from tensor ops.
+",2025-11-03 10:47:54+00:00,2025-11-03 17:00:57+00:00,2025-11-03 17:00:57+00:00,93,0,3,1,0,0
+tensorflow/tensorflow,103435,[XLA:GPU]: Add utility function for wrapping HloInstruction in a Fusion,copybara-service[bot],closed,True,"[XLA:GPU]: Add utility function for wrapping HloInstruction in a Fusion
+
+To create a temporary fusion without modifying the original module
+we need to clone an instruction and its called computations into a new module.
+
+This change adds a utility to do the same and adds tests for it.
+",2025-11-03 10:05:53+00:00,2025-11-03 21:21:35+00:00,2025-11-03 21:21:34+00:00,107,0,4,1,0,0
+tensorflow/tensorflow,103433,Wrap memory_space_assignment_proto to python,copybara-service[bot],closed,True,"Wrap memory_space_assignment_proto to python
+",2025-11-03 09:09:23+00:00,2025-11-04 12:23:36+00:00,2025-11-04 12:23:36+00:00,6,0,1,1,0,0
+tensorflow/tensorflow,103432,[XLA:GPU][XTile] Create 0D elemental ops and convert them to scalars as a later pass.,copybara-service[bot],closed,True,"[XLA:GPU][XTile] Create 0D elemental ops and convert them to scalars as a later pass.
+
+Not emitting 0D tensors from the tiled emitter is a triton specific requirement, the additional to/from tensors scattered around make lowering more complex for other backends (such as CPU) so this is the first step to pushing the logic down the stack.
+",2025-11-03 08:35:03+00:00,2025-11-04 13:58:26+00:00,2025-11-04 13:58:26+00:00,258,70,9,1,0,0
+tensorflow/tensorflow,103431,Add support for release candidate versions in PJRT wheels.,copybara-service[bot],closed,True,"Add support for release candidate versions in PJRT wheels.
+",2025-11-03 07:56:52+00:00,2025-11-04 21:01:27+00:00,2025-11-04 21:01:27+00:00,50,2,4,1,0,0
+tensorflow/tensorflow,103426,Replace the deprecated `remote_execution_properties` attribute with `exec_properties`.,copybara-service[bot],closed,True,"Replace the deprecated `remote_execution_properties` attribute with `exec_properties`.
+",2025-11-02 23:22:39+00:00,2025-11-03 19:03:13+00:00,2025-11-03 19:03:13+00:00,36,96,4,1,0,0
+tensorflow/tensorflow,103425,Reverts 4618f903c401ab54fa07828d9e9e78380a75ac77,copybara-service[bot],closed,True,"Reverts 4618f903c401ab54fa07828d9e9e78380a75ac77
+",2025-11-02 21:20:43+00:00,2025-11-03 16:43:35+00:00,2025-11-03 16:43:35+00:00,4,2,1,1,0,0
+tensorflow/tensorflow,103424,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-02 20:04:42+00:00,2025-11-02 21:34:38+00:00,2025-11-02 21:34:37+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103415,Updated oss tflite schema to reflect the changes.,copybara-service[bot],closed,True,"Updated oss tflite schema to reflect the changes.
+",2025-11-02 17:21:05+00:00,2025-11-03 01:19:18+00:00,2025-11-03 01:19:18+00:00,332,22,1,1,0,0
+tensorflow/tensorflow,103414,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-02 16:58:09+00:00,2025-11-02 18:55:44+00:00,2025-11-02 18:55:44+00:00,4,4,1,1,0,0
+tensorflow/tensorflow,103413,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-02 16:55:22+00:00,2025-11-02 18:42:35+00:00,2025-11-02 18:42:35+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103410,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-02 14:44:04+00:00,2025-11-04 05:31:37+00:00,2025-11-04 05:31:37+00:00,0,1,1,1,0,0
+tensorflow/tensorflow,103408,Add dtype note for IsotonicRegression op,Akarsh-28,closed,True,"This PR adds a documentation note for `tf.raw_ops.IsotonicRegression` describing the supported dtype combinations.
+
+### Changes
+- Updated `tensorflow/core/api_def/base_api/api_def_IsotonicRegression.pbtxt`
+- Added notes about valid input-output dtype pairs:
+  * Floating-point inputs keep the same dtype.
+  * 8- and 16-bit integer inputs output 32-bit floats.
+  * 32- and 64-bit integer inputs output 64-bit floats.
+- Mentioned that unsupported dtype pairs raise a ""Could not find device for node"" error.
+
+This helps clarify dtype behavior and addresses issue #103352.
+",2025-11-02 10:41:03+00:00,2025-11-04 06:22:46+00:00,2025-11-04 06:22:46+00:00,15,2,1,1,1,0
+tensorflow/tensorflow,103396,Bump the github-actions group with 4 updates,dependabot[bot],closed,True,"Bumps the github-actions group with 4 updates: [google/osv-scanner-action](https://github.com/google/osv-scanner-action), [actions/upload-artifact](https://github.com/actions/upload-artifact), [github/codeql-action](https://github.com/github/codeql-action) and [actions/stale](https://github.com/actions/stale).
+
+Updates `google/osv-scanner-action` from 2.2.3 to 2.2.4
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/google/osv-scanner-action/releases"">google/osv-scanner-action's releases</a>.</em></p>
+<blockquote>
+<h2>v2.2.4</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>chore(deps): update github/codeql-action action to v4 by <a href=""https://github.com/renovate-bot""><code>@​renovate-bot</code></a> in <a href=""https://redirect.github.com/google/osv-scanner-action/pull/102"">google/osv-scanner-action#102</a></li>
+<li>Update to v2.2.4 by <a href=""https://github.com/another-rex""><code>@​another-rex</code></a> in <a href=""https://redirect.github.com/google/osv-scanner-action/pull/103"">google/osv-scanner-action#103</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/google/osv-scanner-action/compare/v2.2.3...v2.2.4"">https://github.com/google/osv-scanner-action/compare/v2.2.3...v2.2.4</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/google/osv-scanner-action/commit/9bb69575e74019c2ad085a1860787043adf47ccb""><code>9bb6957</code></a> Merge pull request <a href=""https://redirect.github.com/google/osv-scanner-action/issues/103"">#103</a> from google/update-to-v2.2.4</li>
+<li><a href=""https://github.com/google/osv-scanner-action/commit/74121ba1526587d465d2272f882c401985ff5eab""><code>74121ba</code></a> Update unified workflow example to point to v2.2.4 reusable workflows</li>
+<li><a href=""https://github.com/google/osv-scanner-action/commit/ef6f278161933625ae65a409a858a83c4934e3f2""><code>ef6f278</code></a> Update reusable workflows to point to v2.2.4 actions</li>
+<li><a href=""https://github.com/google/osv-scanner-action/commit/d510e7d909b203e4aa41380fa1e74c20cad9fadf""><code>d510e7d</code></a> &quot;Update actions to use v2.2.4 osv-scanner image&quot;</li>
+<li><a href=""https://github.com/google/osv-scanner-action/commit/88da6c4b12e3962664704b4b3b82254df83919bc""><code>88da6c4</code></a> Merge pull request <a href=""https://redirect.github.com/google/osv-scanner-action/issues/102"">#102</a> from renovate-bot/renovate/major-workflows</li>
+<li><a href=""https://github.com/google/osv-scanner-action/commit/bd508ad80a44ba40def38f0cb07ab8516f7f8752""><code>bd508ad</code></a> chore(deps): update github/codeql-action action to v4</li>
+<li>See full diff in <a href=""https://github.com/google/osv-scanner-action/compare/v2.2.3...v2.2.4"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `actions/upload-artifact` from 4.6.2 to 5.0.0
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/actions/upload-artifact/releases"">actions/upload-artifact's releases</a>.</em></p>
+<blockquote>
+<h2>v5.0.0</h2>
+<h2>What's Changed</h2>
+<p><strong>BREAKING CHANGE:</strong> this update supports Node <code>v24.x</code>. This is not a breaking change per-se but we're treating it as such.</p>
+<ul>
+<li>Update README.md by <a href=""https://github.com/GhadimiR""><code>@​GhadimiR</code></a> in <a href=""https://redirect.github.com/actions/upload-artifact/pull/681"">actions/upload-artifact#681</a></li>
+<li>Update README.md by <a href=""https://github.com/nebuk89""><code>@​nebuk89</code></a> in <a href=""https://redirect.github.com/actions/upload-artifact/pull/712"">actions/upload-artifact#712</a></li>
+<li>Readme: spell out the first use of GHES by <a href=""https://github.com/danwkennedy""><code>@​danwkennedy</code></a> in <a href=""https://redirect.github.com/actions/upload-artifact/pull/727"">actions/upload-artifact#727</a></li>
+<li>Update GHES guidance to include reference to Node 20 version by <a href=""https://github.com/patrikpolyak""><code>@​patrikpolyak</code></a> in <a href=""https://redirect.github.com/actions/upload-artifact/pull/725"">actions/upload-artifact#725</a></li>
+<li>Bump <code>@actions/artifact</code> to <code>v4.0.0</code></li>
+<li>Prepare <code>v5.0.0</code> by <a href=""https://github.com/danwkennedy""><code>@​danwkennedy</code></a> in <a href=""https://redirect.github.com/actions/upload-artifact/pull/734"">actions/upload-artifact#734</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/GhadimiR""><code>@​GhadimiR</code></a> made their first contribution in <a href=""https://redirect.github.com/actions/upload-artifact/pull/681"">actions/upload-artifact#681</a></li>
+<li><a href=""https://github.com/nebuk89""><code>@​nebuk89</code></a> made their first contribution in <a href=""https://redirect.github.com/actions/upload-artifact/pull/712"">actions/upload-artifact#712</a></li>
+<li><a href=""https://github.com/danwkennedy""><code>@​danwkennedy</code></a> made their first contribution in <a href=""https://redirect.github.com/actions/upload-artifact/pull/727"">actions/upload-artifact#727</a></li>
+<li><a href=""https://github.com/patrikpolyak""><code>@​patrikpolyak</code></a> made their first contribution in <a href=""https://redirect.github.com/actions/upload-artifact/pull/725"">actions/upload-artifact#725</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/actions/upload-artifact/compare/v4...v5.0.0"">https://github.com/actions/upload-artifact/compare/v4...v5.0.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/actions/upload-artifact/commit/330a01c490aca151604b8cf639adc76d48f6c5d4""><code>330a01c</code></a> Merge pull request <a href=""https://redirect.github.com/actions/upload-artifact/issues/734"">#734</a> from actions/danwkennedy/prepare-5.0.0</li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/03f282445299bbefc96171af272a984663b63a26""><code>03f2824</code></a> Update <code>github.dep.yml</code></li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/905a1ecb5915b264cbc519e4eb415b5d82916018""><code>905a1ec</code></a> Prepare <code>v5.0.0</code></li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/2d9f9cdfa99fedaddba68e9b5b5c281eca26cc63""><code>2d9f9cd</code></a> Merge pull request <a href=""https://redirect.github.com/actions/upload-artifact/issues/725"">#725</a> from patrikpolyak/patch-1</li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/9687587dec67f2a8bc69104e183d311c42af6d6f""><code>9687587</code></a> Merge branch 'main' into patch-1</li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/2848b2cda0e5190984587ec6bb1f36730ca78d50""><code>2848b2c</code></a> Merge pull request <a href=""https://redirect.github.com/actions/upload-artifact/issues/727"">#727</a> from danwkennedy/patch-1</li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/9b511775fd9ce8c5710b38eea671f856de0e70a7""><code>9b51177</code></a> Spell out the first use of GHES</li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/cd231ca1eda77976a84805c4194a1954f56b0727""><code>cd231ca</code></a> Update GHES guidance to include reference to Node 20 version</li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/de65e23aa2b7e23d713bb51fbfcb6d502f8667d8""><code>de65e23</code></a> Merge pull request <a href=""https://redirect.github.com/actions/upload-artifact/issues/712"">#712</a> from actions/nebuk89-patch-1</li>
+<li><a href=""https://github.com/actions/upload-artifact/commit/8747d8cd7632611ad6060b528f3e0f654c98869c""><code>8747d8c</code></a> Update README.md</li>
+<li>Additional commits viewable in <a href=""https://github.com/actions/upload-artifact/compare/ea165f8d65b6e75b540449e92b4886f43607fa02...330a01c490aca151604b8cf639adc76d48f6c5d4"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `github/codeql-action` from 3.30.5 to 4.31.2
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/github/codeql-action/releases"">github/codeql-action's releases</a>.</em></p>
+<blockquote>
+<h2>v4.31.2</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>4.31.2 - 30 Oct 2025</h2>
+<p>No user facing changes.</p>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v4.31.2/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v4.31.1</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>4.31.1 - 30 Oct 2025</h2>
+<ul>
+<li>The <code>add-snippets</code> input has been removed from the <code>analyze</code> action. This input has been deprecated since CodeQL Action 3.26.4 in August 2024 when this removal was announced.</li>
+</ul>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v4.31.1/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v4.31.0</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>4.31.0 - 24 Oct 2025</h2>
+<ul>
+<li>Bump minimum CodeQL bundle version to 2.17.6. <a href=""https://redirect.github.com/github/codeql-action/pull/3223"">#3223</a></li>
+<li>When SARIF files are uploaded by the <code>analyze</code> or <code>upload-sarif</code> actions, the CodeQL Action automatically performs post-processing steps to prepare the data for the upload. Previously, these post-processing steps were only performed before an upload took place. We are now changing this so that the post-processing steps will always be performed, even when the SARIF files are not uploaded. This does not change anything for the <code>upload-sarif</code> action. For <code>analyze</code>, this may affect Advanced Setup for CodeQL users who specify a value other than <code>always</code> for the <code>upload</code> input. <a href=""https://redirect.github.com/github/codeql-action/pull/3222"">#3222</a></li>
+</ul>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v4.31.0/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v4.30.9</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>4.30.9 - 17 Oct 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.23.3. <a href=""https://redirect.github.com/github/codeql-action/pull/3205"">#3205</a></li>
+<li>Experimental: A new <code>setup-codeql</code> action has been added which is similar to <code>init</code>, except it only installs the CodeQL CLI and does not initialize a database. Do not use this in production as it is part of an internal experiment and subject to change at any time. <a href=""https://redirect.github.com/github/codeql-action/pull/3204"">#3204</a></li>
+</ul>
+<p>See the full <a href=""https://github.com/github/codeql-action/blob/v4.30.9/CHANGELOG.md"">CHANGELOG.md</a> for more information.</p>
+<h2>v4.30.8</h2>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/github/codeql-action/blob/main/CHANGELOG.md"">github/codeql-action's changelog</a>.</em></p>
+<blockquote>
+<h1>CodeQL Action Changelog</h1>
+<p>See the <a href=""https://github.com/github/codeql-action/releases"">releases page</a> for the relevant changes to the CodeQL CLI and language packs.</p>
+<h2>[UNRELEASED]</h2>
+<p>No user facing changes.</p>
+<h2>4.31.2 - 30 Oct 2025</h2>
+<p>No user facing changes.</p>
+<h2>4.31.1 - 30 Oct 2025</h2>
+<ul>
+<li>The <code>add-snippets</code> input has been removed from the <code>analyze</code> action. This input has been deprecated since CodeQL Action 3.26.4 in August 2024 when this removal was announced.</li>
+</ul>
+<h2>4.31.0 - 24 Oct 2025</h2>
+<ul>
+<li>Bump minimum CodeQL bundle version to 2.17.6. <a href=""https://redirect.github.com/github/codeql-action/pull/3223"">#3223</a></li>
+<li>When SARIF files are uploaded by the <code>analyze</code> or <code>upload-sarif</code> actions, the CodeQL Action automatically performs post-processing steps to prepare the data for the upload. Previously, these post-processing steps were only performed before an upload took place. We are now changing this so that the post-processing steps will always be performed, even when the SARIF files are not uploaded. This does not change anything for the <code>upload-sarif</code> action. For <code>analyze</code>, this may affect Advanced Setup for CodeQL users who specify a value other than <code>always</code> for the <code>upload</code> input. <a href=""https://redirect.github.com/github/codeql-action/pull/3222"">#3222</a></li>
+</ul>
+<h2>4.30.9 - 17 Oct 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.23.3. <a href=""https://redirect.github.com/github/codeql-action/pull/3205"">#3205</a></li>
+<li>Experimental: A new <code>setup-codeql</code> action has been added which is similar to <code>init</code>, except it only installs the CodeQL CLI and does not initialize a database. Do not use this in production as it is part of an internal experiment and subject to change at any time. <a href=""https://redirect.github.com/github/codeql-action/pull/3204"">#3204</a></li>
+</ul>
+<h2>4.30.8 - 10 Oct 2025</h2>
+<p>No user facing changes.</p>
+<h2>4.30.7 - 06 Oct 2025</h2>
+<ul>
+<li>[v4+ only] The CodeQL Action now runs on Node.js v24. <a href=""https://redirect.github.com/github/codeql-action/pull/3169"">#3169</a></li>
+</ul>
+<h2>3.30.6 - 02 Oct 2025</h2>
+<ul>
+<li>Update default CodeQL bundle version to 2.23.2. <a href=""https://redirect.github.com/github/codeql-action/pull/3168"">#3168</a></li>
+</ul>
+<h2>3.30.5 - 26 Sep 2025</h2>
+<ul>
+<li>We fixed a bug that was introduced in <code>3.30.4</code> with <code>upload-sarif</code> which resulted in files without a <code>.sarif</code> extension not getting uploaded. <a href=""https://redirect.github.com/github/codeql-action/pull/3160"">#3160</a></li>
+</ul>
+<h2>3.30.4 - 25 Sep 2025</h2>
+<ul>
+<li>We have improved the CodeQL Action's ability to validate that the workflow it is used in does not use different versions of the CodeQL Action for different workflow steps. Mixing different versions of the CodeQL Action in the same workflow is unsupported and can lead to unpredictable results. A warning will now be emitted from the <code>codeql-action/init</code> step if different versions of the CodeQL Action are detected in the workflow file. Additionally, an error will now be thrown by the other CodeQL Action steps if they load a configuration file that was generated by a different version of the <code>codeql-action/init</code> step. <a href=""https://redirect.github.com/github/codeql-action/pull/3099"">#3099</a> and <a href=""https://redirect.github.com/github/codeql-action/pull/3100"">#3100</a></li>
+<li>We added support for reducing the size of dependency caches for Java analyses, which will reduce cache usage and speed up workflows. This will be enabled automatically at a later time. <a href=""https://redirect.github.com/github/codeql-action/pull/3107"">#3107</a></li>
+<li>You can now run the latest CodeQL nightly bundle by passing <code>tools: nightly</code> to the <code>init</code> action. In general, the nightly bundle is unstable and we only recommend running it when directed by GitHub staff. <a href=""https://redirect.github.com/github/codeql-action/pull/3130"">#3130</a></li>
+<li>Update default CodeQL bundle version to 2.23.1. <a href=""https://redirect.github.com/github/codeql-action/pull/3118"">#3118</a></li>
+</ul>
+<h2>3.30.3 - 10 Sep 2025</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/github/codeql-action/commit/0499de31b99561a6d14a36a5f662c2a54f91beee""><code>0499de3</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3261"">#3261</a> from github/henrymercer/setup-python</li>
+<li><a href=""https://github.com/github/codeql-action/commit/3b96745d2bb2af9f01a0c9a19f4ffd034ae37879""><code>3b96745</code></a> Set up Python in mergeback workflow</li>
+<li><a href=""https://github.com/github/codeql-action/commit/8a06050a8c0348fb4738f28e0cfbb6727cf054ce""><code>8a06050</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3259"">#3259</a> from github/update-v4.31.2-9576b5cbe</li>
+<li><a href=""https://github.com/github/codeql-action/commit/752a642cb25304f2aaae33cfcc3911673bf65aca""><code>752a642</code></a> Update changelog for v4.31.2</li>
+<li><a href=""https://github.com/github/codeql-action/commit/9576b5cbe818ddefe4e1b444017536fe40b9ab2d""><code>9576b5c</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3258"">#3258</a> from github/mbg/enablement-errors/case-insensitive</li>
+<li><a href=""https://github.com/github/codeql-action/commit/cc8843728c8296d35175b82c7f1bb3748290764a""><code>cc88437</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3257"">#3257</a> from github/henrymercer/ubuntu-slim</li>
+<li><a href=""https://github.com/github/codeql-action/commit/f0e9bf07f44488f7e3adf5ff01d04e6392b60b3b""><code>f0e9bf0</code></a> Make <code>isEnablementError</code> case-insensitive</li>
+<li><a href=""https://github.com/github/codeql-action/commit/2a3599c52055e7a5443d3fef8981a4d543586dde""><code>2a3599c</code></a> Run lightweight workflows on <code>ubuntu-slim</code></li>
+<li><a href=""https://github.com/github/codeql-action/commit/514ff4d116ef04d9ffc8adb3da5abb07961cb990""><code>514ff4d</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3256"">#3256</a> from github/henrymercer/resolve-bad-merge</li>
+<li><a href=""https://github.com/github/codeql-action/commit/aab1c2f9318aa4b88e7532de10fe02ac860d5ab8""><code>aab1c2f</code></a> Merge pull request <a href=""https://redirect.github.com/github/codeql-action/issues/3253"">#3253</a> from github/mergeback/v4.31.1-to-main-5fe9434c</li>
+<li>Additional commits viewable in <a href=""https://github.com/github/codeql-action/compare/3599b3baa15b485a2e49ef411a7a4bb2452e7f93...0499de31b99561a6d14a36a5f662c2a54f91beee"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `actions/stale` from 10.0.0 to 10.1.0
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/actions/stale/releases"">actions/stale's releases</a>.</em></p>
+<blockquote>
+<h2>v10.1.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add <code>only-issue-types</code> option to filter issues by type by <a href=""https://github.com/Bibo-Joshi""><code>@​Bibo-Joshi</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1255"">actions/stale#1255</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/Bibo-Joshi""><code>@​Bibo-Joshi</code></a> made their first contribution in <a href=""https://redirect.github.com/actions/stale/pull/1255"">actions/stale#1255</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/actions/stale/compare/v10...v10.1.0"">https://github.com/actions/stale/compare/v10...v10.1.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/actions/stale/blob/main/CHANGELOG.md"">actions/stale's changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h1>[10.1.0]</h1>
+<h2>What's Changed</h2>
+<ul>
+<li>Add only-issue-types option to filter issues by type by <a href=""https://github.com/Bibo-Joshi""><code>@​Bibo-Joshi</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1255"">actions/stale#1255</a></li>
+</ul>
+<h1>[10.0.0]</h1>
+<h2>What's Changed</h2>
+<h2>Breaking Changes</h2>
+<ul>
+<li>Upgrade to node 24 by <a href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1279"">actions/stale#1279</a>
+Make sure your runner is on version v2.327.1 or later to ensure compatibility with this release. <a href=""https://github.com/actions/runner/releases/tag/v2.327.1"">Release Notes</a></li>
+</ul>
+<h2>Enhancement</h2>
+<ul>
+<li>Introducing sort-by option by <a href=""https://github.com/suyashgaonkar""><code>@​suyashgaonkar</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1254"">actions/stale#1254</a></li>
+</ul>
+<h2>Dependency Upgrades</h2>
+<ul>
+<li>Upgrade actions/publish-immutable-action from 0.0.3 to 0.0.4 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/actions/stale/pull/1186"">actions/stale#1186</a></li>
+<li>Upgrade undici from 5.28.4 to 5.28.5 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/actions/stale/pull/1201"">actions/stale#1201</a></li>
+<li>Upgrade <code>@​action/cache</code> from 4.0.0 to 4.0.2 by <a href=""https://github.com/aparnajyothi-y""><code>@​aparnajyothi-y</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1226"">actions/stale#1226</a></li>
+<li>Upgrade <code>@​action/cache</code> from 4.0.2 to 4.0.3 by <a href=""https://github.com/suyashgaonkar""><code>@​suyashgaonkar</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1233"">actions/stale#1233</a></li>
+<li>Upgrade undici from 5.28.5 to 5.29.0 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot] in <a href=""https://redirect.github.com/actions/stale/pull/1251"">actions/stale#1251</a></li>
+<li>Upgrade form-data to bring in fix for critical vulnerability by <a href=""https://github.com/gowridurgad""><code>@​gowridurgad</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1277"">actions/stale#1277</a></li>
+</ul>
+<h2>Documentation changes</h2>
+<ul>
+<li>Changelog update for recent releases by <a href=""https://github.com/suyashgaonkar""><code>@​suyashgaonkar</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1224"">actions/stale#1224</a></li>
+<li>Permissions update in Readme by <a href=""https://github.com/ghadimir""><code>@​ghadimir</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1248"">actions/stale#1248</a></li>
+</ul>
+<h1>[9.1.0]</h1>
+<h2>What's Changed</h2>
+<ul>
+<li>Documentation update by <a href=""https://github.com/Marukome0743""><code>@​Marukome0743</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1116"">actions/stale#1116</a></li>
+<li>Add workflow file for publishing releases to immutable action package by <a href=""https://github.com/Jcambass""><code>@​Jcambass</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1179"">actions/stale#1179</a></li>
+<li>Update undici from 5.28.2 to 5.28.4 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1150"">actions/stale#1150</a></li>
+<li>Update actions/checkout from 3 to 4 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1091"">actions/stale#1091</a></li>
+<li>Update actions/publish-action from 0.2.2 to 0.3.0 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1147"">actions/stale#1147</a></li>
+<li>Update ts-jest from 29.1.1 to 29.2.5 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1175"">actions/stale#1175</a></li>
+<li>Update <code>@​actions/core</code> from 1.10.1 to 1.11.1 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1191"">actions/stale#1191</a></li>
+<li>Update <code>@​types/jest</code> from 29.5.11 to 29.5.14 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1193"">actions/stale#1193</a></li>
+<li>Update <code>@​actions/cache</code> from 3.2.2 to 4.0.0 by <a href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a href=""https://redirect.github.com/actions/stale/pull/1194"">actions/stale#1194</a></li>
+</ul>
+<h1>[9.0.0]</h1>
+<h2>Breaking Changes</h2>
+<ol>
+<li>Action is now stateful: If the action ends because of <a href=""https://github.com/actions/stale#operations-per-run"">operations-per-run</a> then the next run will start from the first unprocessed issue skipping the issues processed during the previous run(s). The state is reset when all the issues are processed. This should be considered for scheduling workflow runs.</li>
+<li>Version 9 of this action updated the runtime to Node.js 20. All scripts are now run with Node.js 20 instead of Node.js 16 and are affected by any breaking changes between Node.js 16 and 20.</li>
+</ol>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/actions/stale/commit/5f858e3efba33a5ca4407a664cc011ad407f2008""><code>5f858e3</code></a> Add <code>only-issue-types</code> option to filter issues by type (<a href=""https://redirect.github.com/actions/stale/issues/1255"">#1255</a>)</li>
+<li>See full diff in <a href=""https://github.com/actions/stale/compare/3a9db7e6a41a89f618792c92c0e97cc736e1b13f...5f858e3efba33a5ca4407a664cc011ad407f2008"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore <dependency name> major version` will close this group update PR and stop Dependabot creating any more for the specific dependency's major version (unless you unignore this specific dependency's major version or upgrade to it yourself)
+- `@dependabot ignore <dependency name> minor version` will close this group update PR and stop Dependabot creating any more for the specific dependency's minor version (unless you unignore this specific dependency's minor version or upgrade to it yourself)
+- `@dependabot ignore <dependency name>` will close this group update PR and stop Dependabot creating any more for the specific dependency (unless you unignore this specific dependency or upgrade to it yourself)
+- `@dependabot unignore <dependency name>` will remove all of the ignore conditions of the specified dependency
+- `@dependabot unignore <dependency name> <ignore condition>` will remove the ignore condition of the specified dependency and ignore conditions
+
+
+</details>",2025-11-01 08:08:55+00:00,2025-11-04 05:52:12+00:00,2025-11-04 05:52:12+00:00,5,5,3,1,0,0
+tensorflow/tensorflow,103395,Bump ubuntu from `4e0171b` to `0950623` in /tensorflow/tools/tf_sig_build_dockerfiles,dependabot[bot],closed,True,"Bumps ubuntu from `4e0171b` to `0950623`.
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ubuntu&package-manager=docker&previous-version=22.04&new-version=22.04)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>",2025-11-01 08:08:16+00:00,2025-11-04 05:44:14+00:00,2025-11-04 05:44:13+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103394,Bump ubuntu from `353675e` to `66460d5` in /tensorflow/tools/gcs_test,dependabot[bot],closed,True,"Bumps ubuntu from `353675e` to `66460d5`.
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ubuntu&package-manager=docker&previous-version=24.04&new-version=24.04)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>",2025-11-01 08:08:05+00:00,2025-11-04 06:04:15+00:00,2025-11-04 06:04:15+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103392,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-11-01 06:54:04+00:00,2025-11-03 11:36:12+00:00,2025-11-03 11:36:12+00:00,1,0,1,1,0,0
+tensorflow/tensorflow,103387,[jax:ffi] Declare ffi::TypeInfo as a struct static member,copybara-service[bot],closed,True,"[jax:ffi] Declare ffi::TypeInfo as a struct static member
+",2025-11-01 01:09:37+00:00,2025-11-01 03:00:32+00:00,2025-11-01 03:00:32+00:00,4,2,2,1,0,0
+tensorflow/tensorflow,103386,[xla:ffi] Remove unused UserData ownership forwarding to ffi::ExecutionContext,copybara-service[bot],closed,True,"[xla:ffi] Remove unused UserData ownership forwarding to ffi::ExecutionContext
+
+External types should be always manipulated through the TypeInfo registered with XLA runtime and we should not be passing arbitrary function pointers around.
+",2025-10-31 23:41:46+00:00,2025-11-02 03:56:27+00:00,2025-11-02 03:56:27+00:00,58,79,7,1,0,0
+tensorflow/tensorflow,103385,[xla:ffi] Remove deprecated TypeInfo constructor and replace it with XLA_FFI_TypeInfo alias,copybara-service[bot],closed,True,"[xla:ffi] Remove deprecated TypeInfo constructor and replace it with XLA_FFI_TypeInfo alias
+",2025-10-31 23:39:30+00:00,2025-11-01 01:05:20+00:00,2025-11-01 01:05:20+00:00,2,7,1,1,0,0
+tensorflow/tensorflow,103383,Update interpreter and subgraph to provide external buffer id and tensor mapping,copybara-service[bot],closed,True,"Update interpreter and subgraph to provide external buffer id and tensor mapping
+",2025-10-31 22:46:21+00:00,2025-11-03 01:47:58+00:00,2025-11-03 01:47:58+00:00,29,5,3,1,0,0
+tensorflow/tensorflow,103382,Remove deprecated float_format/double_format in python proto text_format.,copybara-service[bot],closed,True,"Remove deprecated float_format/double_format in python proto text_format.
+",2025-10-31 22:43:48+00:00,2025-10-31 23:30:14+00:00,2025-10-31 23:30:14+00:00,3,3,1,1,0,0
+tensorflow/tensorflow,103381,Change visibility for xla profiler,copybara-service[bot],closed,True,"Change visibility for xla profiler
+",2025-10-31 22:31:36+00:00,2025-11-07 19:05:25+00:00,2025-11-07 19:05:25+00:00,8,0,1,1,0,0
+tensorflow/tensorflow,103379,[xla:cpu] Pass HloModule pointer to Thunk SerDes,copybara-service[bot],closed,True,"[xla:cpu] Pass HloModule pointer to Thunk SerDes
+
+Reverts 993369077a7da432be091fdf7abc3fbd370ecdf1
+",2025-10-31 21:50:54+00:00,2025-11-01 00:12:43+00:00,2025-11-01 00:12:43+00:00,44,31,5,1,0,0
+tensorflow/tensorflow,103378,Refactor mesh and axis representation.,copybara-service[bot],closed,True,"Refactor mesh and axis representation.
+",2025-10-31 21:48:16+00:00,2025-10-31 22:36:51+00:00,2025-10-31 22:36:51+00:00,29,48,4,1,0,0
+tensorflow/tensorflow,103377,[XLA][Numerics][HLO Original Value] Try to infer original value of GetTupleElement operations,copybara-service[bot],closed,True,"[XLA][Numerics][HLO Original Value] Try to infer original value of GetTupleElement operations
+
+If the tuple operand of an GetTupleElement instruction is a Tuple operation and the instruction does not have an original value yet, returns the original value of the corresponding tuple element instead.
+",2025-10-31 21:32:47+00:00,2025-11-03 09:12:02+00:00,2025-11-03 09:12:01+00:00,26,1,2,1,0,0
+tensorflow/tensorflow,103376,[XLA][Numerics][HLO Value Tracking] Support original values for more cases in while loop simplifier pass,copybara-service[bot],closed,True,"[XLA][Numerics][HLO Value Tracking] Support original values for more cases in while loop simplifier pass
+
+This updates the original value of a while loop if induction variables are merged into the input tuple.
+",2025-10-31 21:29:45+00:00,2025-11-04 22:37:08+00:00,2025-11-04 22:37:08+00:00,80,0,3,1,0,0
+tensorflow/tensorflow,103375,Remove @xla prefix in xla build rules,copybara-service[bot],closed,True,"Remove @xla prefix in xla build rules
+",2025-10-31 21:21:54+00:00,2025-11-06 23:15:55+00:00,2025-11-06 23:15:54+00:00,10,10,6,1,0,0
+tensorflow/tensorflow,103374,PR #32836: [GPU] Dispatch S-curve model to single-partition multi-host topology,copybara-service[bot],closed,True,"PR #32836: [GPU] Dispatch S-curve model to single-partition multi-host topology
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/32836
+
+📝 Summary of Changes
+Updated SINGLE_HOST communication type to SINGLE_PARTITION (fast-interconnect domain) to meet the need of multi-node NVLink (MNNVL) topology. Piped auto-detected partition size for communication type determination, also exposed partition size in SolGPUCostModel::Config for AOT compilation.
+
+🎯 Justification
+S-curve model cannot handle NVLink latency, single fast-interconnect domain including MNNVL topology should use latency table model. This PR updates the routing mechanism so that MNNVL will be treated as a single partition, while previously host is assumed equivalent to partition.
+
+🚀 Kind of Contribution
+✨ New Feature
+
+📊 Benchmark (for Performance Improvements)
+N/A
+
+🧪 Unit Tests:
+Added unit tests for model dispatching mechanism.
+
+🧪 Execution Tests:
+Behavior unchanged for non-MNNVL topology, N/A.
+
+Copybara import of the project:
+
+--
+a9544375934873f7b888fdb5ff6c9dc6ee8b0e6c by Terry Sun <tesun@nvidia.com>:
+
+use partition size for static model dispatching
+
+--
+e3445a5deb8da10146e90c50da5598f91cfe0a69 by Terry Sun <tesun@nvidia.com>:
+
+expose partition size to config
+
+--
+212535ce891b8eb96ebb3c1e215a91d2b5035594 by Terry Sun <tesun@nvidia.com>:
+
+better modularity
+
+--
+a9fe8a0f89dea9e2811d76a3570c7398df8dd756 by Terry Sun <tesun@nvidia.com>:
+
+better code structure and doc string
+
+--
+a64a2b5ed1d45d815c6a2c47628b4d9ebb8368bd by Terry Sun <tesun@nvidia.com>:
+
+update naming
+
+Merging this change closes #32836
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/32836 from terryysun:terryysun/cost_model_dispatch 799471f59b260c868aad50b9f984eb34f64d59fb
+",2025-10-31 20:28:28+00:00,2025-11-01 01:28:35+00:00,2025-11-01 01:28:35+00:00,272,98,13,1,0,0
+tensorflow/tensorflow,103372,Allow IFRT-proxy to expand error-status payloads that are specific to Pathways.,copybara-service[bot],closed,True,"Allow IFRT-proxy to expand error-status payloads that are specific to Pathways.
+",2025-10-31 20:14:39+00:00,2025-10-31 22:58:34+00:00,2025-10-31 22:58:34+00:00,457,5,10,1,0,0
+tensorflow/tensorflow,103371,Replace C-style character functions with `absl::ascii_` or `llvm::` equivalents.,copybara-service[bot],closed,True,"Replace C-style character functions with `absl::ascii_` or `llvm::` equivalents.
+
+This change updates various uses of `cctype` functions such as `toupper`, `tolower`, `isspace`, `isdigit`, `isalpha`, and `isalnum` to their `absl::ascii_` counterparts. In some instances within MLIR/LLVM code, `llvm::` equivalents are used. String transformations using `std::transform` with `::tolower` or `::toupper` are also updated to use `absl::AsciiStrToLower` or `absl::AsciiStrToUpper`. This ensures locale-independent behavior for character manipulations.
+",2025-10-31 20:06:50+00:00,2025-11-05 03:21:19+00:00,2025-11-05 03:21:19+00:00,237,302,44,1,0,0
+tensorflow/tensorflow,103370,PR #31375: [XLA:GPU] Add NVLink domain check to CollectiveBackendAssigner,copybara-service[bot],closed,True,"PR #31375: [XLA:GPU] Add NVLink domain check to CollectiveBackendAssigner
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/31375
+
+📝 Summary of Changes
+This PR updates the CollectiveBackendAssigner pass to account for NVLink domain connectivity when deciding between NVSHMEM and DEFAULT backends. It does this by adding a slice_size parameter to the compilation pipeline and introducing an IsIntraNVLinkDomain check.  
+
+🎯 Justification
+The CollectiveBackendAssigner now uses NVSHMEM not only for single-host scenarios, but also when all devices are within the same NVLink domain. 
+
+🚀 Kind of Contribution
+⚡️ Performance Improvement, 🧪 Tests
+
+📊 Benchmark (for Performance Improvements)
+H100
+|  | NVSHMEM enabled | NVSHMEM disabled |
+|----------|----------|----------|
+| llama31_8b_fp8_1x8    | 1095330 us   | 1093816 us    |
+| llama31_8b_bf16_2x8    | 1368948 us   | 1370896 us   |
+| llama31_8b_fp8_2x8    | 1096447 us   | 1092437 us   |
+| llama31_70b_fp8_16x8    | 9723821 us   | 9707544 us    |
+
+🧪 Unit Tests:
+Added unit tests to xla/service/gpu/transforms/collectives/collective_backend_assigner_test.cc
+
+🧪 Execution Tests:
+Tested with llama3-8b on 2 GB200 nodes (fsdp = 8). The average step time in NVSHMEM case was 3.69s (vs. 3.76s in the default case).
+Copybara import of the project:
+
+--
+a02b77cec9622314af01ae481d0fb28b149f1b45 by Sevin Varoglu <svaroglu@nvidia.com>:
+
+Add NVLink domain check to CollectiveBackendAssigner
+
+Merging this change closes #31375
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/31375 from sfvaroglu:sevin/nvlink_domain bb562b4d38c56667dc23d11f5df823dd95395ee7
+",2025-10-31 20:01:42+00:00,2025-10-31 22:49:01+00:00,2025-10-31 22:49:01+00:00,143,23,8,1,0,0
+tensorflow/tensorflow,103369,Remove @xla references in platform/default/*.bzl,copybara-service[bot],closed,True,"Remove @xla references in platform/default/*.bzl
+",2025-10-31 19:23:13+00:00,2025-11-03 12:21:12+00:00,2025-11-03 12:21:12+00:00,28,28,3,1,0,0
+tensorflow/tensorflow,103368,Remove @xla from MKL build defs,copybara-service[bot],closed,True,"Remove @xla from MKL build defs
+",2025-10-31 19:19:05+00:00,2025-11-03 12:09:16+00:00,2025-11-03 12:09:16+00:00,19,19,1,1,0,0
+tensorflow/tensorflow,103367,Remove @xla from toolchain configs,copybara-service[bot],closed,True,"Remove @xla from toolchain configs
+
+Reverts c963ecc3131a1726b2e604766b2b416368031fb2
+",2025-10-31 18:54:19+00:00,2025-11-06 18:56:37+00:00,2025-11-06 18:56:37+00:00,30,30,12,1,0,0
+tensorflow/tensorflow,103365,[xla:cpu:onednn] Skip failing tests on Aarch64 CPUs.,copybara-service[bot],closed,True,"[xla:cpu:onednn] Skip failing tests on Aarch64 CPUs.
+",2025-10-31 18:37:32+00:00,2025-10-31 23:58:53+00:00,2025-10-31 23:58:53+00:00,4,1,2,1,0,0
+tensorflow/tensorflow,103364,Reverts d25ccb438dbedd21f35b53c2169926fc3ee032b6,copybara-service[bot],closed,True,"Reverts d25ccb438dbedd21f35b53c2169926fc3ee032b6
+",2025-10-31 18:00:01+00:00,2025-10-31 19:35:39+00:00,2025-10-31 19:35:39+00:00,278,3,8,1,0,0
+tensorflow/tensorflow,103362,Delete old Shard Map import code path that isn't needed anymore.,copybara-service[bot],closed,True,"Delete old Shard Map import code path that isn't needed anymore.
+",2025-10-31 16:10:04+00:00,2025-11-03 23:13:39+00:00,2025-11-03 23:13:39+00:00,1,280,2,1,0,0
+tensorflow/tensorflow,103361,Reverts bec8916f3241b0bbe1a14fbe7cd2e4b085cace28,copybara-service[bot],closed,True,"Reverts bec8916f3241b0bbe1a14fbe7cd2e4b085cace28
+",2025-10-31 16:09:48+00:00,2025-11-01 03:19:25+00:00,2025-11-01 03:19:25+00:00,2,4,1,1,0,0
+tensorflow/tensorflow,103358,[Autotuner] Introduce FissionBackends factory.,copybara-service[bot],closed,True,"[Autotuner] Introduce FissionBackends factory.
+
+- We are not yet using backend factories in the pass, we will switch once all the autotuner passes are ported to new infra.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33470 from hugomano:hugomano/fix-pjrt-c-api-ffi-extension e63933896594d38fd8463144f03347e1e8d082f7
+",2025-10-31 14:22:26+00:00,2025-11-03 19:55:41+00:00,2025-11-03 19:55:41+00:00,68,0,4,1,0,0
+tensorflow/tensorflow,103356,Add proto serialization for the CustomCallThunk,copybara-service[bot],closed,True,"Add proto serialization for the CustomCallThunk
+",2025-10-31 13:53:28+00:00,2025-11-04 16:02:25+00:00,2025-11-04 16:02:25+00:00,428,44,12,1,0,0
+tensorflow/tensorflow,103355,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-31 13:49:04+00:00,2025-11-01 03:43:18+00:00,2025-11-01 03:43:18+00:00,20,18,3,1,0,0
+tensorflow/tensorflow,103348,[Autotuner] Propagate dumping from debug options to autotuner.,copybara-service[bot],closed,True,"[Autotuner] Propagate dumping from debug options to autotuner.
+",2025-10-31 11:32:17+00:00,2025-11-03 12:58:35+00:00,2025-11-03 12:58:35+00:00,4,0,2,1,0,0
+tensorflow/tensorflow,103346,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-31 11:17:16+00:00,2025-10-31 12:48:23+00:00,2025-10-31 12:48:23+00:00,6,8,2,1,0,0
+tensorflow/tensorflow,103345,Add equality operator for `NamedSharding`,copybara-service[bot],closed,True,"Add equality operator for `NamedSharding`
+",2025-10-31 11:17:13+00:00,2025-10-31 12:16:50+00:00,2025-10-31 12:16:50+00:00,143,4,6,1,0,0
+tensorflow/tensorflow,103344,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-31 11:08:36+00:00,2025-10-31 13:00:05+00:00,2025-10-31 13:00:05+00:00,78,72,4,1,0,0
+tensorflow/tensorflow,103342,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-31 09:55:59+00:00,2025-10-31 11:44:31+00:00,2025-10-31 11:44:31+00:00,9,9,1,1,0,0
+tensorflow/tensorflow,103341,PR #33106: Rename NumericOptions to EngineOptions and add field to only select cuDNN plans that support CUDA graphs.,copybara-service[bot],closed,True,"PR #33106: Rename NumericOptions to EngineOptions and add field to only select cuDNN plans that support CUDA graphs.
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33106
+
+Defaults to false.
+
+This fixes two test failures on GB200 and Spark,
+//xla/backends/gpu/runtime:cuda_command_buffer_thunk_test_nvgpu_any //xla/stream_executor/cuda:cuda_command_buffer_test_nvgpu_any where cuDNN was selecting the cuBLAS backend that does not support CUDA graph.
+
+Also, in cuda_dnn.cc, moves the notes after the call to create_execution_plans, otherwise they have no effect.
+
+Thanks to Emil Gilliam from the cuDNN team for guidance.
+
+Copybara import of the project:
+
+--
+b9b116a5ad05a42fd6b0e42bb90cfda33d71763d by Dimitris Vardoulakis <dvardoulakis@nvidia.com>:
+
+Add field to NumericOptions to only select cuDNN plans that support CUDA graphs.
+Defaults to false.
+
+This fixes two test failures on GB200 and Spark,
+//xla/backends/gpu/runtime:cuda_command_buffer_thunk_test_nvgpu_any
+//xla/stream_executor/cuda:cuda_command_buffer_test_nvgpu_any
+where cuDNN was selecting the cuBLAS backend that does not support CUDA graph.
+
+Also, in cuda_dnn.cc, moves the notes after the call to create_execution_plans,
+otherwise they have no effect.
+
+Thanks to Emil Gilliam from the cuDNN team for guidance.
+
+--
+b2f357e89343eaf5325df9b88b68acd04f6fdf87 by Dimitris Vardoulakis <dvardoulakis@nvidia.com>:
+
+Rename NumericOptions to EngineOptions.
+
+Merging this change closes #33106
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33106 from dimvar:cudnn-cuda-graph b2f357e89343eaf5325df9b88b68acd04f6fdf87
+",2025-10-31 09:24:32+00:00,2025-11-06 10:35:35+00:00,2025-11-06 10:35:35+00:00,495,469,27,1,0,0
+tensorflow/tensorflow,103340,Add more type compatibility checks for Triton GEMM support.,copybara-service[bot],closed,True,"Add more type compatibility checks for Triton GEMM support.
+
+Enforce that both LHS and RHS operands of a dot must have the same element type. Forbid dots where the input types are integral but the output type is floating-point, or vice-versa. Update tests to cover these new restrictions and refactor an existing test to directly check `CanTritonHandleGEMM`.
+",2025-10-31 08:58:49+00:00,2025-11-04 08:02:38+00:00,2025-11-04 08:02:38+00:00,81,24,3,1,0,0
+tensorflow/tensorflow,103338,Reverts cef240807a4380a8f175ab37c54dcfa0e71af24d,copybara-service[bot],closed,True,"Reverts cef240807a4380a8f175ab37c54dcfa0e71af24d
+",2025-10-31 07:23:22+00:00,2025-10-31 08:33:01+00:00,2025-10-31 08:33:01+00:00,3,291,8,1,0,0
+tensorflow/tensorflow,103337,Disable capturing of dot RHS operands,copybara-service[bot],closed,True,"Disable capturing of dot RHS operands
+
+This is proving to be unreliable.
+
+Reverts bf23bf1b32c2fd668022159b22fbdfa0c69f18c5
+",2025-10-31 06:39:36+00:00,2025-10-31 09:45:43+00:00,2025-10-31 09:45:43+00:00,3,3,1,1,0,0
+tensorflow/tensorflow,103336,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-31 06:37:01+00:00,2025-10-31 08:19:29+00:00,2025-10-31 08:19:28+00:00,2,2,1,1,0,0
+tensorflow/tensorflow,103332,Integrate LLVM at llvm/llvm-project@42a8ff877d47,copybara-service[bot],closed,True,"Integrate LLVM at llvm/llvm-project@42a8ff877d47
+
+Updates LLVM usage to match
+[42a8ff877d47](https://github.com/llvm/llvm-project/commit/42a8ff877d47)
+",2025-10-31 05:55:23+00:00,2025-10-31 19:01:44+00:00,2025-10-31 19:01:44+00:00,9,713,3,1,0,0
+tensorflow/tensorflow,103330,Update XNNPACK in XLA,copybara-service[bot],closed,True,"Update XNNPACK in XLA
+",2025-10-31 03:33:32+00:00,2025-10-31 21:36:15+00:00,2025-10-31 21:36:15+00:00,10,10,4,1,0,0
+tensorflow/tensorflow,103329,Integrate LLVM at llvm/llvm-project@22079e3f3698,copybara-service[bot],closed,True,"Integrate LLVM at llvm/llvm-project@22079e3f3698
+
+Updates LLVM usage to match
+[22079e3f3698](https://github.com/llvm/llvm-project/commit/22079e3f3698)
+",2025-10-31 03:31:01+00:00,2025-10-31 03:44:50+00:00,2025-10-31 03:44:50+00:00,800,1177,6,1,0,0
+tensorflow/tensorflow,103328,Unify topology in PjRtTopologyDescription,copybara-service[bot],closed,True,"Unify topology in PjRtTopologyDescription
+
+The topology on pjrt layer can be seen as:
+
+(process, chip, logical device) or (process, chip, core)
+
+For cpu, it is (1, num device, 1)
+
+For gpu, it is (num host, gpu per host, 1)
+",2025-10-31 02:59:51+00:00,2025-10-31 19:22:49+00:00,2025-10-31 19:22:49+00:00,41,22,4,1,0,0
+tensorflow/tensorflow,103326,[xla:ffi] Add iterator to traverse Dictionary,copybara-service[bot],closed,True,"[xla:ffi] Add iterator to traverse Dictionary
+",2025-10-31 01:35:12+00:00,2025-11-04 02:56:29+00:00,2025-11-04 02:56:28+00:00,68,0,3,1,0,0
+tensorflow/tensorflow,103323,Use ABSL_LOG instead of LOG to avoid name collisions with other projects.,copybara-service[bot],closed,True,"Use ABSL_LOG instead of LOG to avoid name collisions with other projects.
+
+It's easy for the LOG name to collide with other projects, which then
+causes an error in the TSL logging because it no longer refers to the
+Absl symbol.
+
+To prevent this, use the `ABSL_` prefixed name. This allows a downstream
+project to define `LOG`, while letting TSL refer to the symbol it needs.
+",2025-10-30 22:56:17+00:00,2025-11-03 21:03:36+00:00,2025-11-03 21:03:36+00:00,5,1,2,1,0,0
+tensorflow/tensorflow,103321,Remove all usages of arguments_are_tupled since the default is false and it is,copybara-service[bot],closed,True,"Remove all usages of arguments_are_tupled since the default is false and it is
+never set otherwise. Also it is an error to set it to be true.
+",2025-10-30 22:22:47+00:00,2025-11-03 22:24:56+00:00,2025-11-03 22:24:56+00:00,9,68,11,1,0,0
+tensorflow/tensorflow,103320,[xla:pjrt] Remove PjRtFuture type alias,copybara-service[bot],closed,True,"[xla:pjrt] Remove PjRtFuture type alias
+
+Cleaning up BUILD files and includes will be done separately.
+",2025-10-30 22:05:09+00:00,2025-10-31 02:44:49+00:00,2025-10-31 02:44:49+00:00,0,10,1,1,0,0
+tensorflow/tensorflow,103317,[xla:cpu] Add target machine features to the error message,copybara-service[bot],closed,True,"[xla:cpu] Add target machine features to the error message
+",2025-10-30 21:22:50+00:00,2025-10-31 00:49:19+00:00,2025-10-31 00:49:19+00:00,19,6,2,1,0,0
+tensorflow/tensorflow,103316,Enable new gemm fusion autotuner behind a flag in the same pass.,copybara-service[bot],closed,True,"Enable new gemm fusion autotuner behind a flag in the same pass.
+
+- This will helps us leverage gemm_fusion_autotuner_test and gemm microbenchmarks.
+- Once the issues are addresses we will move to autotuner_pass directly and and port necessary tests from gemm_fusion_autotuner_test to autotuner_pass_test.
+",2025-10-30 20:22:23+00:00,2025-11-03 20:34:31+00:00,2025-11-03 20:34:31+00:00,84,5,4,1,0,0
+tensorflow/tensorflow,103315,Add additional way to poision a connection (to allow testing different,copybara-service[bot],closed,True,"Add additional way to poision a connection (to allow testing different
+poisoning strategies).
+",2025-10-30 19:46:41+00:00,2025-10-30 21:53:07+00:00,2025-10-30 21:53:07+00:00,20,9,3,1,0,0
+tensorflow/tensorflow,103314,[xla:cpu] Pass HloModule pointer to Thunk SerDes,copybara-service[bot],closed,True,"[xla:cpu] Pass HloModule pointer to Thunk SerDes
+",2025-10-30 19:45:09+00:00,2025-10-31 05:11:49+00:00,2025-10-31 05:11:49+00:00,38,28,5,1,0,0
+tensorflow/tensorflow,103313,[xla:cpu] Add an end-to-end test for ynn fusions,copybara-service[bot],closed,True,"[xla:cpu] Add an end-to-end test for ynn fusions
+",2025-10-30 19:43:33+00:00,2025-10-31 05:20:52+00:00,2025-10-31 05:20:52+00:00,111,0,2,1,0,0
+tensorflow/tensorflow,103310,[xla:pjrt:cpu] Add e2e test for YnnFusion + PJRT client,copybara-service[bot],closed,True,"[xla:pjrt:cpu] Add e2e test for YnnFusion + PJRT client
+",2025-10-30 19:10:18+00:00,2025-10-31 05:41:58+00:00,2025-10-31 05:41:58+00:00,40,0,1,1,0,0
+tensorflow/tensorflow,103308,"Rollforward with fixes of ""Change RawSEDeviceMemory to be AsyncValueRef"".",copybara-service[bot],closed,True,"Rollforward with fixes of ""Change RawSEDeviceMemory to be AsyncValueRef"".
+
+Reverts c7055c2e5bb6e70365de867dc0ac56e56689a122
+",2025-10-30 18:46:17+00:00,2025-10-31 20:39:09+00:00,2025-10-31 20:39:09+00:00,41,41,8,1,0,0
+tensorflow/tensorflow,103307,Only enable YNNPACK for bf16 and int8 for now.,copybara-service[bot],closed,True,"Only enable YNNPACK for bf16 and int8 for now.
+
+We plan to enable this in stages, starting with int8 and bf16, where the improvement is more significant.
+",2025-10-30 18:23:28+00:00,2025-10-30 21:05:10+00:00,2025-10-30 21:05:10+00:00,3,1,1,1,0,0
+tensorflow/tensorflow,103305,[xla:ffi] Add example of async custom call in XLA:GPU,copybara-service[bot],closed,True,"[xla:ffi] Add example of async custom call in XLA:GPU
+",2025-10-30 18:13:36+00:00,2025-10-30 19:11:29+00:00,2025-10-30 19:11:29+00:00,107,0,3,1,0,0
+tensorflow/tensorflow,103303,Add de/serializaton of `fake_allocations` in `DynamicSliceThunk`.,copybara-service[bot],closed,True,"Add de/serializaton of `fake_allocations` in `DynamicSliceThunk`.
+",2025-10-30 17:51:22+00:00,2025-10-31 17:36:30+00:00,2025-10-31 17:36:29+00:00,41,18,7,1,0,0
+tensorflow/tensorflow,103302,[xla:cpu] NFC: Rename protos for Xnn/Ynn fusion options,copybara-service[bot],closed,True,"[xla:cpu] NFC: Rename protos for Xnn/Ynn fusion options
+",2025-10-30 17:42:23+00:00,2025-10-31 05:01:57+00:00,2025-10-31 05:01:57+00:00,66,42,13,1,0,0
+tensorflow/tensorflow,103300,Save compile options with the compiled IFRT IR program to be used later for serialization,copybara-service[bot],closed,True,"Save compile options with the compiled IFRT IR program to be used later for serialization
+",2025-10-30 17:12:23+00:00,2025-10-31 04:54:32+00:00,2025-10-31 04:54:31+00:00,11,3,2,1,0,0
+tensorflow/tensorflow,103298,Use `std::vector<BufferAllocation>` instead of `std::vector<std::unique_ptr<BufferAllocation>>` in DynamicSliceThunk.,copybara-service[bot],closed,True,"Use `std::vector<BufferAllocation>` instead of `std::vector<std::unique_ptr<BufferAllocation>>` in DynamicSliceThunk.
+
+`BufferAllocation::Slice` stores a raw pointer to the corresponding `BufferAllocation`. Now we keep the embedded thunk allocations alive by stroing unique_ptrs in the wrapping DynamicSliceThunk. The current design makes it hard to reuse the existing infrastructure, specifically to serialize `DynamicSliceThunk`. To address this, I'm changing fake_allocations to be  `std::vector<BufferAllocation>`.
+
+The move constructor `std::vector::vector(std::vector&&)` is guaranteed to have constant time complexity and therefore it steals the internal data buffer from the source vector. This infers that the pointers to allocations are kept stable as long as:
+* we preallocate the vector size
+* we never copy the vector, but move
+
+To make it safer for later usage, we can explicitely prohibid BufferAllocation to be  copyable/moveable. I'm going to do this in the following cl.
+",2025-10-30 16:26:35+00:00,2025-10-31 12:05:51+00:00,2025-10-31 12:05:51+00:00,144,178,8,1,0,0
+tensorflow/tensorflow,103296,[XLA:GPU] Use a single intra-host ragged-all-to-all in the decomposition.,copybara-service[bot],closed,True,"[XLA:GPU] Use a single intra-host ragged-all-to-all in the decomposition.
+
+Instead of 2 ra2a + concat, we can double the output buffer and adjust output offsets. This way we can save on latency by having only one multi-GPU synchronization.
+",2025-10-30 16:16:51+00:00,2025-10-30 19:24:29+00:00,2025-10-30 19:24:28+00:00,59,49,2,1,0,0
+tensorflow/tensorflow,103295,PR #33278: Bump keras from 3.11.3 to 3.12.0 in /xla/backends/cpu/benchmarks/e2e/gemma2/keras,copybara-service[bot],closed,True,"PR #33278: Bump keras from 3.11.3 to 3.12.0 in /xla/backends/cpu/benchmarks/e2e/gemma2/keras
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33278
+
+Bumps [keras](https://github.com/keras-team/keras) from 3.11.3 to 3.12.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/keras-team/keras/releases"">keras's releases</a>.</em></p>
+<blockquote>
+<h2>Keras 3.12.0</h2>
+<h2>Highlights</h2>
+<h3>Keras has a new model distillation API!</h3>
+<p>You now have access to an easy-to-use API for distilling large models into small models while minimizing performance drop on a reference dataset -- compatible with all existing Keras models. You can specify a range of different distillation losses, or create your own losses. The API supports multiple concurrent distillation losses at the same time.</p>
+<p>Example:</p>
+<pre lang=""python""><code># Load a model to distill
+teacher = ...
+# This is the model we want to distill it into
+student = ...
+<h1>Configure the process</h1>
+<p>distiller = Distiller(
+teacher=teacher,
+student=student,
+distillation_losses=LogitsDistillation(temperature=3.0),
+)
+distiller.compile(
+optimizer='adam',
+loss='sparse_categorical_crossentropy',
+metrics=['accuracy']
+)</p>
+<h1>Train the distilled model</h1>
+<p>distiller.fit(x_train, y_train, epochs=10)
+</code></pre></p>
+<h3>Keras supports GPTQ quantization!</h3>
+<p>GPTQ is now built into the Keras API. GPTQ is a post-training, weights-only quantization method that compresses a model to int4 layer by layer. For each layer, it uses a second-order method to update weights while minimizing the error on a calibration dataset.</p>
+<p>Learn how to use it <a href=""https://keras.io/guides/gptq_quantization_in_keras/"">in this guide</a>.</p>
+<p>Example:</p>
+<pre lang=""python""><code>model = keras_hub.models.Gemma3CausalLM.from_preset(&quot;gemma3_1b&quot;)
+gptq_config = keras.quantizers.GPTQConfig(
+    dataset=calibration_dataset,
+    tokenizer=model.preprocessor.tokenizer,
+    weight_bits=4,
+    group_size=128,
+    num_samples=256,
+    sequence_length=256,
+    hessian_damping=0.01,
+    symmetric=False,
+&lt;/tr&gt;&lt;/table&gt; 
+</code></pre>
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/keras-team/keras/commit/adbfd13426a0da9864d9a0fcd5be5eed74ca341f""><code>adbfd13</code></a> Add warning to <code>set_backend</code> and more detailed example. (<a href=""https://redirect.github.com/keras-team/keras/issues/21787"">#21787</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/70598b7903314f7ceace49264de97f1ee91230a8""><code>70598b7</code></a> Fix typo in Distiller docstring</li>
+<li><a href=""https://github.com/keras-team/keras/commit/eecd34f406709e6ce44c5d94be32d8d81c7fe13d""><code>eecd34f</code></a> Fix: <code>keras.ops.quantile</code> works with tf graph execution (<a href=""https://redirect.github.com/keras-team/keras/issues/21782"">#21782</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/c2bc6cfcc79d958d2e5a9bc0c829486d5a7fd0ac""><code>c2bc6cf</code></a> Suport keras.op.view() to view the same data bitwise at a new dtype  (<a href=""https://redirect.github.com/keras-team/keras/issues/21763"">#21763</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/10b51ce5a5054eb9bcddfab405ac9075fb1f1ca7""><code>10b51ce</code></a> Make confusion metrics compilable. (<a href=""https://redirect.github.com/keras-team/keras/issues/21775"">#21775</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/18f79d69c9443b21ac4ac902a5f808237708cdde""><code>18f79d6</code></a> Fix negative index handling in MultiHeadAttention attention_axes (<a href=""https://redirect.github.com/keras-team/keras/issues/21721"">#21721</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/18e0364cbcd1bfe26e43a4986df59bbf758e94a8""><code>18e0364</code></a> Support for extracting volume patches (<a href=""https://redirect.github.com/keras-team/keras/issues/21759"">#21759</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/dc5e42cca4fc966916552154d2edfb9f9aef3fcf""><code>dc5e42c</code></a> fix sas metrics in jax <code>fit</code> (<a href=""https://redirect.github.com/keras-team/keras/issues/21765"">#21765</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/1ba3b8f896fbbba30bdcff65483b1dafa356c604""><code>1ba3b8f</code></a> Fix discretization discrepancy (<a href=""https://redirect.github.com/keras-team/keras/issues/21769"">#21769</a>)</li>
+<li><a href=""https://github.com/keras-team/keras/commit/53987a768def7fb4d6222d5da25484ea4ed76360""><code>53987a7</code></a> Document that <code>set_backend</code> requires re-importing keras. (<a href=""https://redirect.github.com/keras-team/keras/issues/21764"">#21764</a>)</li>
+<li>Additional commits viewable in <a href=""https://github.com/keras-team/keras/compare/v3.11.3...v3.12.0"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=keras&package-manager=pip&previous-version=3.11.3&new-version=3.12.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/openxla/xla/network/alerts).
+
+</details>
+Copybara import of the project:
+
+--
+b37d94a32428d62ed3e73765f4e7b61bc6ed8549 by dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>:
+
+Bump keras in /xla/backends/cpu/benchmarks/e2e/gemma2/keras
+
+Bumps [keras](https://github.com/keras-team/keras) from 3.11.3 to 3.12.0.
+- [Release notes](https://github.com/keras-team/keras/releases)
+- [Commits](https://github.com/keras-team/keras/compare/v3.11.3...v3.12.0)
+
+---
+updated-dependencies:
+- dependency-name: keras
+  dependency-version: 3.12.0
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Merging this change closes #33278
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33278 from openxla:dependabot/pip/xla/backends/cpu/benchmarks/e2e/gemma2/keras/keras-3.12.0 b37d94a32428d62ed3e73765f4e7b61bc6ed8549
+",2025-10-30 15:33:49+00:00,2025-10-30 17:07:46+00:00,2025-10-30 17:07:46+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103294,Update ML Build Docker container to use hermetic C++,copybara-service[bot],closed,True,"Update ML Build Docker container to use hermetic C++
+",2025-10-30 15:32:12+00:00,2025-10-30 20:25:52+00:00,2025-10-30 20:25:52+00:00,4,40,4,1,0,0
+tensorflow/tensorflow,103293,[XLA:GPU] Add flags for filtering debugged thunks,copybara-service[bot],closed,True,"[XLA:GPU] Add flags for filtering debugged thunks
+
+Checking all buffers is way too heavy and causes timeouts, so we need the ability to focus on interesting parts of the thunk graph.
+
+`--xla_gpu_experimental_thunk_buffer_debug_filter_by_thunk_id_ranges` allows limiting thunk IDs to selected ranges or values. The IDs are assigned in the order of emitting thunks, which should (TM) be stable and allow bisecting to find culprit thunk(s). The IDs are given as comma-separated list of integers, closed or half-open ranges (e.g. `:2,5,7:8,12:` to match <=2, 5, 7, 8 and >=12).
+
+`--xla_gpu_experimental_thunk_buffer_debug_filter_by_profile_annotation_re` allows matching by thunk's profile annotation. This is a comma-separated list of regexes that will be matched against `ThunkInfo::profile_annotation`. The thunk's profile annotation needs to match any of the regexes.
+
+They are meant to work with all thunk debug buffer instrumentation (currently: checksums, NaNs). If both flags are defined, the thunk will have to pass both the ID and profile annotation filters to get instrumented.
+
+Implementation of the filtering logic is not included in this CL.
+",2025-10-30 15:20:11+00:00,2025-10-31 13:11:33+00:00,2025-10-31 13:11:33+00:00,200,2,6,1,0,0
+tensorflow/tensorflow,103292,Detect potential race conditions in the XNNPack weight cache provider usage.,copybara-service[bot],closed,True,"Detect potential race conditions in the XNNPack weight cache provider usage.
+",2025-10-30 15:14:50+00:00,2025-11-04 15:19:17+00:00,2025-11-04 15:19:18+00:00,13,10,2,1,0,0
+tensorflow/tensorflow,103291,[Autotuner] Add proxy FissionBackend for GPU autotuner.,copybara-service[bot],closed,True,"[Autotuner] Add proxy FissionBackend for GPU autotuner.
+
+- It breaks up the current combined fission backend. Autotuner users can register Fission wrapping specific codegen backends as per the need.
+- This structure seemlessly fit with the autotuner, and hence is easy to discard when we don't want to do fissions.
+- The Backend creation is a bit messy, but we can create a factory method to hide the details.
+",2025-10-30 14:55:30+00:00,2025-11-03 18:20:05+00:00,2025-11-03 18:20:05+00:00,477,0,4,1,0,0
+tensorflow/tensorflow,103290,[Autotuner] Add IsSupported virtual method to GpuCodegenBackend.,copybara-service[bot],closed,True,"[Autotuner] Add IsSupported virtual method to GpuCodegenBackend.
+
+This method is only used for Fissions to determine if a specific HloInstruction is supported by the codegen backend.
+",2025-10-30 14:50:48+00:00,2025-11-03 16:26:48+00:00,2025-11-03 16:26:48+00:00,48,23,13,1,0,0
+tensorflow/tensorflow,103288,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 14:06:29+00:00,2025-10-31 04:47:10+00:00,2025-10-31 04:47:09+00:00,63,58,5,1,0,0
+tensorflow/tensorflow,103287,Add a function to stop building a weight cache.,copybara-service[bot],closed,True,"Add a function to stop building a weight cache.
+
+When using the same weight cache provider across threads, the cache building
+run will have all the threads try to build the cache. With this, we can setup
+an initial interpreter that builds the cache, signal to the weight provider
+that there is no building to do anymore and then setup the other threads.
+",2025-10-30 13:51:22+00:00,2025-11-04 15:09:15+00:00,2025-11-04 15:09:15+00:00,15,2,2,1,0,0
+tensorflow/tensorflow,103286,Loosen the restrictions in `MMapWeightCacheProvider::OffsetToAddr`.,copybara-service[bot],closed,True,"Loosen the restrictions in `MMapWeightCacheProvider::OffsetToAddr`.
+
+If an address is requested for an offset that was introduced in a previous
+build step, we return the address instead of crashing.
+",2025-10-30 13:49:20+00:00,2025-11-04 14:30:10+00:00,2025-11-04 14:30:10+00:00,5,4,1,1,0,0
+tensorflow/tensorflow,103283,Increase the maximum HLO op chain length for profiling from 8192 to 16384.,copybara-service[bot],closed,True,"Increase the maximum HLO op chain length for profiling from 8192 to 16384.
+
+This prevents max chains of trivial ops (e.g. add.fp32) to run faster than copying the data, which results in 'too fast to measure' error.
+",2025-10-30 13:05:48+00:00,2025-10-30 17:34:26+00:00,2025-10-30 17:34:26+00:00,3,1,1,1,0,0
+tensorflow/tensorflow,103282,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 12:59:50+00:00,2025-10-31 03:12:14+00:00,2025-10-31 03:12:14+00:00,4,4,3,1,0,0
+tensorflow/tensorflow,103281,Restore setting the default value for xla_gpu_enable_dynamic_slice_fusion flag.,copybara-service[bot],closed,True,"Restore setting the default value for xla_gpu_enable_dynamic_slice_fusion flag.
+
+The line was accidentally removed, this change adds it back with the previous
+default (false).
+",2025-10-30 12:36:37+00:00,2025-10-30 13:58:42+00:00,2025-10-30 13:58:42+00:00,1,0,1,1,0,0
+tensorflow/tensorflow,103280,[XLA:GPU] Test that DotDecomposer canonicalizes batch dims.,copybara-service[bot],closed,True,"[XLA:GPU] Test that DotDecomposer canonicalizes batch dims.
+
+Existing tests do not cover this.
+",2025-10-30 12:33:08+00:00,2025-10-30 13:45:32+00:00,2025-10-30 13:45:32+00:00,24,0,1,1,0,0
+tensorflow/tensorflow,103276,[XTile] Modify Stable HLO check on iota to restrict it to the 1D case.,copybara-service[bot],closed,True,"[XTile] Modify Stable HLO check on iota to restrict it to the 1D case.
+",2025-10-30 11:48:21+00:00,2025-10-30 18:01:46+00:00,2025-10-30 18:01:46+00:00,16,2,2,1,0,0
+tensorflow/tensorflow,103275,[XLA:GPU] Enable fusion of broadcast and reshape into Triton scaled-dot.,copybara-service[bot],closed,True,"[XLA:GPU] Enable fusion of broadcast and reshape into Triton scaled-dot.
+
+This change allows broadcast and reshape operations on the scale operands of `scaled-dot` to be fused into the Triton kernel. It generalizes the operand fusion logic to handle all four operands of `scaled-dot` and adds support for `BroadcastOp` and `ExpandDimsOp` in the Triton MLIR conversion. A new test case is added to verify this fusion.
+",2025-10-30 11:44:49+00:00,2025-10-30 14:12:06+00:00,2025-10-30 14:12:06+00:00,116,28,3,1,0,0
+tensorflow/tensorflow,103272,[XLA:GPU][XTile] Move libdevice math calls to a rewrite pass.,copybara-service[bot],closed,True,"[XLA:GPU][XTile] Move libdevice math calls to a rewrite pass.
+",2025-10-30 11:31:34+00:00,2025-11-03 11:06:49+00:00,2025-11-03 11:06:49+00:00,674,19,11,1,0,0
+tensorflow/tensorflow,103268,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 10:52:49+00:00,2025-10-30 14:22:42+00:00,2025-10-30 14:22:42+00:00,5,5,1,1,0,0
+tensorflow/tensorflow,103267,Hlo module splitting,copybara-service[bot],closed,True,"Hlo module splitting
+
+This change introduces the ability to split a single HLO module into multiple modules, for the separate compilation effort.
+
+Splitting strategy assigns each computation in the call graph (starting from the entry computation) to its own separate module. Calls between computations that end up in different modules are replaced by stubs, which are implemented as custom-calls. An HloLinkingManifest is generated alongside the split modules, containing information to link the modules back together by replacing stubs with calls to the actual computations in other modules.
+
+This change also adds helper methods to assign deterministic instruction and computation IDs, which are used to generate stable module names, and to replace called computations when inserting stubs.
+",2025-10-30 10:20:03+00:00,2025-11-07 16:00:42+00:00,2025-11-07 16:00:42+00:00,940,0,5,1,0,0
+tensorflow/tensorflow,103261,PR #33188: [ROCm] Fix hermetic tests when executing on rbe worker,copybara-service[bot],closed,True,"PR #33188: [ROCm] Fix hermetic tests when executing on rbe worker
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33188
+
+📝 Summary of Changes
+Fix tests when executing on rbe
+
+🎯 Justification
+Fix hermetic dependencies so right libs are loaded.
+Libs are put as a data dependency as many of the rocm libs may have their own
+RPATH=$ORIGIN/..., they will try to load the libs from the place where they are.
+This leads to a situation that one lib located in _solid_data dir will try to find its 
+dependencies in the same dir. However dependency might be located in the data 
+directory. Then either test can't load the lib or tries to load one from the system libs.
+
+🚀 Kind of Contribution
+Please remove what does not apply: 🐛 Bug Fix
+
+📊 Benchmark (for Performance Improvements)
+Build fix
+
+🧪 Unit Tests:
+Build fix
+
+🧪 Execution Tests:
+Build fix
+
+Copybara import of the project:
+
+--
+43913bfbacc042c7a81e692cfa28e0a0733c3989 by Alexandros Theodoridis <atheodor@amd.com>:
+
+Add minimal hip runtime deps to kernel_headers
+
+--
+ffb62f536608b00445fda4fce0a3323c5bf6fe9d by Alexandros Theodoridis <atheodor@amd.com>:
+
+Fix hermetic build invalid local rpath
+
+Merging this change closes #33188
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33188 from ROCm:ci_fix_hermetic_build_rbe_failure edd57775dfd5e3e42d10ccbbc3a4ddae0174e922
+",2025-10-30 09:26:34+00:00,2025-10-30 14:51:00+00:00,2025-10-30 14:51:00+00:00,23,14,1,1,0,0
+tensorflow/tensorflow,103254,Add SymbolicExpr::IsBinaryOp() method,copybara-service[bot],closed,True,"Add SymbolicExpr::IsBinaryOp() method
+
+This CL introduces a new helper method SymbolicExpr::IsBinaryOp() to quickly determine if a SymbolicExpr is a binary operation (i.e., not a constant or a variable). This is used in indexing_map.cc in several places for AffineMap and it will simplify the refactor.
+",2025-10-30 09:07:00+00:00,2025-10-31 13:55:01+00:00,2025-10-31 13:55:01+00:00,11,6,2,1,0,0
+tensorflow/tensorflow,103252,[XLA:GPU] add NanCount thunk to thunk_buffer_debug_pass,copybara-service[bot],closed,True,"[XLA:GPU] add NanCount thunk to thunk_buffer_debug_pass
+
+We call the pass for f32 and bf16 output buffers.
+",2025-10-30 09:03:28+00:00,2025-11-01 10:12:29+00:00,2025-11-01 10:12:29+00:00,274,44,15,1,0,0
+tensorflow/tensorflow,103249,Refactor: Move common SymbolicMapTest setup to the fixture.,copybara-service[bot],closed,True,"Refactor: Move common SymbolicMapTest setup to the fixture.
+
+This change moves the initialization of commonly used `SymbolicExpr` and a sample `SymbolicMap` into the `SymbolicMapTest` fixture to reduce code duplication across tests.
+",2025-10-30 08:39:35+00:00,2025-10-30 21:19:24+00:00,2025-10-30 21:19:24+00:00,48,73,1,1,0,0
+tensorflow/tensorflow,103246,PR #33073: [XLA:GPU] add a warm up iteration for command buffer thunk,copybara-service[bot],closed,True,"PR #33073: [XLA:GPU] add a warm up iteration for command buffer thunk
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/33073
+
+📝 Summary of Changes
+
+This PR fix the issue that NCCL may call cuda-graph un-supported host side API during graph capturing (e.g. `cuCtxEnablePeerAccess`), this will break XLA cuda graph run.  To work around the issue, this PR introduces a warm up iteration for command buffer thunk, during warm up iteration, command buffer thunk are executed through normal thunks.  The warm up iteration will do the proper NCCL setup, so later iterations running through command buffer does not need to call NCCL setup APIs.
+
+So for command buffer thunk, the execution phase are: 
+
+1st iteration:   warm up (run through normal thunks)
+2nd iteration:   cuda graph creation iteration. 
+3rd- iteration:  possible cuda graph update iteration
+ 
+
+🎯 Justification
+The warm up iteration is required to setup proper NCCL connections, so the afterwards cuda-graph iterations does not need to call un-supported cuda APIs. 
+
+
+🚀 Kind of Contribution
+Please remove what does not apply: 🐛 Bug Fix
+
+
+🧪 Execution Tests:
+xla/service/gpu/tests/command_buffer_test.cc
+Copybara import of the project:
+
+--
+1db6d833a867968e16e45d3e3570699d22164ecf by Shawn Wang <shawnw@nvidia.com>:
+
+add a warm up step for command buffer thunk
+
+Merging this change closes #33073
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/33073 from shawnwang18:shawnw/add_support_for_cmd_buffer_warmup 1db6d833a867968e16e45d3e3570699d22164ecf
+",2025-10-30 08:08:46+00:00,2025-11-04 13:31:06+00:00,2025-11-04 13:31:06+00:00,164,34,5,1,0,0
+tensorflow/tensorflow,103243,Minor cleanup in YnnDimensions.,copybara-service[bot],closed,True,"Minor cleanup in YnnDimensions.
+",2025-10-30 08:03:04+00:00,2025-10-30 10:37:59+00:00,2025-10-30 10:37:59+00:00,2,5,1,1,0,0
+tensorflow/tensorflow,103242,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 07:38:26+00:00,2025-10-30 12:00:38+00:00,2025-10-30 12:00:38+00:00,14,14,1,1,0,0
+tensorflow/tensorflow,103240,[XLA:GPU] Avoid a segfault in StreamAttributeAnnotator,copybara-service[bot],closed,True,"[XLA:GPU] Avoid a segfault in StreamAttributeAnnotator
+
+Currently it is assumed that GetTupleElement is never the root of a
+computation. That assumption is not necessarily true, e.g. during autotuning of
+Cublas Gemm calls we can have a GetTupleElement op as root.
+",2025-10-30 07:25:55+00:00,2025-10-30 09:36:55+00:00,2025-10-30 09:36:54+00:00,25,0,2,1,0,0
+tensorflow/tensorflow,103215,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 04:45:12+00:00,2025-10-30 09:49:04+00:00,2025-10-30 09:49:04+00:00,2,4,2,1,0,0
+tensorflow/tensorflow,103204,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 04:20:09+00:00,2025-10-30 10:56:29+00:00,2025-10-30 10:56:29+00:00,60,58,13,1,0,0
+tensorflow/tensorflow,103118,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 03:28:22+00:00,2025-10-30 15:38:07+00:00,2025-10-30 15:38:07+00:00,609,549,37,1,0,0
+tensorflow/tensorflow,103089,Add xla::LayoutUtil::IsUntiledLayout to check if tiling is a no-op,copybara-service[bot],closed,True,"Add xla::LayoutUtil::IsUntiledLayout to check if tiling is a no-op
+",2025-10-30 02:40:52+00:00,2025-11-05 02:51:41+00:00,2025-11-05 02:51:41+00:00,62,0,3,1,0,0
+tensorflow/tensorflow,103079,Automated Code Change,copybara-service[bot],closed,True,"Automated Code Change
+",2025-10-30 02:20:53+00:00,2025-10-30 13:11:36+00:00,2025-10-30 13:11:37+00:00,53,46,8,1,0,0
+tensorflow/tensorflow,103078,Clear frontend attributes for get-tuple-elements of GlobalToLocal and LocalToGlobal custom-calls.,copybara-service[bot],closed,True,"Clear frontend attributes for get-tuple-elements of GlobalToLocal and LocalToGlobal custom-calls.
+
+The GlobalToLocal and LocalToGlobal custom-calls are for Shardy round trip. These get-tuple-elements will be removed when we import the Shardy dialect and thus they do not need to hold frontend attributes.
+
+This can reduce the size of the generated HLO module text.
+",2025-10-30 01:46:16+00:00,2025-10-30 19:43:53+00:00,2025-10-30 19:43:53+00:00,9,0,1,1,0,0
+tensorflow/tensorflow,103077,[xla:cpu] Remove ACL support from XLA:CPU,copybara-service[bot],closed,True,"[xla:cpu] Remove ACL support from XLA:CPU
+",2025-10-30 01:40:38+00:00,2025-11-06 21:56:11+00:00,2025-11-06 21:56:11+00:00,6,724,7,1,0,0
+tensorflow/tensorflow,103075,Implement PjRtStreamExecutorClient::CreateRawBufferChannel and add common,copybara-service[bot],closed,True,"Implement PjRtStreamExecutorClient::CreateRawBufferChannel and add common
+testing for CreateRawBufferChannel.
+",2025-10-29 23:20:45+00:00,2025-11-03 20:47:11+00:00,2025-11-03 20:47:11+00:00,190,78,10,1,0,0
+tensorflow/tensorflow,103074,PR #4272: Qualcomm AI Engine Direct - Fix android-arm64 CMake build bug ,copybara-service[bot],closed,True,"PR #4272: Qualcomm AI Engine Direct - Fix android-arm64 CMake build bug 
+
+Imported from GitHub PR https://github.com/google-ai-edge/LiteRT/pull/4272
+
+Summary:
+- Add typename to avoid cmake failure
+
+Test Result:
+======================== Test Summary ========================
+//litert/vendors/qualcomm/core/utils:utils_test
+[==========] 12 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 12 tests.
+YOU HAVE 2 DISABLED TESTS
+
+//litert/vendors/qualcomm/core/backends:qnn_backend_test
+[==========] 0 tests from 0 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+YOU HAVE 4 DISABLED TESTS
+
+//litert/vendors/qualcomm/core/wrappers/tests:op_wrapper_test
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+
+//litert/vendors/qualcomm/core/wrappers/tests:tensor_wrapper_test
+[==========] 18 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 18 tests.
+
+//litert/vendors/qualcomm/core/wrappers/tests:param_wrapper_test
+[==========] 16 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 16 tests.
+
+//litert/vendors/qualcomm/core/wrappers/tests:quantize_params_wrapper_test
+[==========] 13 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 13 tests.
+
+//litert/vendors/qualcomm/core:common_test
+[==========] 13 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+
+//litert/vendors/qualcomm/core:tensor_pool_test
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+
+//litert/vendors/qualcomm:qnn_manager_test
+[==========] 3 tests from 1 test suite ran. (259 ms total)
+[  PASSED  ] 3 tests.
+
+//litert/c/options:litert_qualcomm_options_test
+[==========] 17 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 17 tests.
+
+//litert/c:litert_op_options_test
+
+
+//litert/tools/flags/vendors:qualcomm_flags_test
+[==========] 8 tests from 5 test suites ran. (0 ms total)
+[  PASSED  ] 8 tests.
+
+//litert/vendors/qualcomm/compiler:qnn_compiler_plugin_test
+[==========] 232 tests from 4 test suites ran. (61193 ms total)
+[  PASSED  ] 232 tests.
+Copybara import of the project:
+
+--
+57e7429920d1950d635b29c4f8a18ccd51ade496 by chuntl-qti <chuntl@qti.qualcomm.com>:
+
+Qualcomm AI Engine Direct - Fix android-arm64 CMake build bug
+
+Summary:
+- Add typename to avoid cmake failure
+
+Merging this change closes #4272
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/google-ai-edge/LiteRT/pull/4272 from graham0824:dev/chuntl/fix_bug_for_cmake_build 57e7429920d1950d635b29c4f8a18ccd51ade496
+",2025-10-29 22:58:21+00:00,2025-10-30 16:41:32+00:00,2025-10-30 16:41:32+00:00,1,1,1,1,0,0
+tensorflow/tensorflow,103071,[IFRT] Remove `-DIFRT_REQUIRE_USER_CONTEXT` that is no longer used for detecting missing user contexts.,copybara-service[bot],closed,True,"[IFRT] Remove `-DIFRT_REQUIRE_USER_CONTEXT` that is no longer used for detecting missing user contexts.
+
+IFRT users such as JAX perform checks the presence of user contexts in IFRT objects in their layer.
+",2025-10-29 22:06:52+00:00,2025-10-29 23:46:13+00:00,2025-10-29 23:46:13+00:00,0,3,1,1,0,0
